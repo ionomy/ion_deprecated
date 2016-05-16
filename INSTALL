@@ -1,0 +1,9 @@
+Building ion
+
+See doc/readme-qt.rst for instructions on building ion QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ion.
+
+See doc/build-*.txt for instructions on building iond,
+the intended-for-services, no-graphical-interface, reference
+implementation of ion.
