@@ -1,0 +1,14 @@
+obj/activemasternode.o: activemasternode.cpp protocol.h chainparams.h \
+ bignum.h serialize.h allocators.h version.h clientversion.h uint256.h \
+ util.h tinyformat.h netbase.h compat.h activemasternode.h sync.h \
+ threadsafety.h net.h mruset.h addrman.h timedata.h hash.h \
+ crypto/ripemd160.h crypto/sha256.h core.h script.h keystore.h key.h \
+ stealth.h main.h txmempool.h scrypt.h init.h wallet.h walletdb.h db.h \
+ crypter.h ui_interface.h darksend.h masternode.h base58.h
+activemasternode.cpp protocol.h chainparams.h :
+ bignum.h serialize.h allocators.h version.h clientversion.h uint256.h :
+ util.h tinyformat.h netbase.h compat.h activemasternode.h sync.h :
+ threadsafety.h net.h mruset.h addrman.h timedata.h hash.h :
+ crypto/ripemd160.h crypto/sha256.h core.h script.h keystore.h key.h :
+ stealth.h main.h txmempool.h scrypt.h init.h wallet.h walletdb.h db.h :
+ crypter.h ui_interface.h darksend.h masternode.h base58.h :

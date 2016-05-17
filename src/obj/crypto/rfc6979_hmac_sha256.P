@@ -1,0 +1,6 @@
+obj/crypto/rfc6979_hmac_sha256.o: crypto/rfc6979_hmac_sha256.cpp \
+ /root/ion/src/crypto/rfc6979_hmac_sha256.h \
+ /root/ion/src/crypto/hmac_sha256.h /root/ion/src/crypto/sha256.h
+crypto/rfc6979_hmac_sha256.cpp :
+ /root/ion/src/crypto/rfc6979_hmac_sha256.h :
+ /root/ion/src/crypto/hmac_sha256.h /root/ion/src/crypto/sha256.h :

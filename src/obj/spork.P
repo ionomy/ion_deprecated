@@ -1,0 +1,14 @@
+obj/spork.o: spork.cpp bignum.h serialize.h allocators.h version.h \
+ clientversion.h uint256.h sync.h threadsafety.h net.h mruset.h netbase.h \
+ compat.h protocol.h chainparams.h util.h tinyformat.h addrman.h \
+ timedata.h hash.h crypto/ripemd160.h crypto/sha256.h core.h script.h \
+ keystore.h key.h stealth.h base58.h spork.h main.h txmempool.h scrypt.h \
+ darksend.h masternode.h activemasternode.h init.h wallet.h walletdb.h \
+ db.h crypter.h ui_interface.h
+spork.cpp bignum.h serialize.h allocators.h version.h :
+ clientversion.h uint256.h sync.h threadsafety.h net.h mruset.h netbase.h :
+ compat.h protocol.h chainparams.h util.h tinyformat.h addrman.h :
+ timedata.h hash.h crypto/ripemd160.h crypto/sha256.h core.h script.h :
+ keystore.h key.h stealth.h base58.h spork.h main.h txmempool.h scrypt.h :
+ darksend.h masternode.h activemasternode.h init.h wallet.h walletdb.h :
+ db.h crypter.h ui_interface.h :
