@@ -1,4 +1,0 @@
-obj/crypto/sha512.o: crypto/sha512.cpp /root/ion/src/crypto/sha512.h \
- /root/ion/src/crypto/common.h
-crypto/sha512.cpp /root/ion/src/crypto/sha512.h :
- /root/ion/src/crypto/common.h :

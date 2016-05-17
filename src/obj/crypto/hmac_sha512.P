@@ -1,4 +1,0 @@
-obj/crypto/hmac_sha512.o: crypto/hmac_sha512.cpp \
- /root/ion/src/crypto/hmac_sha512.h /root/ion/src/crypto/sha512.h
-crypto/hmac_sha512.cpp :
- /root/ion/src/crypto/hmac_sha512.h /root/ion/src/crypto/sha512.h :
