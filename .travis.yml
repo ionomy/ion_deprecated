@@ -1,23 +1,38 @@
-# Ubuntu 14.04 Trusty support
-sudo: required
-dist: trusty
+# Specifiy OS
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+#    - os: osx
+#      osx_image: xcode7.2
 
 # Enable C++ support
 language: cpp
 
 # Compiler selection
 compiler:
+  - clang
   - gcc
 
 # Install dependencies
 addons:
   apt:
     packages:
-      - libboost-all-dev
+      - libssl-dev
+      - libboost1.54-dev
+      - libboost1.54-all-dev
       - libdb5.1-dev
       - libdb5.1++-dev
       - libminiupnpc-dev
-      - libssl-dev
+
+before_install:
+  # workaround clang not system wide, fail on sudo make install
+  - $CC --version
+  - which $CC
+ 
+  # workaround clang not system wide, fail on sudo make install
+  - export CC=`which $CC`
 
 # Build steps
 script:
