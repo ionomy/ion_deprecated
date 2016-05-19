@@ -13,8 +13,8 @@ before_install:
 # Build steps
 script:
   - cd src/secp256k1/
-  - ./autogen.sh
-  - ./configure -prefix=/usr
+  - sudo ./autogen.sh
+  - sudo ./configure -prefix=/usr
   - sudo make install
   - cd ../
   - make -f makefile.unix
