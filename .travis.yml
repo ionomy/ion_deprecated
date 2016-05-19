@@ -12,5 +12,9 @@ before_install:
   - sudo apt-get install -qq build-essential libssl-dev libboost-all-dev libdb5.1-dev libdb5.1++-dev libminiupnpc-dev make zip automake autogen libtool
 # Build steps
 script:
-  - cd src/
+  - cd src/secp256k1/
+  - ./autogen.sh
+  - ./configure -prefix=/usr
+  - sudo make install
+  - cd ../
   - make -f makefile.unix
