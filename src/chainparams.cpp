@@ -79,7 +79,7 @@ public:
         assert(hashGenesisBlock == uint256("0x000001a7bb3214e3e1d2e4c256082b817a3c5dff5def37456ae16d7edaa508be"));
         assert(genesis.hashMerkleRoot == uint256("0xa1de9df44936bd1dd483e217fa17ec1881d2caf741ca67a33f6cd6850183078c"));
 		
-        vSeeds.push_back(CDNSSeedData("45.32.211.127", "45.32.211.127"));
+        vSeeds.push_back(CDNSSeedData("dnsseed.ionomy.com", "45.32.211.127"));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(103);
