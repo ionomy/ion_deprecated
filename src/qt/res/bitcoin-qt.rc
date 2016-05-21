@@ -22,7 +22,7 @@ BEGIN
             VALUE "FileDescription",    "ion-Qt (OSS GUI client for ion)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "ion-qt"
-            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2014 The ion developers"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2016 The ion developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "ion-qt.exe"
             VALUE "ProductName",        "ion-Qt"
