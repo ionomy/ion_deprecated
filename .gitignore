@@ -1,0 +1,13 @@
+*.tar.gz
+
+*.exe
+
+# Compilation and Qt preprocessor part
+*.qm
+
+# Resources cpp
+qrc_*.cpp
+
+# Mac specific
+.DS_Store
+build
