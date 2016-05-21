@@ -16,6 +16,14 @@ To Build
 cd src/
 make -f makefile.unix            # Headless ion
 
+
+If you get an error with secp256k1, please start by compiling secp256k1 :
+
+cd src/secp256k1/
+./autogen.sh
+./configure -prefix=/usr
+sudo make install
+
 See readme-qt.rst for instructions on building ion QT,
 the graphical ion.
 
