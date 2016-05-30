@@ -13,14 +13,14 @@
 	<key>CFBundleExecutable</key>
 	<string>ion-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.ion.ion-Qt</string>
+	<string>com.ionomy.ion-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.ion.ionPayment</string>
+            <string>com.ionomy.ionPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>ion</string>
