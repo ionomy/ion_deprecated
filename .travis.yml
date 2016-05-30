@@ -18,6 +18,11 @@ addons:
       - libdb5.1++-dev
       - libminiupnpc-dev
       - libssl-dev
+      - qt5-default
+      - qt5-qmake
+      - qtbase5-dev-tools
+      - qttools5-dev-tools
+      - libqrencode-dev
 
 # Build steps
 script:
@@ -26,5 +31,10 @@ script:
   - ./autogen.sh
   - ./configure -prefix=/usr
   - sudo make install
-  - cd ../
+  - cd ../../
+  - qmake USE_QRCODE=1
+  - make clean
+  - make
+  - cd src
+  - make -f makefile.unix clean
   - make -f makefile.unix
