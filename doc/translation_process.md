@@ -101,5 +101,5 @@ It is also possible to directly download new translations one by one from the Tr
 
 1. `python contrib/devtools/update-translations.py`
 2. update `src/qt/bitcoin.qrc` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(ion_\(.*\)\).ts/<file alias="\2">locale/\1.qm<\/file>/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(ion_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. `git add` new translations from `src/qt/locale/`
