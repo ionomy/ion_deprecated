@@ -339,7 +339,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+318"/>
+        <location filename="../bitcoingui.cpp" line="+317"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -454,12 +454,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <location line="-226"/>
+        <location line="-224"/>
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+212"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
@@ -505,7 +505,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <location line="+703"/>
+        <location line="+707"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
         <translation></translation>
     </message>
@@ -530,7 +530,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation></translation>
     </message>
     <message>
-        <location line="-959"/>
+        <location line="-963"/>
         <source>&amp;Dashboard</source>
         <translation></translation>
     </message>
@@ -560,7 +560,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Catching up...</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+117"/>
         <source>Confirm transaction fee</source>
         <translation>Confirm transaction fee</translation>
     </message>
@@ -645,8 +645,8 @@ Address: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-497"/>
-        <location line="+501"/>
+        <location line="-501"/>
+        <location line="+505"/>
         <source>%n hour(s)</source>
         <translation>
             <numerusform>%n hour</numerusform>
@@ -654,13 +654,13 @@ Address: %4
         </translation>
     </message>
     <message>
-        <location line="-1089"/>
-        <location line="+638"/>
+        <location line="-1091"/>
+        <location line="+640"/>
         <source>ion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-472"/>
+        <location line="-476"/>
         <source>Send coins to a ion address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -743,7 +743,7 @@ Address: %4
     </message>
     <message numerus="yes">
         <location line="+27"/>
-        <location line="+501"/>
+        <location line="+505"/>
         <source>%n day(s)</source>
         <translation>
             <numerusform>%n day</numerusform>
@@ -751,7 +751,7 @@ Address: %4
         </translation>
     </message>
     <message numerus="yes">
-        <location line="-497"/>
+        <location line="-501"/>
         <location line="+6"/>
         <source>%n week(s)</source>
         <translation>
@@ -778,7 +778,7 @@ Address: %4
         <translation></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+18"/>
         <source>Last received block was generated %1 ago.</source>
         <translation></translation>
     </message>
@@ -1337,7 +1337,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+19"/>
-        <source>Bitcoin-client</source>
+        <source>ion-client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
