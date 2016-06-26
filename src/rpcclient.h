@@ -1,5 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,5 +14,8 @@
 int CommandLineRPC(int argc, char *argv[]);
 
 json_spirit::Array RPCConvertValues(const std::string &strMethod, const std::vector<std::string> &strParams);
+
+/** Call the RPC service directly (placed here to allow for more in depth tests.) */
+json_spirit::Object CallRPC(const std::string& strMethod, const json_spirit::Array& params);
 
 #endif

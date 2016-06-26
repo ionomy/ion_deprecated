@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_WALLETDB_H
@@ -7,6 +8,7 @@
 
 #include "db.h"
 #include "key.h"
+#include "json/json_spirit_value.h"
 #include "stealth.h"
 
 #include <list>
@@ -72,13 +74,13 @@ class CStealthKeyMetadata
 // -- used to get secret for keys created by stealth transaction with wallet locked
 public:
     CStealthKeyMetadata() {};
-    
+
     CStealthKeyMetadata(CPubKey pkEphem_, CPubKey pkScan_)
     {
         pkEphem = pkEphem_;
         pkScan = pkScan_;
     };
-    
+
     CPubKey pkEphem;
     CPubKey pkScan;
 
@@ -134,7 +136,7 @@ public:
 
     bool WriteStealthKeyMeta(const CKeyID& keyId, const CStealthKeyMetadata& sxKeyMeta);
     bool EraseStealthKeyMeta(const CKeyID& keyId);
-    bool WriteStealthAddress(const CStealthAddress& sxAddr);    
+    bool WriteStealthAddress(const CStealthAddress& sxAddr);
     bool ReadStealthAddress(CStealthAddress& sxAddr);
 
     bool WriteionNodeConfig(std::string sAlias, const CionNodeConfig& nodeConfig);
@@ -173,6 +175,12 @@ public:
     DBErrors LoadWallet(CWallet* pwallet);
     static bool Recover(CDBEnv& dbenv, std::string filename, bool fOnlyKeys);
     static bool Recover(CDBEnv& dbenv, std::string filename);
+
+    bool WriteScrapeAddress(const std::string strAddress, const std::string strScrapeAddress);
+    bool EraseScrapeAddress(const std::string strAddress);
+    bool ReadScrapeAddress(const std::string strAddress, std::string &strScrapeAddress);
+    bool DumpScrapeAddresses(json_spirit::Object &ScrapeAddresses);
+    bool HasScrapeAddress(const std::string strAddress);
 };
 
 bool BackupWallet(const CWallet& wallet, const std::string& strDest);

@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_WALLET_H
@@ -45,8 +46,9 @@ enum WalletFeature
 
     FEATURE_WALLETCRYPT = 40000, // wallet encryption
     FEATURE_COMPRPUBKEY = 60000, // compressed public keys
+    FEATURE_SCRAPEADDRESS = 60001, // scrape addresses for staking wallets
 
-    FEATURE_LATEST = 60000
+    FEATURE_LATEST = 60001
 };
 
 enum AvailableCoinsType
@@ -140,9 +142,9 @@ public:
 
     std::set<CStealthAddress> stealthAddresses;
     StealthKeyMetaMap mapStealthKeyMeta;
-        
+
     int nLastFilteredHeight;
-    
+
     uint32_t nStealth, nFoundStealth; // for reporting, zero before use
 
 
@@ -164,7 +166,7 @@ public:
         strWalletFile = strWalletFileIn;
         fFileBacked = true;
     }
-    
+
     void SetNull()
     {
         nWalletVersion = FEATURE_BASE;
@@ -283,7 +285,7 @@ public:
     bool AddStealthAddress(CStealthAddress& sxAddr);
     bool UnlockStealthAddresses(const CKeyingMaterial& vMasterKeyIn);
     bool UpdateStealthAddress(std::string &addr, std::string &label, bool addIfNotExist);
-    
+
     bool CreateStealthTransaction(CScript scriptPubKey, int64_t nValue, std::vector<uint8_t>& P, std::vector<uint8_t>& narr, std::string& sNarr, CWalletTx& wtxNew, CReserveKey& reservekey, int64_t& nFeeRet, const CCoinControl* coinControl=NULL);
     std::string SendStealthMoney(CScript scriptPubKey, int64_t nValue, std::vector<uint8_t>& P, std::vector<uint8_t>& narr, std::string& sNarr, CWalletTx& wtxNew, bool fAskFee=false);
     bool SendStealthMoneyToDestination(CStealthAddress& sxAddress, int64_t nValue, std::string& sNarr, CWalletTx& wtxNew, std::string& sError, bool fAskFee=false);
@@ -439,6 +441,30 @@ public:
      * @note called with lock cs_wallet held.
      */
     boost::signals2::signal<void (CWallet *wallet, const uint256 &hashTx, ChangeType status)> NotifyTransactionChanged;
+
+    bool WriteScrapeAddress(const std::string strAddress, const std::string strScrapeAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).WriteScrapeAddress(strAddress, strScrapeAddress);
+    }
+
+    bool EraseScrapeAddress(const std::string strAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).EraseScrapeAddress(strAddress);
+    }
+
+    bool ReadScrapeAddress(const std::string strAddress, std::string &strScrapeAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).ReadScrapeAddress(strAddress, strScrapeAddress);
+    }
+
+    bool HasScrapeAddress(const std::string strAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).HasScrapeAddress(strAddress);
+    }
 };
 
 /** A key allocated from the key pool. */

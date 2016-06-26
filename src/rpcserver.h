@@ -1,5 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -188,5 +189,10 @@ extern json_spirit::Value keepass(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value darksend(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value spork(const json_spirit::Array& params, bool fHelp);
 extern json_spirit::Value masternode(const json_spirit::Array& params, bool fHelp);
+
+extern json_spirit::Value setscrapeaddress(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value getscrapeaddress(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value listscrapeaddresses(const json_spirit::Array& params, bool fHelp);
+extern json_spirit::Value deletescrapeaddress(const json_spirit::Array& params, bool fHelp);
 
 #endif
