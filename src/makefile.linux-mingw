@@ -43,6 +43,8 @@ DEBUGFLAGS=-g
 CFLAGS=-O2 -msse2 -w -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
 LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -static-libgcc -static-libstdc++
 
+TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
+
 ifndef USE_UPNP
 	override USE_UPNP = -
 endif
@@ -133,9 +135,19 @@ obj/scrypt-x86.o: scrypt-x86.S
 obj/scrypt-x86_64.o: scrypt-x86_64.S
 	$(CXX) -c $(CFLAGS) -MMD -o $@ $<
 
+TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
+
+obj-test/%.o: test/%.cpp $(HEADERS)
+	${HOST}-g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
+
+test_ion.exe: $(TESTOBJS) $(filter-out obj/init.o obj/bitcoin.o,$(OBJS:obj/%=obj/%))
+	${HOST}-g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
+
 clean:
 	-rm -f obj/*.o
 	-rm -f iond.exe
+    -rm -f obj-test/*.o
+	-rm -f test_paycoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

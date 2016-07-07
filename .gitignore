@@ -1,6 +1,8 @@
 *.tar.gz
 
 *.exe
+iond
+test_ion
 
 # Compilation and Qt preprocessor part
 *.qm
