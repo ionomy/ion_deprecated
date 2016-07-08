@@ -179,9 +179,9 @@ test_ion: $(TESTOBJS) $(filter-out obj/init.o obj/bitcoin.o,$(OBJS:obj/%=obj/%))
 clean:
 	-rm -f iond test_ion
 	-rm -f obj/*.o
-    -rm -f obj-test/*.o
+	-rm -f obj-test/*.o
 	-rm -f obj/*.P
-    -rm -f obj-test/*.P
+	-rm -f obj-test/*.P
 	-rm -f obj/build.h
 
 FORCE:

@@ -128,7 +128,7 @@ test_ion.exe: $(TESTOBJS) $(filter-out obj/init.o obj/bitcoin.o,$(OBJS:obj/%=obj
 clean:
 	-del /Q iond test_ion
 	-del /Q obj\*
-    -del /Q obj-test\*
-    -del /Q build.h
+	-del /Q obj-test\*
+	-del /Q build.h
 
 FORCE:
