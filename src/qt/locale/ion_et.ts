@@ -122,16 +122,12 @@
         <translation>Kas soovid oma rahakoti krüpteerida?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>TÄHTIS: Kõik varasemad rahakoti varundfailid tuleks üle kirjutada äsja loodud krüpteeritud rahakoti failiga. Turvakaalutlustel tühistatakse krüpteerimata rahakoti failid alates uue, krüpteeritud rahakoti, kasutusele võtust.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Hoiatus: Caps Lock on sisse lülitatud!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Rahakott krüpteeritud</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>TÄHTIS: Kõik varasemad rahakoti varundfailid tuleks üle kirjutada äsja loodud krüpteeritud rahakoti failiga. Turvakaalutlustel tühistatakse krüpteerimata rahakoti failid alates uue, krüpteeritud rahakoti, kasutusele võtust.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -161,12 +157,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Rahakoti salafraasi muutmine õnnestus.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Hoiatus: Caps Lock on sisse lülitatud!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Signeeri &amp;sõnum</translation>
+        <source>Wallet</source>
+        <translation>Rahakott</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -201,6 +201,10 @@
         <translation>&amp;Valikud...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Näita / Peida</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Krüpteeri Rahakott</translation>
     </message>
@@ -209,16 +213,24 @@
         <translation>&amp;Varunda Rahakott</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Salafraasi muutmine</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Varunda rahakott teise asukohta</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Salafraasi muutmine</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Rahakoti krüpteerimise salafraasi muutmine</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Signeeri &amp;sõnum</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -227,18 +239,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Ava debugimise ja diagnostika konsool</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Kontrolli sõnumit...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Rahakott</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Näita / Peida</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -294,14 +294,6 @@ Aadress: %4⏎</translation>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Rahakott on &lt;b&gt;krüpteeritud&lt;/b&gt; ning hetkel &lt;b&gt;suletud&lt;/b&gt;</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n tund</numerusform><numerusform>%n tundi</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n päev</numerusform><numerusform>%n päeva</numerusform></translation>
     </message>
     </context>
 <context>
@@ -416,6 +408,10 @@ Aadress: %4⏎</translation>
         <translation>Valikud</translation>
     </message>
     <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Peamine</translation>
+    </message>
+    <message>
         <source>Pay transaction &amp;fee</source>
         <translation>Tasu tehingu &amp;fee</translation>
     </message>
@@ -528,6 +524,10 @@ Aadress: %4⏎</translation>
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatsioon</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Kliendi nimi</translation>
     </message>
@@ -540,12 +540,12 @@ Aadress: %4⏎</translation>
         <translation>Kliendi versioon</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informatsioon</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Kasutan OpenSSL versiooni</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Valmistusaeg</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -572,20 +572,16 @@ Aadress: %4⏎</translation>
         <translation>Viimane ploki aeg</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Debugimise logifail</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Ava</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konsool</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Valmistusaeg</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Debugimise logifail</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -678,10 +674,6 @@ Aadress: %4⏎</translation>
         <translation>Maksa &amp;:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Aadressiraamatusse sisestamiseks märgista aadress</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Märgis</translation>
     </message>
@@ -696,6 +688,10 @@ Aadress: %4⏎</translation>
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Aadressiraamatusse sisestamiseks märgista aadress</translation>
     </message>
     </context>
 <context>
@@ -829,9 +825,9 @@ Aadress: %4⏎</translation>
         <source>Status</source>
         <translation>Staatus</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, levita läbi %n node'i</numerusform><numerusform>, levita läbi %n node'i</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, veel esitlemata</translation>
     </message>
     <message>
         <source>Date</source>
@@ -850,6 +846,10 @@ Aadress: %4⏎</translation>
         <translation>Saatja</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>tundmatu</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Saaja</translation>
     </message>
@@ -864,10 +864,6 @@ Aadress: %4⏎</translation>
     <message>
         <source>Credit</source>
         <translation>Krediit</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>aegub %n bloki pärast</numerusform><numerusform>aegub %n bloki pärast</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -921,14 +917,6 @@ Aadress: %4⏎</translation>
         <source>false</source>
         <translation>vale</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, veel esitlemata</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>tundmatu</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -966,10 +954,6 @@ Aadress: %4⏎</translation>
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Kinnitatud (%1 kinnitust)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Avaneb %n bloki pärast</numerusform><numerusform>Avaneb %n bloki pärast</numerusform></translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1153,72 +1137,24 @@ Aadress: %4⏎</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Kasutus:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Käskluste loetelu</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Käskluste abiinfo</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Valikud:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Täpsusta andmekataloog</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sea andmebaasi vahemälu suurus MB (vaikeväärtus: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Säilita vähemalt &lt;n&gt; ühendust peeridega (vaikeväärtus: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Täpsusta enda avalik aadress</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Ulakate peeride valulävi (vaikeväärtus: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Mitme sekundi pärast ulakad peerid tagasi võivad tulla (vaikeväärtus: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv4'l: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Luba käsurea ning JSON-RPC käsklusi</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Testvõrgu kasutamine</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv6'l, lülitumine tagasi IPv4'le : %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash'iga)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Mitme sekundi pärast ulakad peerid tagasi võivad tulla (vaikeväärtus: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1233,6 +1169,34 @@ Aadress: %4⏎</translation>
         <translation>Hoiatus: toimus wallet.dat faili andmete päästmine! Originaal wallet.dat nimetati kaustas %s ümber wallet.{ajatempel}.bak'iks, jäägi või tehingute ebakõlade puhul tuleks teha backup'ist taastamine.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>rpcpassword=&lt;password&gt; peab sätete failis olema seadistatud:⏎
+%s⏎
+Kui seda faili ei ole, loo see ainult-omanikule-lugemiseks faili õigustes.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Luba käsurea ning JSON-RPC käsklusi</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Lisa node ning hoia ühendus avatud</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup'i</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>JSON-RPC ühenduste lubamine kindla IP pealt</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Püüa vigasest wallet.dat failist taastada turvavõtmed</translation>
     </message>
@@ -1241,16 +1205,92 @@ Aadress: %4⏎</translation>
         <translation>Blokeeri loomise valikud:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Rahakoti vanandamine ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Tundmatu -bind aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Tundmatu -externalip aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Tõrge vaikimisi aadressi kirjutamisel</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Ühendu ainult määratud node'i(de)ga</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Leia oma IP aadress (vaikeväärtus: 1, kui kuulatakse ning puudub -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Laetud</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Viga wallet.dat käivitamisel</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Viga wallet.dat käivitamisel. Vigane rahakkott</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Tõrge</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Pordi kuulamine nurjus. Soovikorral kasuta -listen=0.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Käskluste abiinfo</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Liiga suur summa</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Vigane -proxi aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt; jaoks vigane kogus: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Kehtetu summa</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Käskluste loetelu</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Aadresside laadimine...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Klotside indeksi laadimine...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Rahakoti laadimine...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Säilita vähemalt &lt;n&gt; ühendust peeridega (vaikeväärtus: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1265,12 +1305,56 @@ Aadress: %4⏎</translation>
         <translation>Ühenda ainult node'idega &lt;net&gt; võrgus (IPv4, IPv6 või Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Valikud:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC ühenduste salasõna</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Otsi ploki jadast rahakoti kadunud tehinguid</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Üleskaneerimine...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL valikud: (vaata Bitcoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Saada käsklusi node'ile IP'ga &lt;ip&gt; (vaikeväärtus: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Saada jälitus/debug, debug.log faili asemel, konsooli</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Saatmine...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Serveri sertifikaadifail (vaikeväärtus: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Serveri privaatvõti (vaikeväärtus: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Sea andmebaasi vahemälu suurus MB (vaikeväärtus: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Sea võtmete hulgaks &lt;n&gt; (vaikeväärtus: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1285,6 +1369,46 @@ Aadress: %4⏎</translation>
         <translation>Sea ühenduse timeout millisekundites (vaikeväärtus: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Täpsusta andmekataloog</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Täpsusta enda avalik aadress</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Käesolev abitekst</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Ulakate peeride valulävi (vaikeväärtus: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>%s valiku kasutamine</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Selle arvutiga ei ole võimalik siduda %s külge (katse nurjus %d, %s tõttu)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Kirjeldatud tundmatu võrgustik -onlynet'is: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Uuenda rahakott uusimasse vormingusse</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Kasutus:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Kasuta JSON-RPC ühenduste jaoks OpenSSL'i (https)</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Kasuta kuulatava pordi määramiseks UPnP ühendust (vaikeväärtus: 0)</translation>
     </message>
@@ -1293,8 +1417,16 @@ Aadress: %4⏎</translation>
         <translation>Kasuta kuulatava pordi määramiseks UPnP ühendust (vaikeväärtus: 1, kui kuulatakse)</translation>
     </message>
     <message>
+        <source>Use the test network</source>
+        <translation>Testvõrgu kasutamine</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC ühenduste kasutajatunnus</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Rahakott %s paikenb väljaspool kataloogi %s.</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
@@ -1303,154 +1435,6 @@ Aadress: %4⏎</translation>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat fail on katki, päästmine ebaõnnestus</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC ühenduste salasõna</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>JSON-RPC ühenduste lubamine kindla IP pealt</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Saada käsklusi node'ile IP'ga &lt;ip&gt; (vaikeväärtus: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash'iga)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Uuenda rahakott uusimasse vormingusse</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Sea võtmete hulgaks &lt;n&gt; (vaikeväärtus: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Otsi ploki jadast rahakoti kadunud tehinguid</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Kasuta JSON-RPC ühenduste jaoks OpenSSL'i (https)</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Serveri sertifikaadifail (vaikeväärtus: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Serveri privaatvõti (vaikeväärtus: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Käesolev abitekst</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Rahakott %s paikenb väljaspool kataloogi %s.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Selle arvutiga ei ole võimalik siduda %s külge (katse nurjus %d, %s tõttu)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup'i</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Aadresside laadimine...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Viga wallet.dat käivitamisel. Vigane rahakkott</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Viga wallet.dat käivitamisel</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Vigane -proxi aadress: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Kirjeldatud tundmatu võrgustik -onlynet'is: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Tundmatu -bind aadress: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Tundmatu -externalip aadress: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>-paytxfee=&lt;amount&gt; jaoks vigane kogus: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Saatmine...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Kehtetu summa</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Liiga suur summa</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Klotside indeksi laadimine...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Lisa node ning hoia ühendus avatud</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Rahakoti laadimine...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Rahakoti vanandamine ebaõnnestus</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Tõrge vaikimisi aadressi kirjutamisel</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Üleskaneerimine...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Laetud</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>%s valiku kasutamine</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Tõrge</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>rpcpassword=&lt;password&gt; peab sätete failis olema seadistatud:⏎
-%s⏎
-Kui seda faili ei ole, loo see ainult-omanikule-lugemiseks faili õigustes.</translation>
     </message>
 </context>
 <context>

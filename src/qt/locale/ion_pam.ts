@@ -114,16 +114,12 @@
         <translation>Siguradu na kang buri meng i-encrypt ing kekang wallet?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>Mayalaga: Reng milabas a backups a gewa mu gamit ing wallet file mu dapat lamung mialilan bayung gawang encrypted wallet file. Para keng seguridad , reng milabas a backups dareng ali maka encrypt a wallet file ma-ala nala istung inumpisan mu nalang gamitan reng bayu, at me encrypt a wallet. </translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Kapabaluan: Makabuklat ya ing Caps Lock key!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Me-encrypt ne ing wallet</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>Mayalaga: Reng milabas a backups a gewa mu gamit ing wallet file mu dapat lamung mialilan bayung gawang encrypted wallet file. Para keng seguridad , reng milabas a backups dareng ali maka encrypt a wallet file ma-ala nala istung inumpisan mu nalang gamitan reng bayu, at me encrypt a wallet. </translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Mi-alilan ne ing passphrase na ning wallet.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Kapabaluan: Makabuklat ya ing Caps Lock key!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>I-sign ing &amp;mensayi</translation>
+        <source>Wallet</source>
+        <translation>Wallet</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;Pipamilian...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Ipalto / Isalikut</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>I-&amp;Encrypt in Wallet...</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>I-&amp;Backup ing Wallet...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Alilan ing Passphrase...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>I-backup ing wallet king aliwang lugal</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Alilan ing Passphrase...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Alilan ya ing passphrase a gagamitan para king wallet encryption</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>I-sign ing &amp;mensayi</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Beripikan ing message...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Ibuklat ing debugging at diagnostic console</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Beripikan ing message...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Wallet</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Ipalto / Isalikut</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -521,6 +521,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Impormasion</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Lagyu ning kliente</translation>
     </message>
@@ -533,12 +537,12 @@ Address: %4
         <translation>Bersion ning Cliente</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Impormasion</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Gagamit bersion na ning OpenSSL</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Kaaldauan ning pamaglalang</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -565,20 +569,16 @@ Address: %4
         <translation>Tatauling oras na ning block</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Debug log file</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Ibuklat</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Kaaldauan ning pamaglalang</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Debug log file</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -667,10 +667,6 @@ Address: %4
         <translation>Ibayad &amp;kang:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Magpalub kang label para king address a ini ban a-iabe me king aklat dareng address</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
@@ -685,6 +681,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Magpalub kang label para king address a ini ban a-iabe me king aklat dareng address</translation>
     </message>
     </context>
 <context>
@@ -819,6 +819,10 @@ Address: %4
         <translation>Kabilian</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, eya matagumpeng mibalita</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Kaaldauan</translation>
     </message>
@@ -833,6 +837,10 @@ Address: %4
     <message>
         <source>From</source>
         <translation>Menibat</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>e miya balu</translation>
     </message>
     <message>
         <source>To</source>
@@ -897,14 +905,6 @@ Address: %4
     <message>
         <source>false</source>
         <translation>e tutu</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, eya matagumpeng mibalita</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>e miya balu</translation>
     </message>
 </context>
 <context>
@@ -1122,180 +1122,56 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Pamanggamit:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Listahan dareng commands</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Maniauad saup para kareng command</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Pipamilian:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Pilinan ing data directory</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Ilage ya ing dagul o lati na ing database cache king megabytes (default: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Mag-maintain peka &lt;n&gt; koneksion keng peers (default: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Kumunekta king note ban ayakua mula reng peer address, at mako king panga konekta</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Sabyan me ing kekang pampublikong address</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Atin kamalian a milyari kabang ayusan ya ing RPC port %u para keng pamakiramdam king IPv4: %s</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Tumanggap command line at JSON-RPC commands</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Gamitan ing test network</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
-    </message>
-    <message>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation>Pipamilian king pamag-gawang block:</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Kumunekta mu king mepiling node(s)</translation>
-    </message>
-    <message>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>I-discover ing sariling IP address (default: 1 istung makiramdam at -externalip)</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Memali ya ing pamakiramdam kareng gang nanung port. Gamita me ini -listen=0 nung buri me ini.</translation>
-    </message>
-    <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Pipamilian ning SSL: (lawen ye ing Bitcoin Wiki para king SSL setup instructions)</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Magpadalang trace/debug info okeng console kesa keng debug.log file</translation>
-    </message>
-    <message>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Ilage ing pekaditak a dagul na ning block king bytes (default: 0)</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Username para king JSON-RPC koneksion</translation>
-    </message>
-    <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Kapabaluan: Ing bersioin a ini laus ne, kailangan nang mag-upgrade!</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Password para king JSON-RPC koneksion</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Payagan ya i JSON-RPC koneksion para king metung a IP address</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Magpadalang command king node a gagana king &lt;ip&gt;(default: 127.0.0.1)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>I-execute ing command istung mialilan ya ing best block (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>I-upgrade ing wallet king pekabayung porma</translation>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
     </message>
     <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>I-set ing key pool size king &lt;n&gt;(default: 100)</translation>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Kapabaluan: Sobra ya katas ing makalage king -paytxfee. Ini ing maging bayad mu para king bayad na ning transaksion istung pepadala me ing transaksion a ini.</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>I-scan pasibayu ing block chain para kareng mauaualang transaksion</translation>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Dapat meng ilage ing rpcpassword=&lt;password&gt; king configuration file:
+%s
+Nung ing file ala ya, gawa ka gamit ing owner-readable-only file permissions.</translation>
     </message>
     <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Gumamit OpenSSL(https) para king JSON-RPC koneksion</translation>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Tumanggap command line at JSON-RPC commands</translation>
     </message>
     <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Server certificate file (default: server.cert)</translation>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Tumanggap koneksion menibat king kilwal (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Server private key (default: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Ining saup a mensayi</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Ali ya magsilbing mag-bind keng %s kening kompyuter a ini (bind returned error %d, %s)</translation>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Magdagdag a node ban kumunekta at subuknan apanatili yang makabuklat ing koneksion</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Payagan ing pamaglawe DNS para king -addnode, -seednode and -connect</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>Lo-load da ne ing address...</translation>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Payagan ya i JSON-RPC koneksion para king metung a IP address</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Me-mali ya ing pamag-load king wallet.dat: Me-corrupt ya ing wallet</translation>
+        <source>Block creation options:</source>
+        <translation>Pipamilian king pamag-gawang block:</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Me-mali ya ing pamag-load king wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Ali katanggap-tanggap a -proxy addresss: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>E kilalang network ing mepili king -onlynet: '%s'</translation>
+        <source>Cannot downgrade wallet</source>
+        <translation>Ali ya magsilbing i-downgrade ing wallet</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
@@ -1306,6 +1182,54 @@ Address: %4
         <translation>Eya me-resolve ing -externalip address: '%s'</translation>
     </message>
     <message>
+        <source>Cannot write default address</source>
+        <translation>Eya misulat ing default address</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Kumunekta mu king mepiling node(s)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Kumunekta king note ban ayakua mula reng peer address, at mako king panga konekta</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>I-discover ing sariling IP address (default: 1 istung makiramdam at -externalip)</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Yari ne ing pamag-load</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Me-mali ya ing pamag-load king wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Me-mali ya ing pamag-load king wallet.dat: Me-corrupt ya ing wallet</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Mali</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Memali ya ing pamakiramdam kareng gang nanung port. Gamita me ini -listen=0 nung buri me ini.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Maniauad saup para kareng command</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Kulang a pondo</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ali katanggap-tanggap a -proxy addresss: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Eya maliari ing alaga keng -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -1314,54 +1238,130 @@ Address: %4
         <translation>Ing alaga e ya katanggap-tanggap</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Kulang a pondo</translation>
+        <source>List commands</source>
+        <translation>Listahan dareng commands</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Lo-load da ne ing address...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
         <translation>Lo-load dane ing block index...</translation>
     </message>
     <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Magdagdag a node ban kumunekta at subuknan apanatili yang makabuklat ing koneksion</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>Lo-load dane ing wallet...</translation>
     </message>
     <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Ali ya magsilbing i-downgrade ing wallet</translation>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Mag-maintain peka &lt;n&gt; koneksion keng peers (default: 125)</translation>
     </message>
     <message>
-        <source>Cannot write default address</source>
-        <translation>Eya misulat ing default address</translation>
+        <source>Options:</source>
+        <translation>Pipamilian:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Password para king JSON-RPC koneksion</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>I-scan pasibayu ing block chain para kareng mauaualang transaksion</translation>
     </message>
     <message>
         <source>Rescanning...</source>
         <translation>I-scan deng pasibayu...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Yari ne ing pamag-load</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Pipamilian ning SSL: (lawen ye ing Bitcoin Wiki para king SSL setup instructions)</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Magpadalang command king node a gagana king &lt;ip&gt;(default: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Magpadalang trace/debug info okeng console kesa keng debug.log file</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Server certificate file (default: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Server private key (default: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Ilage ya ing dagul o lati na ing database cache king megabytes (default: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>I-set ing key pool size king &lt;n&gt;(default: 100)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation>Ilage ing pekaditak a dagul na ning block king bytes (default: 0)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Pilinan ing data directory</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Sabyan me ing kekang pampublikong address</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Ining saup a mensayi</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
     </message>
     <message>
         <source>To use the %s option</source>
         <translation>Para agamit ing %s a pimamilian</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Mali</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Ali ya magsilbing mag-bind keng %s kening kompyuter a ini (bind returned error %d, %s)</translation>
     </message>
     <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Dapat meng ilage ing rpcpassword=&lt;password&gt; king configuration file:
-%s
-Nung ing file ala ya, gawa ka gamit ing owner-readable-only file permissions.</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>E kilalang network ing mepili king -onlynet: '%s'</translation>
     </message>
-</context>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>I-upgrade ing wallet king pekabayung porma</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Pamanggamit:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Gumamit OpenSSL(https) para king JSON-RPC koneksion</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gamitan ing test network</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Username para king JSON-RPC koneksion</translation>
+    </message>
+    <message>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Kapabaluan: Ing bersioin a ini laus ne, kailangan nang mag-upgrade!</translation>
+    </message>
+    </context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

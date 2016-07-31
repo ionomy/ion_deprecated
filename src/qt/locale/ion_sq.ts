@@ -335,10 +335,6 @@
         <translation>Paguaj &amp;drejt:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Krijoni një etiketë për këtë adresë që t'ja shtoni librit të adresave</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiketë:</translation>
     </message>
@@ -353,6 +349,10 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Krijoni një etiketë për këtë adresë që t'ja shtoni librit të adresave</translation>
     </message>
     </context>
 <context>
@@ -391,22 +391,22 @@
         <translation>%1 konfirmimet</translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Sasia</translation>
-    </message>
-    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, nuk është transmetuar me sukses deri tani</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
         <source>unknown</source>
         <translation>i/e panjohur</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Sasia</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>

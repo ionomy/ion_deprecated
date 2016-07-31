@@ -20,12 +20,12 @@
         <translation>Прави нову адресу</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Копира изабрану адресу на системски клипборд</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Нова адреса</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Копира изабрану адресу на системски клипборд</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -36,12 +36,12 @@
         <translation>Прикажи &amp;QR код</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Уклони обележену адресу из листе</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Потврди поруку</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Уклони обележену адресу из листе</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -157,9 +157,13 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Лозинка за приступ новчанику је успешно промењена.</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
+    <message>
+        <source>Wallet</source>
+        <translation>новчаник</translation>
+    </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Погледајте општи преглед новчаника</translation>
@@ -207,10 +211,6 @@
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Мењање лозинке којом се шифрује новчаник</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>новчаник</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -455,8 +455,16 @@ Address: %4
         <translation>%1 potvrde</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, nije još uvek uspešno emitovan</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>datum</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nepoznato</translation>
     </message>
     <message>
         <source>label</source>
@@ -466,15 +474,7 @@ Address: %4
         <source>Amount</source>
         <translation>iznos</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, nije još uvek uspešno emitovan</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>nepoznato</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -682,89 +682,36 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Korišćenje:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Listaj komande</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Zatraži pomoć za komande</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Opcije</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Gde je konkretni data direktorijum </translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Održavaj najviše &lt;n&gt; konekcija  po priključku (default: 125)
-</translation>
-    </message>
-    <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Prihvati komandnu liniju i JSON-RPC komande</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Radi u pozadini kao daemon servis i prihvati komande</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Koristi testnu mrežu</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Korisničko ime za JSON-RPC konekcije</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Lozinka za JSON-RPC konekcije</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Dozvoli JSON-RPC konekcije sa posebne IP adrese</translation>
     </message>
     <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Pošalji komande to nodu koji radi na &lt;ip&gt; (default: 127.0.0.1)</translation>
+        <source>Done loading</source>
+        <translation>Završeno učitavanje</translation>
     </message>
     <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Odredi veličinu zaštićenih ključeva na &lt;n&gt; (default: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponovo skeniraj lanac blokova za nedostajuće transakcije iz novčanika</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Koristi OpenSSL (https) za  JSON-RPC konekcije</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>privatni ključ za Server (podrazumevan: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Ova poruka Pomoći</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>učitavam adrese....</translation>
+        <source>Error loading wallet.dat</source>
+        <translation>Грешка током учитавања wallet.dat      </translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation>Грешка током учитавања wallet.dat: Новчаник је покварен      </translation>
     </message>
     <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Грешка током учитавања wallet.dat      </translation>
+        <source>Get help for a command</source>
+        <translation>Zatraži pomoć za komande</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Listaj komande</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>učitavam adrese....</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -775,12 +722,65 @@ Address: %4
         <translation>Новчаник се учитава...</translation>
     </message>
     <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Održavaj najviše &lt;n&gt; konekcija  po priključku (default: 125)
+</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Opcije</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Lozinka za JSON-RPC konekcije</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Ponovo skeniraj lanac blokova za nedostajuće transakcije iz novčanika</translation>
+    </message>
+    <message>
         <source>Rescanning...</source>
         <translation>Ponovo skeniram...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Završeno učitavanje</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Radi u pozadini kao daemon servis i prihvati komande</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Pošalji komande to nodu koji radi na &lt;ip&gt; (default: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>privatni ključ za Server (podrazumevan: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Odredi veličinu zaštićenih ključeva na &lt;n&gt; (default: 100)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Gde je konkretni data direktorijum </translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Ova poruka Pomoći</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Korišćenje:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Koristi OpenSSL (https) za  JSON-RPC konekcije</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Koristi testnu mrežu</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Korisničko ime za JSON-RPC konekcije</translation>
     </message>
     </context>
 <context>

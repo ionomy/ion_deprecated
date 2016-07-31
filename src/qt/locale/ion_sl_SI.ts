@@ -20,12 +20,12 @@
         <translation>Ustvari nov naslov</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopiraj trenutno izbrani naslov v odložišče</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Nov naslov</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopiraj trenutno izbrani naslov v odložišče</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>Podpiši &amp;sporočilo</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Izbriši izbran naslov iz seznama</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Potrdi sporočilo</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Izbriši izbran naslov iz seznama</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -158,16 +158,12 @@
         <translation>Ali ste prepričani, da želite šifrirati vašo denarnico?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>POMEMBNO: Vsaka predhodna varnostna kopija datoteke denarnice mora biti nadomeščena z novo datoteko šifrirane denarnice. Zaradi varnostnih razlogov bodo namreč prejšnje varnostne kopije datoteke nešifrirane denarnice postale neuporabne takoj ko boste pričeli uporabljati novo, šifrirano denarnico.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Opozorilo: imate prižgan Cap Lock</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Denarnica šifrirana</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>POMEMBNO: Vsaka predhodna varnostna kopija datoteke denarnice mora biti nadomeščena z novo datoteko šifrirane denarnice. Zaradi varnostnih razlogov bodo namreč prejšnje varnostne kopije datoteke nešifrirane denarnice postale neuporabne takoj ko boste pričeli uporabljati novo, šifrirano denarnico.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -197,16 +193,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Geslo denarnice je bilo uspešno spremenjeno.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Opozorilo: imate prižgan Cap Lock</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Podpiši &amp;sporočilo ...</translation>
+        <source>Wallet</source>
+        <translation>Denarnica</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Pokaži splošen pregled denarnice</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Prikaži seznam naslovov za prejemanje plačil. </translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -223,10 +227,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Uredi seznam shranjenih naslovov in oznak</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Prikaži seznam naslovov za prejemanje plačil. </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -249,52 +249,36 @@
         <translation>&amp;Možnosti ...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Prikaži / Skrij</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Šifriraj denarnico ...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Ustvari varnostno kopijo denarnice ...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Spremeni geslo ...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Izvozi...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Izvozi podatke v izbranem zavihku v datoteko</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Šifriraj ali dešifriraj denarnico</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Ustvari varnostno kopijo denarnice ...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Napravi varnostno kopijo denarnice na drugo lokacijo</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Spremeni geslo ...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Spremeni šifrirno geslo denarnice</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Razhroščevalno okno</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Odpri razhroščevalno in diagnostično konzolo</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Denarnica</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Prikaži / Skrij</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Odkleni denarnico...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -307,6 +291,26 @@
     <message>
         <source>Lock wallet</source>
         <translation>Zakleni denarnico</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Podpiši &amp;sporočilo ...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Izvozi...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Izvozi podatke v izbranem zavihku v datoteko</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Razhroščevalno okno</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Odpri razhroščevalno in diagnostično konzolo</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -327,30 +331,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Deležeje [Staking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation>Ne deležite ker je denarnica zakljenjena</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is offline</source>
-        <translation>Ne deležite ker denarnica ni povezana</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Ne deležite ker se denarnica sinhronizira z omrežjem</translation>
-    </message>
-    <message>
-        <source>Not staking because you don't have mature coins</source>
-        <translation>Ne deležite ker nimate zrelih kovancev. </translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Odkleni denarnico...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -412,27 +392,31 @@ Naslov: %4
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Prišlo je do napake ob poskušanju shranjevanja datoteke denarnice na novo lokacijo.</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n sekundo</numerusform><numerusform>%n sekundama</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Deležeje [Staking].&lt;br&gt;Teža vašega deleženja je %1&lt;br&gt;Teža celotne mreže deleženja je %2&lt;br&gt;Pričakovan čas do prejema nagrade %3</translation>
     </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutama</numerusform><numerusform>%n minut</numerusform><numerusform>%n minut</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is locked</source>
+        <translation>Ne deležite ker je denarnica zakljenjena</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ura</numerusform><numerusform>%n uri</numerusform><numerusform>%n ure</numerusform><numerusform>%n ura</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is offline</source>
+        <translation>Ne deležite ker denarnica ni povezana</translation>
     </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dan</numerusform><numerusform>%n dneva</numerusform><numerusform>%n dnevi</numerusform><numerusform>%n dni</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Ne deležite ker se denarnica sinhronizira z omrežjem</translation>
+    </message>
+    <message>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>Ne deležite ker nimate zrelih kovancev. </translation>
     </message>
     <message>
         <source>Not staking</source>
         <translation>Ne deležite</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -469,10 +453,6 @@ Naslov: %4
     <message>
         <source>Low Output:</source>
         <translation>Nizek output:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ne</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -601,6 +581,10 @@ Naslov: %4
     <message>
         <source>yes</source>
         <translation>da</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
@@ -872,14 +856,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation>Deleženje:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Nepotrjeni:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Denarnica</translation>
     </message>
@@ -890,6 +866,22 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
     <message>
         <source>Your current spendable balance</source>
         <translation>Vaše trenutno razpoložljivo stanje</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>Deleženje:</translation>
+    </message>
+    <message>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>Znesek kovancev, ki so bili v deleženju in se še ne upoštevajo v trenutnem stanju na računu.</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>Nepotrjeni:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>Znesek transakcij, ki še niso bile potrjene in se še ne upoštevajo v trenutnem stanju na računu.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -912,14 +904,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>&lt;b&gt;Pogoste transakcije&lt;/&gt;</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Znesek transakcij, ki še niso bile potrjene in se še ne upoštevajo v trenutnem stanju na računu.</translation>
-    </message>
-    <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Znesek kovancev, ki so bili v deleženju in se še ne upoštevajo v trenutnem stanju na računu.</translation>
-    </message>
-    <message>
         <source>out of sync</source>
         <translation>nesinhronizirano</translation>
     </message>
@@ -938,16 +922,16 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Zahtevaj plačilo</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Znesek:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>Oznaka:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Sporočilo:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Znesek:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -977,6 +961,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informacije</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Ime odjemalca</translation>
     </message>
@@ -989,12 +977,12 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Različica odjemalca</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informacije</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>OpenSSL različica v rabi</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Datum izgradnje</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1025,6 +1013,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Čas zadnjega bloka</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Razhroščevalna dnevniška datoteka</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Odpri</translation>
     </message>
@@ -1039,14 +1031,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konzola</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Datum izgradnje</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Razhroščevalna dnevniška datoteka</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1255,10 +1239,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Prejemnik &amp;plačila:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vnesite oznako za ta naslov, ki bo shranjena v imenik</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Oznaka:</translation>
     </message>
@@ -1281,6 +1261,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
     <message>
         <source>Remove this recipient</source>
         <translation>Odstrani tega prejemnika</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Vnesite oznako za ta naslov, ki bo shranjena v imenik</translation>
     </message>
     </context>
 <context>
@@ -1426,9 +1410,9 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <source>Status</source>
         <translation>Stanje</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, predvajanje skozi %n vozlišče</numerusform><numerusform>, predvajanje skozi %n vozlišči</numerusform><numerusform>, predvajanje skozi %n vozlišč</numerusform><numerusform>, predvajanje skozi %n vozlišč</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, še ni bil uspešno predvajan</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1447,6 +1431,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Pošiljatelj</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>neznano</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Prejemnik</translation>
     </message>
@@ -1461,10 +1449,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
     <message>
         <source>Credit</source>
         <translation>Kredit</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>dozori čez %n blok</numerusform><numerusform>dozori čez %n bloka</numerusform><numerusform>dozori čez %n blokov</numerusform><numerusform>dozori čez %n blokov</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1518,14 +1502,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <source>false</source>
         <translation>nepravilno</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, še ni bil uspešno predvajan</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>neznano</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1561,14 +1537,6 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Odpri enoto %1</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Potrjeno (%1 potrdil)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Odprt še  %n blok</numerusform><numerusform>Odprt še  %n bloka</numerusform><numerusform>Odprt še  %n blokov</numerusform><numerusform>Odprt še  %n blokov</numerusform></translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>Nepovezan</translation>
     </message>
@@ -1579,6 +1547,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Potrjuje  (%1 od %2 priporočenih potrditev)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Potrjeno (%1 potrdil)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -1786,88 +1758,40 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Uporaba:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Prikaži ukaze</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Prikaži pomoč za ukaz</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Možnosti:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Določi datoteko denarnice (znotraj imenika s podatki)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Določi podatkovni imenik</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Nastavi pomnilnik podatkovne zbirke v megabajtih (privzeto: 25)</translation>
-    </message>
-    <message>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Nastavi velikost zapisa podatkovne baze na disku v megabajtih (privzeto: 100)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Obdrži maksimalno število &lt;n&gt; povezav (privzeto: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Poveži se na vozlišče da pridobiš naslove soležnikov in prekini povezavo</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Določite vaš lasten javni naslov</translation>
-    </message>
-    <message>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Naveži na dani naslov. Uporabi [host]:port ukaz za IPv6</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Prag za prekinitev povezav s slabimi odjemalci (privzeto: 1000)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Število sekund preden se ponovno povežejo neodzivni soležniki (privzeto: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Prišlo je do napake pri nastavljanju RPC porta %u za vhodne povezave na IPv4: %s</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Sprejmi ukaze iz ukazne vrstice in JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Teci v ozadju in sprejemaj ukaze</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Uporabi testno omrežje</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Sprejmi zunanje povezave (privzeto: 1 če ni nastavljen -proxy ali -connect)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Prišlo je do napake pri nastavljanju RPC porta %u za vhodne povezave na IPv6: %s</translation>
     </message>
     <message>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>Izvrši ukaz, ko je prejet relevanten alarm (%s je v cmd programu nadomeščen s sporočilom)</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Izvedi ukaz, ko bo transakcija denarnice se spremenila (V cmd je bil TxID zamenjan za %s)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Izvrši ukaz, ko se najboljši blok spremeni (%s je v cmd programu nadomeščen z zgoščenimi bloki).</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Število sekund preden se ponovno povežejo neodzivni soležniki (privzeto: 86400)</translation>
+    </message>
+    <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Nastavi maksimalno velikost visoke-prioritete/nizke-provizije transakcij v bajtih (privzeto: 27000)</translation>
+    </message>
+    <message>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>Sinhroniziraj čas z drugimi vozlišči. Onemogoči, če je čas na vašem sistemu točno nastavljen, npr. sinhroniziranje z NTP (privzeto: 1)</translation>
+    </message>
+    <message>
+        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
+        <translation>OPOZORILO: Najdene so bile neveljavne točke preverjanja! Prikazane transakcije so morda napačne! Poiščite novo različico aplikacije ali pa obvestite razvijalce.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1882,32 +1806,160 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Opozorilo: wallet.dat je pokvarjena, podatki rešeni! Originalna wallet.dat je bila shranjena kot denarnica. {timestamp}.bak v %s; če imate napačno prikazano stanje na računu ali v transakcijah prenovite datoteko z varnostno kopijo. </translation>
     </message>
     <message>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>Ob ustvarjanju transakcij, prezri vnose z manjšo vrednostjo kot (privzeto: 0.01)</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Nastaviti morate rpcpassword=&lt;password&gt; v konfiguracijski datoteki: 
+%s
+Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Sprejmi ukaze iz ukazne vrstice in JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Sprejmi zunanje povezave (privzeto: 1 če ni nastavljen -proxy ali -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Dodaj vozlišče za povezavo nanj in skušaj le to obdržati odprto</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Omogoči DNS povezave za -addnode, -seednode in -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Dovoli JSON-RPC povezave z določenega IP naslova</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Poizkusi rešiti zasebni ključ iz pokvarjene wallet.dat </translation>
+    </message>
+    <message>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>Naveži na dani naslov. Uporabi [host]:port ukaz za IPv6</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Možnosti ustvarjanja blokov:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Ne morem </translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Ni mogoče določiti -bind naslova: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Ni mogoče določiti -externalip naslova: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Ni mogoče zapisati privzetega naslova</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Poveži se samo na določena vozlišče(a)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Poveži se na vozlišče da pridobiš naslove soležnikov in prekini povezavo</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Odkrij svoj IP naslov (privzeto: 1 ob poslušanju, ko ni aktiviran -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Nalaganje končano</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Napaka pri nalaganju wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica pokvarjena</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Napaka</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Poslušanje za vrata je spodletelo. Če želite lahko uporabite ukaz -listen=0.</translation>
+    </message>
+    <message>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Provizija na KB ki jo morate dodati transakcijam, ki jih pošiljate</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Prikaži pomoč za ukaz</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>Kako temeljito naj bo preverjanje blokov (0-6, privzeto: 1)</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>Uvozi bloke iz zunanje blk000?.dat datoteke</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Premalo sredstev</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neveljaven -proxy naslov: '%s'</translation>
     </message>
     <message>
         <source>Invalid -tor address: '%s'</source>
         <translation>Neveljaven -tor naslov: '%s'</translation>
     </message>
     <message>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
+        <translation>Neveljavni znesek za -miniput=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neveljavni znesek za -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
         <translation>Neveljavni znesek za -reservebalance=&lt;amount&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Neveljavna količina</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Prikaži ukaze</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Nalaganje naslovov ...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Nalaganje indeksa blokov ...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Nalaganje denarnice ...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Obdrži maksimalno število &lt;n&gt; povezav (privzeto: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1922,16 +1974,68 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Poveži se samo z vozlišči v omrežju &lt;net&gt; (IPv4, IPv6 in Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Možnosti:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Geslo za JSON-RPC povezave</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp</source>
         <translation>Opremi output rahroščevanja s časovnim žigom. </translation>
+    </message>
+    <message>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>Zahtevaj potrditve za spremembo (default: 0)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Ponovno preglej verigo blokov za manjkajoče transakcije denarnice</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Ponovno pregledovanje ...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Teci v ozadju in sprejemaj ukaze</translation>
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL možnosti: (glejte Bitcoin Wiki za navodla, kako nastaviti SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Pošlji ukaze vozlišču na &lt;ip&gt; (privzet: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Pošlji sledilne/razhroščevalne informacije v konzolo namesto jih shraniti v debug.log datoteko</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Pošiljanje...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Datoteka potrdila strežnika (privzeta: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Zasebni ključ strežnika (privzet: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Nastavi pomnilnik podatkovne zbirke v megabajtih (privzeto: 25)</translation>
+    </message>
+    <message>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>Nastavi velikost zapisa podatkovne baze na disku v megabajtih (privzeto: 100)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Nastavi velikost ključa bazena na &lt;n&gt; (privzeto: 100)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
@@ -1950,10 +2054,54 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Določi čas pavze povezovanja v milisekundah (privzeto: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Določi podatkovni imenik</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Določi datoteko denarnice (znotraj imenika s podatki)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Določite vaš lasten javni naslov</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>To sporočilo pomoči</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Prag za prekinitev povezav s slabimi odjemalci (privzeto: 1000)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Za uporabo %s opcije</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Na tem računalniku je bilo nemogoče vezati na %s (bind returned error %d, %s)</translation>
+    </message>
+    <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>Ni bilo mogoče vpisati točke preverjanja, napačen ključ za točko preverjanja?
 </translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Neznano omrežje določeno v -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Posodobi denarnico v najnovejši zapis</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Uporaba:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Uporabi OpenSSL (https) za JSON-RPC povezave</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -1968,6 +2116,10 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Uporabi proxy za povezavo s skritimi storitvami tora (privzeto: isto kot -proxy) </translation>
     </message>
     <message>
+        <source>Use the test network</source>
+        <translation>Uporabi testno omrežje</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Uporabniško ime za JSON-RPC povezave</translation>
     </message>
@@ -1976,196 +2128,16 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot "srednja".
         <translation>Potrdite neoporečnost baze podatkov...</translation>
     </message>
     <message>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Denarnica %s se nahaja zunaj datotečnega imenika %s.</translation>
+    </message>
+    <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Opozorilo: ta različica je zastarela, potrebna je nadgradnja!</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat poškodovana, neuspešna obnova</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Geslo za JSON-RPC povezave</translation>
-    </message>
-    <message>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Sinhroniziraj čas z drugimi vozlišči. Onemogoči, če je čas na vašem sistemu točno nastavljen, npr. sinhroniziranje z NTP (privzeto: 1)</translation>
-    </message>
-    <message>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>Ob ustvarjanju transakcij, prezri vnose z manjšo vrednostjo kot (privzeto: 0.01)</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Dovoli JSON-RPC povezave z določenega IP naslova</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Pošlji ukaze vozlišču na &lt;ip&gt; (privzet: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Izvrši ukaz, ko se najboljši blok spremeni (%s je v cmd programu nadomeščen z zgoščenimi bloki).</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Izvedi ukaz, ko bo transakcija denarnice se spremenila (V cmd je bil TxID zamenjan za %s)</translation>
-    </message>
-    <message>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation>Zahtevaj potrditve za spremembo (default: 0)</translation>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Izvrši ukaz, ko je prejet relevanten alarm (%s je v cmd programu nadomeščen s sporočilom)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Posodobi denarnico v najnovejši zapis</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Nastavi velikost ključa bazena na &lt;n&gt; (privzeto: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponovno preglej verigo blokov za manjkajoče transakcije denarnice</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Kako temeljito naj bo preverjanje blokov (0-6, privzeto: 1)</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Uvozi bloke iz zunanje blk000?.dat datoteke</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Uporabi OpenSSL (https) za JSON-RPC povezave</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Datoteka potrdila strežnika (privzeta: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Zasebni ključ strežnika (privzet: server.pem)</translation>
-    </message>
-    <message>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>OPOZORILO: Najdene so bile neveljavne točke preverjanja! Prikazane transakcije so morda napačne! Poiščite novo različico aplikacije ali pa obvestite razvijalce.</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>To sporočilo pomoči</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Denarnica %s se nahaja zunaj datotečnega imenika %s.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Na tem računalniku je bilo nemogoče vezati na %s (bind returned error %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Omogoči DNS povezave za -addnode, -seednode in -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Nalaganje naslovov ...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica pokvarjena</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Napaka pri nalaganju wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Neveljaven -proxy naslov: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Neznano omrežje določeno v -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Ni mogoče določiti -bind naslova: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Ni mogoče določiti -externalip naslova: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neveljavni znesek za -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Pošiljanje...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Neveljavna količina</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Premalo sredstev</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Nalaganje indeksa blokov ...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj vozlišče za povezavo nanj in skušaj le to obdržati odprto</translation>
-    </message>
-    <message>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Provizija na KB ki jo morate dodati transakcijam, ki jih pošiljate</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
-        <translation>Neveljavni znesek za -miniput=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Nalaganje denarnice ...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Ne morem </translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Ni mogoče zapisati privzetega naslova</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Ponovno pregledovanje ...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Nalaganje končano</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Za uporabo %s opcije</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Napaka</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Nastaviti morate rpcpassword=&lt;password&gt; v konfiguracijski datoteki: 
-%s
-Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke.</translation>
     </message>
 </context>
 <context>

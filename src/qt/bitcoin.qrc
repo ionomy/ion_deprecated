@@ -125,6 +125,7 @@
         <file alias="da">locale/ion_da.qm</file>
         <file alias="de">locale/ion_de.qm</file>
         <file alias="el_GR">locale/ion_el_GR.qm</file>
+        <file alias="en">locale/ion_en.qm</file>
         <file alias="eo">locale/ion_eo.qm</file>
         <file alias="es">locale/ion_es.qm</file>
         <file alias="es_AR">locale/ion_es_AR.qm</file>

@@ -20,12 +20,12 @@
         <translation>製造新的位址</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>複製目前選擇的位址到系統剪貼簿</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>新建地址(&amp;N)</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>複製目前選擇的位址到系統剪貼簿</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>簽署訊息(&amp;M)</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>把目前選擇的位址從列表中刪掉</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>驗證訊息(&amp;V)</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>把目前選擇的位址從列表中刪掉</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -158,16 +158,12 @@
         <translation>你確定要把錢包加密嗎？</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 請改用新產生有加密的錢包檔，來取代舊錢包檔的備份。為了安全性的理由，當你開始使用新的有加密的錢包後，舊錢包檔的備份就不能再使用了。</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: 大寫字母鎖定作用中！</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>錢包已加密</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>重要: 請改用新產生有加密的錢包檔，來取代舊錢包檔的備份。為了安全性的理由，當你開始使用新的有加密的錢包後，舊錢包檔的備份就不能再使用了。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -197,16 +193,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>錢包密碼改成功了。</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>警告: 大寫字母鎖定作用中！</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>簽署訊息...</translation>
+        <source>Wallet</source>
+        <translation>錢包</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>顯示錢包一般總覽</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>顯示用于接收支付的地址列表 </translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -223,10 +227,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>管理已儲存的地址和標簽</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>顯示用于接收支付的地址列表 </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -249,6 +249,10 @@
         <translation>選項...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>顯示或隱藏</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>加密錢包...</translation>
     </message>
@@ -257,20 +261,28 @@
         <translation>備份錢包...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>改變密碼...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>導出(&amp;E)</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>把錢包備份到其它地方</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>改變密碼...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>改變錢包加密用的密碼</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>簽署訊息...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>驗證訊息...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>導出(&amp;E)</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -279,18 +291,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>開啓除錯和診斷主控台</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>驗證訊息...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>錢包</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>顯示或隱藏</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -311,10 +311,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[測試網絡]</translation>
-    </message>
-    <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>權益增值中 &lt;br&gt;您的權重爲 %1 &lt;br&gt;網絡總權重爲 %2&lt;br&gt;預計將在 %3 之後獲得收益</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -352,13 +348,9 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>錢包&lt;b&gt;已加密&lt;/b&gt;並且&lt;b&gt;上鎖中&lt;/b&gt;</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 個小時</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>權益增值中 &lt;br&gt;您的權重爲 %1 &lt;br&gt;網絡總權重爲 %2&lt;br&gt;預計將在 %3 之後獲得收益</translation>
     </message>
     </context>
 <context>
@@ -393,10 +385,6 @@ Address: %4
     <message>
         <source>Low Output:</source>
         <translation>低輸出:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>否</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -517,6 +505,10 @@ Address: %4
     <message>
         <source>yes</source>
         <translation>是</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>否</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -684,16 +676,16 @@ Address: %4
         <translation>表單</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>未確定金額:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>錢包</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>目前可用餘額</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>未確定金額:</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -729,6 +721,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>資訊</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>客戶端軟體名稱</translation>
     </message>
@@ -741,12 +737,12 @@ Address: %4
         <translation>客戶端軟體版本</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>資訊</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>使用的 OpenSSL 版本</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>建置日期</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -773,20 +769,16 @@ Address: %4
         <translation>最近區塊時間</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>除錯紀錄檔</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>開啓</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>主控台</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>建置日期</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>除錯紀錄檔</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -947,10 +939,6 @@ Address: %4
         <translation>付給:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>請輸入這個位址的標記來把它加進位址簿中</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>標記:</translation>
     </message>
@@ -965,6 +953,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>請輸入這個位址的標記來把它加進位址簿中</translation>
     </message>
     </context>
 <context>
@@ -1102,9 +1094,9 @@ Address: %4
         <source>Status</source>
         <translation>狀態</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>，已公告給 %n 個節點</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>，還沒成功公告出去</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1123,6 +1115,10 @@ Address: %4
         <translation>來源</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>目的</translation>
     </message>
@@ -1137,10 +1133,6 @@ Address: %4
     <message>
         <source>Credit</source>
         <translation>入帳</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>再等 %n 個區塊生出來後成熟</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1194,14 +1186,6 @@ Address: %4
         <source>false</source>
         <translation>否</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>，還沒成功公告出去</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>未知</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1239,10 +1223,6 @@ Address: %4
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>已確定(%1 次確認)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>再等 %n 個區塊生出來後才確定</numerusform></translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
@@ -1430,77 +1410,24 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>用法:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>列出指令</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>取得指令說明</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>選項:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>指定錢包檔(會在資料目錄中)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>指定資料目錄</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>設定資料庫快取大小成多少百萬位元組(MB；預設值: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>維持連線節點數的上限為 &lt;n&gt; 個(預設值: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>連線到某個節點來取得其它節點的位址，然後斷線</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>指定自己的公開位址</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>把異常節點斷線的臨界值(預設值: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>拒絕跟異常節點連線的秒數(預設值: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>設定在 IPv4 網路上以通訊埠 %u 聽取 RPC 連線時發生錯誤: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>接受指令列和 JSON-RPC 指令
-</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>用護靈模式在背後執行並接受指令</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>使用測試網路</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>是否接受外來連線(預設值: 當沒有 -proxy 或 -connect 時為 1)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>設定在 IPv6 網路上以通訊埠 %u 聽候 RPC 連線失敗，退而改用 IPv4 網路: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>當最新區塊改變時要執行的指令(指令中的 %s 會被取代成區塊雜湊值)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>拒絕跟異常節點連線的秒數(預設值: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1515,6 +1442,35 @@ Address: %4
         <translation>警告: 錢包檔 wallet.dat 壞掉，但資料被拯救回來了！原來的 wallet.dat 會改儲存在 %s, 檔名是 wallet.{timestamp}.bak. 如果餘額或交易資料有誤，你應該要用備份資料復原回來。</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>你必須在以下設定檔中設定 RPC 密碼(rpcpassword=&lt;password&gt;):
+%s
+如果還沒有這個檔案，請在造出來的時候，設定檔案權限成只有主人才能讀取。</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>接受指令列和 JSON-RPC 指令
+</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>是否接受外來連線(預設值: 當沒有 -proxy 或 -connect 時為 1)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>增加一個要連線的節線，並試著保持對它的連線暢通</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>允許對 -addnode, -seednode, -connect 的參數使用域名查詢 </translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>允許指定的來源 IP 位址進行 JSON-RPC 連線</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
     </message>
@@ -1523,16 +1479,92 @@ Address: %4
         <translation>區塊製造選項:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>沒辦法把錢包格式降級</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>沒辦法解析 -bind 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>沒辦法解析 -externalip 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>沒辦法把預設位址寫進去</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>只連線到指定節點(可多個)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>連線到某個節點來取得其它節點的位址，然後斷線</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>找出自己的網際網路位址(預設值: 當有聽候連線且沒有 -externalip 時為 1)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>載入完成</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>載入錢包檔 wallet.dat 時發生錯誤</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>載入檔案 wallet.dat 時發生錯誤: 錢包損毀了</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>錯誤</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>在任意的通訊埠聽候失敗。如果你希望這樣的話，可以設定 -listen=0.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>取得指令說明</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>累積金額不足</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>無效的 -proxy 位址: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>無效的金額</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>列出指令</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>正在載入位址資料...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>正在載入區塊索引...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>正在載入錢包資料...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>維持連線節點數的上限為 &lt;n&gt; 個(預設值: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1547,12 +1579,52 @@ Address: %4
         <translation>只和 &lt;net&gt; 網路上的節點連線(IPv4, IPv6, 或 Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>選項:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC 連線密碼</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>重新掃描區塊鏈，來尋找錢包可能漏掉的交易。</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>正在重新掃描...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>用護靈模式在背後執行並接受指令</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>傳送指令給在 &lt;ip&gt; 的節點(預設值: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>在終端機顯示追蹤或除錯資訊，而不是寫到檔案 debug.log 中</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>伺服器憑證檔(預設值: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>伺服器私鑰檔(預設值: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>設定資料庫快取大小成多少百萬位元組(MB；預設值: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>設定密鑰池大小成 &lt;n&gt; (預設值: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1567,12 +1639,60 @@ Address: %4
         <translation>指定連線在幾毫秒後逾時(預設值: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>指定資料目錄</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>指定錢包檔(會在資料目錄中)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>指定自己的公開位址</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>這些說明訊息</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>把異常節點斷線的臨界值(預設值: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>為了要使用 %s 選項</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>沒辦法和這台電腦上的 %s 繫結(回傳錯誤 %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>把錢包檔案升級成最新的格式</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>用法:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>在 JSON-RPC 連線使用 OpenSSL (https)</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>是否要使用通用即插即用(UPnP)協定，來設定聽候連線的通訊埠的對應(預設值: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>是否要使用通用即插即用(UPnP)協定，來設定聽候連線的通訊埠的對應(預設值: 當有聽候連線時為 1)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>使用測試網路</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1585,146 +1705,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>錢包檔 weallet.dat 壞掉了，拯救失敗</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC 連線密碼</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>允許指定的來源 IP 位址進行 JSON-RPC 連線</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>傳送指令給在 &lt;ip&gt; 的節點(預設值: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>當最新區塊改變時要執行的指令(指令中的 %s 會被取代成區塊雜湊值)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>把錢包檔案升級成最新的格式</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>設定密鑰池大小成 &lt;n&gt; (預設值: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>重新掃描區塊鏈，來尋找錢包可能漏掉的交易。</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>在 JSON-RPC 連線使用 OpenSSL (https)</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>伺服器憑證檔(預設值: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>伺服器私鑰檔(預設值: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>這些說明訊息</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>沒辦法和這台電腦上的 %s 繫結(回傳錯誤 %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>允許對 -addnode, -seednode, -connect 的參數使用域名查詢 </translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>正在載入位址資料...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>載入檔案 wallet.dat 時發生錯誤: 錢包損毀了</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>載入錢包檔 wallet.dat 時發生錯誤</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>無效的 -proxy 位址: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>沒辦法解析 -bind 位址: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>沒辦法解析 -externalip 位址: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>無效的金額</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>累積金額不足</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>正在載入區塊索引...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>增加一個要連線的節線，並試著保持對它的連線暢通</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>正在載入錢包資料...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>沒辦法把錢包格式降級</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>沒辦法把預設位址寫進去</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>正在重新掃描...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>載入完成</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>為了要使用 %s 選項</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>錯誤</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>你必須在以下設定檔中設定 RPC 密碼(rpcpassword=&lt;password&gt;):
-%s
-如果還沒有這個檔案，請在造出來的時候，設定檔案權限成只有主人才能讀取。</translation>
     </message>
 </context>
 <context>

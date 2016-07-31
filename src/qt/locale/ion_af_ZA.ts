@@ -117,6 +117,10 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
+        <source>Wallet</source>
+        <translation>Beursie</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Wys algemene oorsig van die beursie</translation>
     </message>
@@ -143,10 +147,6 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Opsies</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Beursie</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -323,6 +323,10 @@
         <translation>Van</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Na</translation>
     </message>
@@ -373,10 +377,6 @@
     <message>
         <source>false</source>
         <translation>onwaar</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>onbekend</translation>
     </message>
 </context>
 <context>
@@ -534,36 +534,24 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <source>Done loading</source>
+        <translation>Klaar gelaai</translation>
     </message>
     <message>
-        <source>Options:</source>
-        <translation>Opsies:</translation>
+        <source>Error</source>
+        <translation>Fout</translation>
     </message>
     <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Onderhou op die meeste &lt;n&gt; konneksies na eweknieë (standaard: 125)</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Gebruik die toets netwerk</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Hierdie help boodskap</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Laai adresse...</translation>
+        <source>Insufficient funds</source>
+        <translation>Onvoldoende fondse</translation>
     </message>
     <message>
         <source>Invalid amount</source>
         <translation>Ongeldige bedrag</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Onvoldoende fondse</translation>
+        <source>Loading addresses...</source>
+        <translation>Laai adresse...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -574,12 +562,24 @@
         <translation>Laai beursie...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Klaar gelaai</translation>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Onderhou op die meeste &lt;n&gt; konneksies na eweknieë (standaard: 125)</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Fout</translation>
+        <source>Options:</source>
+        <translation>Opsies:</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Hierdie help boodskap</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gebruik die toets netwerk</translation>
     </message>
     </context>
 <context>

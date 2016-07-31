@@ -114,16 +114,12 @@
         <translation>Certusne es te velle tuum cassidile cifrare?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>GRAVE: Oportet ulla prioria conservata quae fecisti de plica tui cassidilis reponi a nove generata cifrata plica cassidilis.  Propter securitatem, prioria conservata de plica non cifrata cassidilis inutilia fiet simul atque incipis uti novo cifrato cassidili.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Monitio: Litterae ut capitales seratae sunt!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Cassidile cifratum</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>GRAVE: Oportet ulla prioria conservata quae fecisti de plica tui cassidilis reponi a nove generata cifrata plica cassidilis.  Propter securitatem, prioria conservata de plica non cifrata cassidilis inutilia fiet simul atque incipis uti novo cifrato cassidili.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Tessera cassidilis successa est in mutando.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Monitio: Litterae ut capitales seratae sunt!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Signa &amp;nuntium...</translation>
+        <source>Wallet</source>
+        <translation>Cassidile</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;Optiones</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Monstra/Occulta</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Cifra Cassidile...</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>&amp;Conserva Cassidile...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Muta tesseram...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Conserva cassidile in locum alium</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Muta tesseram...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Muta tesseram utam pro cassidilis cifrando</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Signa &amp;nuntium...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Aperi terminalem debug et diagnosticalem</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verifica nuntium...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Cassidile</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Monstra/Occulta</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -287,14 +287,6 @@ Inscriptio: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Cassidile &lt;b&gt;cifratum&lt;/b&gt; est et iam nunc &lt;b&gt;seratum&lt;/b&gt;</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horae</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dies</numerusform><numerusform>%n dies</numerusform></translation>
     </message>
     </context>
 <context>
@@ -525,6 +517,10 @@ Inscriptio: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatio</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Nomen clientis</translation>
     </message>
@@ -537,12 +533,12 @@ Inscriptio: %4
         <translation>Versio clientis</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informatio</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Utens OpenSSL versione</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Dies aedificandi</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -569,20 +565,16 @@ Inscriptio: %4
         <translation>Hora postremi frusti</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Debug catalogi plica</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Aperi</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Terminale</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Dies aedificandi</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Debug catalogi plica</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -675,10 +667,6 @@ Inscriptio: %4
         <translation>Pensa &amp;Ad:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Insero titulum huic inscriptioni ut eam in tuum librum inscriptionum addas.</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Titulus:</translation>
     </message>
@@ -693,6 +681,10 @@ Inscriptio: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Insero titulum huic inscriptioni ut eam in tuum librum inscriptionum addas.</translation>
     </message>
     </context>
 <context>
@@ -830,9 +822,9 @@ Inscriptio: %4
         <source>Status</source>
         <translation>Status</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, disseminatum per %n nodo</numerusform><numerusform>, disseminata per %n nodis</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, nondum prospere disseminatum est</translation>
     </message>
     <message>
         <source>Date</source>
@@ -851,6 +843,10 @@ Inscriptio: %4
         <translation>Ab</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>ignotum</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Ad</translation>
     </message>
@@ -865,10 +861,6 @@ Inscriptio: %4
     <message>
         <source>Credit</source>
         <translation>Creditum</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>maturum erit in %n plure frusto</numerusform><numerusform>maturum erit in %n pluribus frustis</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -922,14 +914,6 @@ Inscriptio: %4
         <source>false</source>
         <translation>falsum</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, nondum prospere disseminatum est</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>ignotum</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -967,10 +951,6 @@ Inscriptio: %4
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Confirmatum (%1 confirmationes)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Aperi pro %n plure frusto</numerusform><numerusform>Aperi pro %n pluribus frustis</numerusform></translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1154,72 +1134,24 @@ Inscriptio: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Usus:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Enumera mandata</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Accipe auxilium pro mandato</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Optiones:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Specifica indicem datorum</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Constitue magnitudinem databasis cache in megabytes (praedefinitum: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Manutene non plures quam &lt;n&gt; conexiones ad paria (praedefinitum: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Conecta ad nodum acceptare inscriptiones parium, et disconecte</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Specifica tuam propriam publicam inscriptionem</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Limen pro disconectendo paria improba (praedefinitum: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Numerum secundorum prohibere ne paria improba reconectant (praedefinitum: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Error erat dum initians portam RPC %u pro auscultando in IPv4: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accipe terminalis et JSON-RPC mandata.</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Operare infere sicut daemon et mandata accipe</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Utere rete experimentale</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Error erat dum initians portam RPC %u pro auscultando in IPv6, labens retrorsum ad IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Pelle mandatum quando optissimum frustum mutat (%s in mandato substituitur ab hash frusti)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Numerum secundorum prohibere ne paria improba reconectant (praedefinitum: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1234,6 +1166,34 @@ Inscriptio: %4
         <translation>Monitio: wallet.data corrupta, data salvata!  Originalis wallet.dat salvata ut wallet.{timestamp}.bak in %s; si pendendum tuum vel transactiones pravae sunt, oportet ab conservato restituere.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Necesse est te rpcpassword=&lt;tesseram&gt; constituere in plica configurationum:
+%s
+Si plica non existat, crea eam cum permissionibus ut solus eius dominus eam legere sinatur.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Accipe terminalis et JSON-RPC mandata.</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Adice nodum cui conectere et conare sustinere conexionem apertam</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permitte quaerenda DNS pro -addnode, -seednode, et -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Permitte conexionibus JSON-RPC ex inscriptione specificata</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Conare recipere claves privatas de corrupto wallet.dat</translation>
     </message>
@@ -1242,16 +1202,92 @@ Inscriptio: %4
         <translation>Optiones creandi frustorum:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Non posse cassidile regredi</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Non posse resolvere -bind inscriptonem: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Non posse resolvere -externalip inscriptionem: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Non posse scribere praedefinitam inscriptionem</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Conecte sole ad nodos specificatos (vel nodum specificatum)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Conecta ad nodum acceptare inscriptiones parium, et disconecte</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Discooperi propriam inscriptionem IP (praedefinitum: 1 quando auscultans et nullum -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Completo lengendi</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Error legendi wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Error legendi wallet.dat: Cassidile corruptum</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Non potuisse auscultare in ulla porta.  Utere -listen=0 si hoc vis.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Accipe auxilium pro mandato</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Inopia nummorum</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inscriptio -proxy non valida: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantitas non valida pro -paytxfee=&lt;quantitas&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Quantitas non valida</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Enumera mandata</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Legens inscriptiones...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Legens indicem frustorum...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Legens cassidile...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Manutene non plures quam &lt;n&gt; conexiones ad paria (praedefinitum: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1266,12 +1302,52 @@ Inscriptio: %4
         <translation>Tantum conecte ad nodos in rete &lt;net&gt; (IPv4, IPv6 aut Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Optiones:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Tessera pro conexionibus JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Iterum perlege catenam frustorum propter absentes cassidilis transactiones</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Iterum perlegens...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Operare infere sicut daemon et mandata accipe</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Optiones SSL: (vide vici de Bitcoin pro instructionibus SSL configurationis)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Mitte mandata nodo operanti in &lt;ip&gt; (praedefinitum: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Mitte informationem vestigii/debug ad terminale potius quam plicam debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Plica certificationis daemonis moderantis (praedefinitum: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Clavis privata daemonis moderans (praedefinitum: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Constitue magnitudinem databasis cache in megabytes (praedefinitum: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Constitue magnitudinem stagni clavium ad &lt;n&gt; (praedefinitum: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1286,12 +1362,56 @@ Inscriptio: %4
         <translation>Specifica tempumfati conexionis in millisecundis (praedefinitum: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Specifica indicem datorum</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Specifica tuam propriam publicam inscriptionem</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Hic nuntius auxilii</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Limen pro disconectendo paria improba (praedefinitum: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Ut utaris optione %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Non posse conglutinare ad %s in hoc computatro (conglutinare redidit errorem %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Progredere cassidile ad formam recentissimam</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Usus:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Utere OpenSSL (https) pro conexionibus JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Utere UPnP designare portam auscultandi (praedefinitum: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Utere UPnP designare portam auscultandi (praedefinitum: 1 quando auscultans)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Utere rete experimentale</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1304,146 +1424,6 @@ Inscriptio: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupta, salvare abortum est</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Tessera pro conexionibus JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Permitte conexionibus JSON-RPC ex inscriptione specificata</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Mitte mandata nodo operanti in &lt;ip&gt; (praedefinitum: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Pelle mandatum quando optissimum frustum mutat (%s in mandato substituitur ab hash frusti)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Progredere cassidile ad formam recentissimam</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Constitue magnitudinem stagni clavium ad &lt;n&gt; (praedefinitum: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Iterum perlege catenam frustorum propter absentes cassidilis transactiones</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Utere OpenSSL (https) pro conexionibus JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Plica certificationis daemonis moderantis (praedefinitum: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Clavis privata daemonis moderans (praedefinitum: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Hic nuntius auxilii</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Non posse conglutinare ad %s in hoc computatro (conglutinare redidit errorem %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permitte quaerenda DNS pro -addnode, -seednode, et -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Legens inscriptiones...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error legendi wallet.dat: Cassidile corruptum</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Error legendi wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Inscriptio -proxy non valida: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Non posse resolvere -bind inscriptonem: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Non posse resolvere -externalip inscriptionem: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Quantitas non valida pro -paytxfee=&lt;quantitas&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Quantitas non valida</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Inopia nummorum</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Legens indicem frustorum...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Adice nodum cui conectere et conare sustinere conexionem apertam</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Legens cassidile...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Non posse cassidile regredi</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Non posse scribere praedefinitam inscriptionem</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Iterum perlegens...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Completo lengendi</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Ut utaris optione %s</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Error</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Necesse est te rpcpassword=&lt;tesseram&gt; constituere in plica configurationum:
-%s
-Si plica non existat, crea eam cum permissionibus ut solus eius dominus eam legere sinatur.</translation>
     </message>
 </context>
 <context>
