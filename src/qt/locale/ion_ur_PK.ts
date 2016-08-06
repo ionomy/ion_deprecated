@@ -238,20 +238,20 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>This help message</source>
-        <translation>یہ مدد کا پیغام</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>غلط رقم</translation>
+        <source>Error</source>
+        <translation>نقص</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
         <translation>ناکافی فنڈز</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>نقص</translation>
+        <source>Invalid amount</source>
+        <translation>غلط رقم</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>یہ مدد کا پیغام</translation>
     </message>
     </context>
 <context>

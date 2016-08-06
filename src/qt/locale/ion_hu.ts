@@ -20,12 +20,12 @@
         <translation>Új cím létrehozása</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>A kiválasztott cím másolása a vágólapra</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Új Cím</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>A kiválasztott cím másolása a vágólapra</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>&amp;Üzenet Aláírása</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>A kiválasztott cím törlése a listáról</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>Üzenet &amp;Hitelesítése</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>A kiválasztott cím törlése a listáról</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -158,12 +158,12 @@
         <translation>Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>FONTOS: A pénztárca-fájl korábbi mentéseit ezzel az új, titkosított pénztárca-fájllal kell helyettesíteni. Biztonsági okokból a pénztárca-fájl korábbi titkosítás nélküli mentései haszontalanná válnak amint elkezdi használni az új, titkosított pénztárcát.</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Tárca kódolva</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>FONTOS: A pénztárca-fájl korábbi mentéseit ezzel az új, titkosított pénztárca-fájllal kell helyettesíteni. Biztonsági okokból a pénztárca-fájl korábbi titkosítás nélküli mentései haszontalanná válnak amint elkezdi használni az új, titkosított pénztárcát.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -193,12 +193,12 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Jelszó megváltoztatva.</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Üzenet aláírása...</translation>
+        <source>Wallet</source>
+        <translation>Tárca</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -233,6 +233,10 @@
         <translation>&amp;Opciók...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Mutat / Elrejt</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Tárca &amp;kódolása...</translation>
     </message>
@@ -241,16 +245,24 @@
         <translation>&amp;Bisztonsági másolat készítése a Tárcáról</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Jelszó &amp;megváltoztatása...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Biztonsági másolat készítése a Tárcáról egy másik helyre</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>Jelszó &amp;megváltoztatása...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Tárcakódoló jelszó megváltoztatása</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Üzenet aláírása...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -259,18 +271,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Hibakereső és diagnosztikai konzol megnyitása</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Tárca</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Mutat / Elrejt</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -569,6 +569,10 @@ Cím: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Információ</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Kliens néve</translation>
     </message>
@@ -581,12 +585,12 @@ Cím: %4
         <translation>Kliens verzió</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Információ</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Használt OpenSSL verzió</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Fordítás dátuma</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -613,20 +617,16 @@ Cím: %4
         <translation>Utolsó blokk ideje</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Debug naplófájl</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Megnyitás</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konzol</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Fordítás dátuma</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Debug naplófájl</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -719,11 +719,6 @@ Cím: %4
         <translation>Címzett:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
-</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>Címke:</translation>
     </message>
@@ -738,6 +733,11 @@ Cím: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Milyen címkével kerüljön be ez a cím a címtáradba?
+</translation>
     </message>
     </context>
 <context>
@@ -840,6 +840,10 @@ Cím: %4
         <translation>Állapot</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, még nem sikerült elküldeni.</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
@@ -850,6 +854,10 @@ Cím: %4
     <message>
         <source>From</source>
         <translation>Űrlap</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ismeretlen</translation>
     </message>
     <message>
         <source>To</source>
@@ -918,14 +926,6 @@ Cím: %4
     <message>
         <source>false</source>
         <translation>hamis</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, még nem sikerült elküldeni.</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>ismeretlen</translation>
     </message>
 </context>
 <context>
@@ -1147,52 +1147,28 @@ Cím: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Használat:</translation>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik  (%s a parancsban lecserélődik a blokk TxID-re)</translation>
     </message>
     <message>
-        <source>List commands</source>
-        <translation>Parancsok kilistázása
-</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Segítség egy parancsról
-</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Opciók
-</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Adatkönyvtár
-</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Az adatbázis gyorsítótár mérete megabájtban (alapértelmezés: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Maximálisan &lt;n&gt; számú kapcsolat fenntartása a peerekkel (alapértelmezés: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Kapcsolódás egy csomóponthoz a peerek címeinek megszerzése miatt, majd szétkapcsolás</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Adja meg az Ön saját nyilvános címét</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Helytelenül viselkedő peerek leválasztási határértéke (alapértelmezés: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Parancs, amit akkor hajt végre, amikor a legjobb blokk megváltozik (%s a cmd-ban lecserélődik a blokk hash-re)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Helytelenül viselkedő peerek kizárási ideje másodpercben (alapértelmezés: 86400)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Be kell állítani rpcpassword=&lt;password&gt; a konfigurációs fájlban
+%s
+Ha a fájl nem létezik, hozd létre 'csak a felhasználó által olvasható' fájl engedéllyel</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -1200,50 +1176,107 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Háttérben futtatás daemonként és parancsok elfogadása
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Elérendő csomópont megadása and attempt to keep the connection open</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
 </translation>
     </message>
     <message>
-        <source>Use the test network</source>
-        <translation>Teszthálózat használata
-</translation>
+        <source>Cannot downgrade wallet</source>
+        <translation>Nem sikerült a Tárca visszaállítása a korábbi verzióra</translation>
     </message>
     <message>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Csatlakozási cím (-bind address) feloldása nem sikerült: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Külső cím (-externalip address) feloldása nem sikerült: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Nem sikerült az alapértelmezett címet írni.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Csatlakozás csak a megadott csomóponthoz</translation>
     </message>
     <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Kapcsolódás egy csomóponthoz a peerek címeinek megszerzése miatt, majd szétkapcsolás</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Betöltés befejezve.</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Hiba az wallet.dat betöltése közben</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Hiba</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Egyik hálózati porton sem sikerül hallgatni. Használja a -listen=0 kapcsolót, ha ezt szeretné.</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
+        <source>Get help for a command</source>
+        <translation>Segítség egy parancsról
+</translation>
     </message>
     <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>trace/debug információ küldése a konzolra a debog.log fájl helyett</translation>
+        <source>Insufficient funds</source>
+        <translation>Nincs elég bitcoinod.</translation>
     </message>
     <message>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Érvénytelen -proxy cím: '%s'</translation>
     </message>
     <message>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Étvénytelen -paytxfee=&lt;összeg&gt; összeg: '%s'</translation>
     </message>
     <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+        <source>Invalid amount</source>
+        <translation>Étvénytelen összeg</translation>
     </message>
     <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Felhasználói név JSON-RPC csatlakozásokhoz
+        <source>List commands</source>
+        <translation>Parancsok kilistázása
+</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Címek betöltése...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Blokkindex betöltése...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Tárca betöltése...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Maximálisan &lt;n&gt; számú kapcsolat fenntartása a peerekkel (alapértelmezés: 125)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Opciók
 </translation>
     </message>
     <message>
@@ -1252,9 +1285,22 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>JSON-RPC csatlakozások engedélyezése meghatározott IP-címről
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
 </translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Újraszkennelés...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Háttérben futtatás daemonként és parancsok elfogadása
+</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
     </message>
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
@@ -1262,31 +1308,8 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Parancs, amit akkor hajt végre, amikor a legjobb blokk megváltozik (%s a cmd-ban lecserélődik a blokk hash-re)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik  (%s a parancsban lecserélődik a blokk TxID-re)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>A Tárca frissítése a legfrissebb formátumra</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
-</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Blokklánc újraszkennelése hiányzó tárca-tranzakciók után
-</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>OpenSSL (https) használata JSON-RPC csatalkozásokhoz
-</translation>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>trace/debug információ küldése a konzolra a debog.log fájl helyett</translation>
     </message>
     <message>
         <source>Server certificate file (default: server.cert)</source>
@@ -1299,103 +1322,80 @@ Cím: %4
 </translation>
     </message>
     <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Az adatbázis gyorsítótár mérete megabájtban (alapértelmezés: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Kulcskarika mérete &lt;n&gt; (alapértelmezett: 100)
+</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Adatkönyvtár
+</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Adja meg az Ön saját nyilvános címét</translation>
+    </message>
+    <message>
         <source>This help message</source>
         <translation>Ez a súgó-üzenet
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>DNS-kikeresés engedélyezése az addnode-nál és a connect-nél</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Címek betöltése...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Hiba az wallet.dat betöltése közben</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Érvénytelen -proxy cím: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Csatlakozási cím (-bind address) feloldása nem sikerült: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Külső cím (-externalip address) feloldása nem sikerült: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Étvénytelen -paytxfee=&lt;összeg&gt; összeg: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Étvénytelen összeg</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Nincs elég bitcoinod.</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Blokkindex betöltése...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Elérendő csomópont megadása and attempt to keep the connection open</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Tárca betöltése...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Nem sikerült a Tárca visszaállítása a korábbi verzióra</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Nem sikerült az alapértelmezett címet írni.</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Újraszkennelés...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Betöltés befejezve.</translation>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Helytelenül viselkedő peerek leválasztási határértéke (alapértelmezés: 100)</translation>
     </message>
     <message>
         <source>To use the %s option</source>
         <translation>Használd a %s opciót</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Hiba</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>A %s nem elérhető ezen a gépen (bind returned error %d, %s)</translation>
     </message>
     <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Be kell állítani rpcpassword=&lt;password&gt; a konfigurációs fájlban
-%s
-Ha a fájl nem létezik, hozd létre 'csak a felhasználó által olvasható' fájl engedéllyel</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ismeretlen hálózat lett megadva -onlynet: '%s'</translation>
     </message>
-</context>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>A Tárca frissítése a legfrissebb formátumra</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Használat:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>OpenSSL (https) használata JSON-RPC csatalkozásokhoz
+</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 0)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>UPnP-használat engedélyezése a figyelő port feltérképezésénél (default: 1 when listening)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Teszthálózat használata
+</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Felhasználói név JSON-RPC csatlakozásokhoz
+</translation>
+    </message>
+    </context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

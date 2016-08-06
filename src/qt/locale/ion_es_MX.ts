@@ -435,10 +435,6 @@
         <translation>Pagar &amp;a:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Ingrese una etiqueta para esta dirección para agregarlo en su libreta de direcciones.</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta</translation>
     </message>
@@ -453,6 +449,10 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Ingrese una etiqueta para esta dirección para agregarlo en su libreta de direcciones.</translation>
     </message>
     </context>
 <context>
@@ -491,22 +491,22 @@
         <translation>%1 confirmaciones</translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Fecha</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Monto</translation>
-    </message>
-    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, no ha sido transmitido aun</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
     </message>
     <message>
         <source>unknown</source>
         <translation>desconocido</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Monto</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -702,8 +702,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Uso:</translation>
+        <source>Done loading</source>
+        <translation>Carga completa</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -722,8 +722,8 @@
         <translation>Cargando billetera...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Carga completa</translation>
+        <source>Usage:</source>
+        <translation>Uso:</translation>
     </message>
     </context>
 <context>

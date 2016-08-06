@@ -34,12 +34,12 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>Crear nueva dirección </translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar la dirección seleccionada al porta-papeles.</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Nueva Dirección</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Copiar la dirección seleccionada al porta-papeles.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -54,12 +54,12 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>Firmar &amp;Mensaje</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Borrar las direcciones actualmente seleccionadas de la lista</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar Mensaje</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Borrar las direcciones actualmente seleccionadas de la lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -128,6 +128,10 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>Sirve para deshabilitar el envío de dinero trivial cuando la cuenta del SO esta comprometida. No provee una real seguridad. </translation>
     </message>
     <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Introducir una nueva frase de contraseña para la billetera.&lt;br/&gt;Por favor use una frase de contraseña de  &lt;b&gt;diez o mas caracteres aleatorios&lt;/b&gt;, o &lt;b&gt;ocho o mas palabras&lt;/b&gt;.</translation>
+    </message>
+    <message>
         <source>Encrypt wallet</source>
         <translation>Cifrar billetera</translation>
     </message>
@@ -168,20 +172,12 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>Esta seguro que desea cifrar su billetera?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: Cualquier respaldo anterior que se haya hecho de su billetera deberá ser reemplazado con un archivo de billetera cifrado mas actual. Por razones de seguridad, previos respaldos de billetera sin cifrar, serán inservibles en el momento que una nueva billetera cifrada sea creada. </translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Precaución: La tecla Bloq. Mayús esta encendida!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Billetera encriptada</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Introducir una nueva frase de contraseña para la billetera.&lt;br/&gt;Por favor use una frase de contraseña de  &lt;b&gt;diez o mas caracteres aleatorios&lt;/b&gt;, o &lt;b&gt;ocho o mas palabras&lt;/b&gt;.</translation>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>IMPORTANTE: Cualquier respaldo anterior que se haya hecho de su billetera deberá ser reemplazado con un archivo de billetera cifrado mas actual. Por razones de seguridad, previos respaldos de billetera sin cifrar, serán inservibles en el momento que una nueva billetera cifrada sea creada. </translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -211,16 +207,36 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Frase de contraseña de billetera ha sido cambiada correctamente.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Precaución: La tecla Bloq. Mayús esta encendida!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Firmar &amp;mensaje...</translation>
+        <source>Wallet</source>
+        <translation>Billetera</translation>
+    </message>
+    <message>
+        <source>&amp;Dashboard</source>
+        <translation>&amp;Consola Principal</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Mostrar información general de billetera</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>&amp;Recibir</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Mostrar la lista de direcciones para recibir pagos</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -237,10 +253,6 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Editar la lista de direcciones guardadas y etiquetas</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Mostrar la lista de direcciones para recibir pagos</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -263,56 +275,36 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>&amp;Opciones...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Mostrar / Ocultar</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Cifrar billetera...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Respaldar Billetera...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambiar Frase de Contraseña...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Exportar...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportar la información de la pestaña actual a un archivo</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Cifrar o Descifrar billetera</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Respaldar Billetera...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Respaldar billetera a otra ubicación</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Cambiar Frase de Contraseña...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambiar frase de contraseña usada para cifrado de billetera</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Ventana de depuración</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Abrir depuración y consola de diagnostico</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verificar mensaje...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Billetera</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Mostrar / Ocultar</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Desbloquear Billetera...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -327,6 +319,30 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
         <translation>Bloquear billetera</translation>
     </message>
     <message>
+        <source>Sign &amp;message...</source>
+        <translation>Firmar &amp;mensaje...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verificar mensaje...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Exportar...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar la información de la pestaña actual a un archivo</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Ventana de depuración</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Abrir depuración y consola de diagnostico</translation>
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
@@ -337,22 +353,6 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
-    </message>
-    <message>
-        <source>&amp;Dashboard</source>
-        <translation>&amp;Consola Principal</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Recibir</translation>
-    </message>
-    <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Enviar</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Desbloquear Billetera...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -468,32 +468,32 @@ Dirección: %4
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Error iniciando parámetros de base de datos de billetera %s!</translation>
+    </message>
+    <message>
         <source>Error loading wallet.dat</source>
         <translation>Error cargando wallet.dat</translation>
     </message>
     <message>
-        <source>Sending...</source>
-        <translation>Enviando...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Monto inválido</translation>
+        <source>Error</source>
+        <translation>Error</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
         <translation>Fondos Insuficientes</translation>
     </message>
     <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Error iniciando parámetros de base de datos de billetera %s!</translation>
+        <source>Invalid amount</source>
+        <translation>Monto inválido</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
         <translation>Cargando billetera...</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Error</translation>
+        <source>Sending...</source>
+        <translation>Enviando...</translation>
     </message>
     </context>
 <context>

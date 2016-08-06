@@ -114,16 +114,12 @@
         <translation>האם אתה בטוח שברצונך להצפין את הארנק?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>חשוב! כל גיבוי קודם שעשית לארנק שלך יש להחליף עם קובץ הארנק המוצפן שזה עתה נוצר. מסיבות אבטחה, גיבויים קודמים של קובץ הארנק הלא-מוצפן יהפכו לחסרי שימוש ברגע שתתחיל להשתמש בארנק החדש המוצפן.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>זהירות: מקש Caps Lock מופעל!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>הארנק הוצפן</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>חשוב! כל גיבוי קודם שעשית לארנק שלך יש להחליף עם קובץ הארנק המוצפן שזה עתה נוצר. מסיבות אבטחה, גיבויים קודמים של קובץ הארנק הלא-מוצפן יהפכו לחסרי שימוש ברגע שתתחיל להשתמש בארנק החדש המוצפן.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>סיסמת הארנק שונתה בהצלחה.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>זהירות: מקש Caps Lock מופעל!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>חתום על הודעה</translation>
+        <source>Wallet</source>
+        <translation>ארנק</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;אפשרויות</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>הצג / הסתר</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>הצפן ארנק</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>גיבוי ארנק</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>שנה סיסמא</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>גיבוי הארנק למקום אחר</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>שנה סיסמא</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>שנה את הסיסמה להצפנת הארנק</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>חתום על הודעה</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>אמת הודעה...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>פתח את לוח הבקרה לאבחון וניפוי</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>אמת הודעה...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>ארנק</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>הצג / הסתר</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -287,14 +287,6 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; וכרגע &lt;b&gt;נעול&lt;/b&gt;</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n שעה</numerusform><numerusform>%n שעות</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n יום</numerusform><numerusform>%n ימים</numerusform></translation>
-    </message>
     </context>
 <context>
     <name>ClientModel</name>
@@ -324,10 +316,6 @@ Address: %4
     <message>
         <source>Fee:</source>
         <translation>תשלום:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>לא</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -432,6 +420,10 @@ Address: %4
     <message>
         <source>yes</source>
         <translation>כן</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -636,6 +628,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>מידע</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>שם ממשק</translation>
     </message>
@@ -648,12 +644,12 @@ Address: %4
         <translation>גרסת ממשק</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>מידע</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>משתמש ב-OpenSSL גרסה</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>תאריך בניה</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -680,20 +676,16 @@ Address: %4
         <translation>זמן הבלוק האחרון</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>קובץ יומן ניפוי</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>פתח</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>לוח בקרה</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>תאריך בניה</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -830,10 +822,6 @@ Address: %4
         <translation>שלם &amp;ל:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>הכנס תוית לכתובת הזאת כדי להכניס לפנקס הכתובות</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>ת&amp;וית:</translation>
     </message>
@@ -848,6 +836,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>הכנס תוית לכתובת הזאת כדי להכניס לפנקס הכתובות</translation>
     </message>
     </context>
 <context>
@@ -985,9 +977,9 @@ Address: %4
         <source>Status</source>
         <translation>מצב</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, הופץ דרך צומת אחד</numerusform><numerusform>, הופץ דרך %n צמתים</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, טרם שודר בהצלחה</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1006,6 +998,10 @@ Address: %4
         <translation>מאת</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>לא ידוע</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>אל</translation>
     </message>
@@ -1020,10 +1016,6 @@ Address: %4
     <message>
         <source>Credit</source>
         <translation>זיכוי</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>מבשיל בעוד בלוק אחד</numerusform><numerusform>מבשיל בעוד %n בלוקים</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1077,14 +1069,6 @@ Address: %4
         <source>false</source>
         <translation>שקר</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, טרם שודר בהצלחה</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>לא ידוע</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1122,10 +1106,6 @@ Address: %4
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>מאושר (%1 אישורים)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>פתח למשך בלוק %n יותר</numerusform><numerusform>פתח למשך %n בלוקים נוספים</numerusform></translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1309,72 +1289,24 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>שימוש:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>רשימת פקודות</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>קבל עזרה עבור פקודה</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>אפשרויות:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>ציין תיקיית נתונים</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>קבע את גודל המטמון של מסד הנתונים במגהבייט (ברירת מחדל: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>החזק לכל היותר &lt;n&gt; חיבורים לעמיתים (ברירת מחדל: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>התחבר לצומת כדי לדלות כתובות עמיתים, ואז התנתק</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>ציין את הכתובת הפומבית שלך</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>סף להתנתקות מעמיתים הנוהגים שלא כהלכה (ברירת מחדל: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>מספר שניות למנוע מעמיתים הנוהגים שלא כהלכה מלהתחבר מחדש (ברירת מחדל: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>אירעה שגיאה בעת הגדרת פורט RPC %u להאזנה ב-IPv4: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>קבל פקודות משורת הפקודה ו- JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>רוץ ברקע כדימון וקבל פקודות</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>השתמש ברשת הבדיקה</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>קבל חיבורים מבחוץ (ברירת מחדל: 1 ללא -proxy או -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>אירעה שגיאה בעת הגדרת פורט RPC %u להאזנה ב-IPv6, נסוג ל-IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>בצע פקודה כאשר פעולת ארנק משתנה (%s ב cmd יוחלף ב TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>בצע פקודה זו כשהבלוק הטוב ביותר משתנה (%s בפקודה יוחלף בגיבוב הבלוק)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>מספר שניות למנוע מעמיתים הנוהגים שלא כהלכה מלהתחבר מחדש (ברירת מחדל: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1389,6 +1321,34 @@ Address: %4
         <translation>אזהרה: קובץ wallet.dat מושחת, המידע חולץ! קובץ wallet.dat המקורח נשמר כ - wallet.{timestamp}.bak ב - %s; אם המאזן או הפעולות שגויים עליך לשחזר גיבוי.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>עליך לקבוע rpcpassword=yourpassword בקובץ ההגדרות:
+%s
+אם הקובץ אינו קיים, צור אותו עם הרשאות קריאה לבעלים בלבד.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>קבל פקודות משורת הפקודה ו- JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>קבל חיבורים מבחוץ (ברירת מחדל: 1 ללא -proxy או -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>הוסף צומת להתחברות ונסה לשמור את החיבור פתוח</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>אפשר בדיקת DNS עבור -addnode, -seednode ו- -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>אפשר חיבורי JSON-RPC מכתובת האינטרנט המצוינת</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>נסה לשחזר מפתחות פרטיים מקובץ wallet.dat מושחת.</translation>
     </message>
@@ -1397,16 +1357,92 @@ Address: %4
         <translation>אפשרויות יצירת בלוק:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>לא יכול להוריד דרגת הארנק</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>לא מסוגל לפתור כתובת -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>לא מסוגל לפתור כתובת -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>לא יכול לכתוב את כתובת ברירת המחדל</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>התחבר רק לצמתים המצוינים</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>התחבר לצומת כדי לדלות כתובות עמיתים, ואז התנתק</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>גלה את כתובת ה-IP העצמית (ברירת מחדל: 1 כשמאזינים וללא -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>טעינה הושלמה</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>שגיאה בטעינת הקובץ wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק מושחת</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>שגיאה</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>האזנה נכשלה בכל פורט. השתמש ב- -listen=0 אם ברצונך בכך.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>קבל עזרה עבור פקודה</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>אין מספיק כספים</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>כתובת -proxy לא תקינה: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>כמות לא תקינה</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>רשימת פקודות</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>טוען כתובות...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>טוען את אינדקס הבלוקים...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>טוען ארנק...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>החזק לכל היותר &lt;n&gt; חיבורים לעמיתים (ברירת מחדל: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1421,12 +1457,52 @@ Address: %4
         <translation>התחבר רק לצמתים ברשת &lt;net&gt; (IPv4, IPv6 או Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>אפשרויות:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>סיסמה לחיבורי JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>סרוק מחדש את שרשרת הבלוקים למציאת פעולות חסרות בארנק</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>סורק מחדש...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>רוץ ברקע כדימון וקבל פקודות</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>אפשרויות SSL: (ראה את הויקי של ביטקוין עבור הוראות הגדרת SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>שלח פקודות לצומת ב-&lt;ip&gt; (ברירת מחדל: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>שלח מידע דיבאג ועקבה לקונסולה במקום לקובץ debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>קובץ תעודת שרת (ברירת מחדל: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>מפתח פרטי של השרת (ברירת מחדל: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>קבע את גודל המטמון של מסד הנתונים במגהבייט (ברירת מחדל: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>קבע את גודל המאגר ל -&lt;n&gt; (ברירת מחדל: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1441,12 +1517,56 @@ Address: %4
         <translation>ציין הגבלת זמן לחיבור במילישניות (ברירת מחדל: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>ציין תיקיית נתונים</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>ציין את הכתובת הפומבית שלך</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>הודעת העזרה הזו</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>סף להתנתקות מעמיתים הנוהגים שלא כהלכה (ברירת מחדל: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>להשתמש באפשרות %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>לא מסוגל לקשור ל-%s במחשב זה (הקשירה החזירה שגיאה %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>רשת לא ידועה צוינה ב- -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>שדרג את הארנק לפורמט העדכני</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>שימוש:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>השתמש ב-OpenSSL (https( עבור חיבורי JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>השתמש ב-UPnP כדי למפות את הפורט להאזנה (ברירת מחדל: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>השתמש ב-UPnP כדי למפות את הפורט להאזנה (ברירת מחדל: 1 בעת האזנה)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>השתמש ברשת הבדיקה</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1459,146 +1579,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>קובץ wallet.dat מושחת, החילוץ נכשל</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>סיסמה לחיבורי JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>אפשר חיבורי JSON-RPC מכתובת האינטרנט המצוינת</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>שלח פקודות לצומת ב-&lt;ip&gt; (ברירת מחדל: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>בצע פקודה זו כשהבלוק הטוב ביותר משתנה (%s בפקודה יוחלף בגיבוב הבלוק)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>בצע פקודה כאשר פעולת ארנק משתנה (%s ב cmd יוחלף ב TxID)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>שדרג את הארנק לפורמט העדכני</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>קבע את גודל המאגר ל -&lt;n&gt; (ברירת מחדל: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>סרוק מחדש את שרשרת הבלוקים למציאת פעולות חסרות בארנק</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>השתמש ב-OpenSSL (https( עבור חיבורי JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>קובץ תעודת שרת (ברירת מחדל: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>מפתח פרטי של השרת (ברירת מחדל: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>הודעת העזרה הזו</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>לא מסוגל לקשור ל-%s במחשב זה (הקשירה החזירה שגיאה %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>אפשר בדיקת DNS עבור -addnode, -seednode ו- -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>טוען כתובות...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק מושחת</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>שגיאה בטעינת הקובץ wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>כתובת -proxy לא תקינה: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>רשת לא ידועה צוינה ב- -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>לא מסוגל לפתור כתובת -bind: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>לא מסוגל לפתור כתובת -externalip: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>כמות לא תקינה</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>אין מספיק כספים</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>טוען את אינדקס הבלוקים...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>הוסף צומת להתחברות ונסה לשמור את החיבור פתוח</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>טוען ארנק...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>לא יכול להוריד דרגת הארנק</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>לא יכול לכתוב את כתובת ברירת המחדל</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>סורק מחדש...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>טעינה הושלמה</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>להשתמש באפשרות %s</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>שגיאה</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>עליך לקבוע rpcpassword=yourpassword בקובץ ההגדרות:
-%s
-אם הקובץ אינו קיים, צור אותו עם הרשאות קריאה לבעלים בלבד.</translation>
     </message>
 </context>
 <context>

@@ -114,16 +114,12 @@
         <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого гаманця файл повинен бути замінений новоствореному, зашифрованому файлі гаманця. З міркувань безпеки, попередні резервні копії в незашифрованому файлі гаманець стане марним, як тільки ви починаєте використовувати нову, зашифрований гаманець.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Увага: Ввімкнено Caps Lock!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Гаманець зашифровано</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого гаманця файл повинен бути замінений новоствореному, зашифрованому файлі гаманця. З міркувань безпеки, попередні резервні копії в незашифрованому файлі гаманець стане марним, як тільки ви починаєте використовувати нову, зашифрований гаманець.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Пароль було успішно змінено.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Увага: Ввімкнено Caps Lock!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>&amp;Підписати повідомлення...</translation>
+        <source>Wallet</source>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;Параметри...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>Показати / Приховати</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Шифрування гаманця...</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>&amp;Резервне копіювання гаманця...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Змінити парол&amp;ь...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Резервне копіювання гаманця в інше місце</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>Змінити парол&amp;ь...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Змінити пароль, який використовується для шифрування гаманця</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>&amp;Підписати повідомлення...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>Перевірити повідомлення...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Відкрити консоль зневадження і діагностики</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>Перевірити повідомлення...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Гаманець</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>Показати / Приховати</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -529,6 +529,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Інформація</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Назва клієнту</translation>
     </message>
@@ -541,12 +545,12 @@ Address: %4
         <translation>Версія клієнту</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Інформація</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Використовується OpenSSL версії</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Дата збирання</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -573,20 +577,16 @@ Address: %4
         <translation>Час останнього блоку</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Файл звіту зневадження</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>Відкрити</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>Консоль</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Дата збирання</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Файл звіту зневадження</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -679,10 +679,6 @@ Address: %4
         <translation>&amp;Отримувач:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Введіть мітку для цієї адреси для додавання її в адресну книгу</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Мітка:</translation>
     </message>
@@ -697,6 +693,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Введіть мітку для цієї адреси для додавання її в адресну книгу</translation>
     </message>
     </context>
 <context>
@@ -835,6 +835,10 @@ Address: %4
         <translation>Статус</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ще не було успішно розіслано</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
@@ -849,6 +853,10 @@ Address: %4
     <message>
         <source>From</source>
         <translation>Відправник</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>невідомий</translation>
     </message>
     <message>
         <source>To</source>
@@ -917,14 +925,6 @@ Address: %4
     <message>
         <source>false</source>
         <translation>false</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ще не було успішно розіслано</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>невідомий</translation>
     </message>
 </context>
 <context>
@@ -1146,64 +1146,12 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Використання:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Список команд</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Отримати довідку по команді</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Параметри:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Вкажіть робочий каталог</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Встановити розмір кешу бази даних в мегабайтах (типово: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Підтримувати не більше &lt;n&gt; зв'язків з колегами (типово: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Підключитись до вузла, щоб отримати список адрес інших учасників та від'єднатись</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Вкажіть вашу власну публічну адресу</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Поріг відключення неправильно під'єднаних пірів (типово: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Виконати команду, коли з'явиться новий блок (%s в команді змінюється на хеш блоку)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Максимальній розмір вхідного буферу на одне з'єднання (типово: 86400)</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Приймати команди із командного рядка та команди JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Запустити в фоновому режимі (як демон) та приймати команди</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Використовувати тестову мережу</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Приймати з'єднання ззовні (за замовчуванням: 1, якщо ні-проксі або-з'єднання)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1218,6 +1166,34 @@ Address: %4
         <translation>Увага: файл wallet.dat пошкоджено, дані врятовано! Оригінальний wallet.dat збережено як wallet.{timestamp}.bak до %s; якщо Ваш баланс чи транзакції неправильні, Ви можете відновити їх з резервної копії. </translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Ви мусите встановити rpcpassword=&lt;password&gt; в файлі конфігурації:
+%s
+Якщо файл не існує, створіть його із правами тільки для читання власником (owner-readable-only).</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Приймати команди із командного рядка та команди JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Приймати з'єднання ззовні (за замовчуванням: 1, якщо ні-проксі або-з'єднання)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Додати вузол до підключення і лишити його відкритим</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Дозволити пошук в DNS для команд -addnode, -seednode та -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Дозволити JSON-RPC-з'єднання з вказаної IP-адреси</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Спроба відновити закриті ключі з пошкодженого wallet.dat</translation>
     </message>
@@ -1226,16 +1202,84 @@ Address: %4
         <translation>Опції створення блоку:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Не вдається понизити версію гаманця</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Неможливо записати типову адресу</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Підключитись лише до вказаного вузла</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Підключитись до вузла, щоб отримати список адрес інших учасників та від'єднатись</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Відкрийте власну IP-адресу (за замовчуванням: 1, коли не чує і-externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Завантаження завершене</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Помилка при завантаженні wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець пошкоджено</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Не вдалося слухати на будь-якому порту. Використовуйте-слухати = 0, якщо ви хочете цього.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Отримати довідку по команді</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Недостатньо коштів</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Помилка в адресі проксі-сервера: «%s»</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Помилка у величині комісії -paytxfee=&lt;amount&gt;: «%s»</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Некоректна кількість</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Список команд</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Завантаження адрес...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Завантаження індексу блоків...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Завантаження гаманця...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Підтримувати не більше &lt;n&gt; зв'язків з колегами (типово: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1250,12 +1294,52 @@ Address: %4
         <translation>Підключити тільки до вузлів в мережі &lt;net&gt; (IPv4, IPv6 або Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Параметри:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Пароль для JSON-RPC-з'єднань</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Пересканувати ланцюжок блоків, в пошуку втрачених транзакцій</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Сканування...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Запустити в фоновому режимі (як демон) та приймати команди</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Параметри SSL: (див. Bitcoin Wiki для налаштування SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Відправляти команди на вузол, запущений на &lt;ip&gt; (типово: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Відсилати налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Файл сертифіката сервера (типово: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Закритий ключ сервера (типово: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Встановити розмір кешу бази даних в мегабайтах (типово: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Встановити розмір пулу ключів &lt;n&gt; (типово: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1270,12 +1354,56 @@ Address: %4
         <translation>Вказати тайм-аут підключення у мілісекундах (типово: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Вкажіть робочий каталог</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Вкажіть вашу власну публічну адресу</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Дана довідка</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Поріг відключення неправильно під'єднаних пірів (типово: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Щоб використати опцію %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Неможливо прив'язати до порту %s на цьому комп'ютері (bind returned error %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Невідома мережа вказана в -onlynet: «%s»</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Модернізувати гаманець до останнього формату</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Використання:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Використовувати OpenSSL (https) для JSON-RPC-з'єднань</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Намагатись використовувати UPnP для відображення порту, що прослуховується на роутері (default: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Намагатись використовувати UPnP для відображення порту, що прослуховується на роутері (default: 1 when listening)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Використовувати тестову мережу</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1288,134 +1416,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat пошкоджено, відновлення не вдалося</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Пароль для JSON-RPC-з'єднань</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Дозволити JSON-RPC-з'єднання з вказаної IP-адреси</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Відправляти команди на вузол, запущений на &lt;ip&gt; (типово: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Виконати команду, коли з'явиться новий блок (%s в команді змінюється на хеш блоку)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Модернізувати гаманець до останнього формату</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Встановити розмір пулу ключів &lt;n&gt; (типово: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Пересканувати ланцюжок блоків, в пошуку втрачених транзакцій</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Використовувати OpenSSL (https) для JSON-RPC-з'єднань</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Файл сертифіката сервера (типово: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Закритий ключ сервера (типово: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Дана довідка</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Неможливо прив'язати до порту %s на цьому комп'ютері (bind returned error %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Дозволити пошук в DNS для команд -addnode, -seednode та -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Завантаження адрес...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець пошкоджено</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Помилка при завантаженні wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Помилка в адресі проксі-сервера: «%s»</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Невідома мережа вказана в -onlynet: «%s»</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Помилка у величині комісії -paytxfee=&lt;amount&gt;: «%s»</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Некоректна кількість</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Недостатньо коштів</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Завантаження індексу блоків...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Додати вузол до підключення і лишити його відкритим</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Завантаження гаманця...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Не вдається понизити версію гаманця</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Неможливо записати типову адресу</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Сканування...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Завантаження завершене</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Щоб використати опцію %s</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Помилка</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Ви мусите встановити rpcpassword=&lt;password&gt; в файлі конфігурації:
-%s
-Якщо файл не існує, створіть його із правами тільки для читання власником (owner-readable-only).</translation>
     </message>
 </context>
 <context>

@@ -114,10 +114,6 @@
         <translation>지갑 암호화를 허용하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>경고: 캡스록 키가 켜져있습니다!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>지갑 암호화 완료</translation>
     </message>
@@ -149,12 +145,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>지갑 비밀번호가 성공적으로 변경되었습니다</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>경고: 캡스록 키가 켜져있습니다!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>메시지 서명&amp;...</translation>
+        <source>Wallet</source>
+        <translation>지갑</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -189,6 +189,10 @@
         <translation>&amp;옵션</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>보이기/숨기기(&amp;S)</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>지갑 암호화&amp;...</translation>
     </message>
@@ -197,16 +201,24 @@
         <translation>지갑 백업&amp;...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>암호문 변경&amp;...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>지갑을 다른장소에 백업</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>암호문 변경&amp;...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>지갑 암호화에 사용되는 암호를 변경합니다</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>메시지 서명&amp;...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>메시지 확인&amp;...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -215,18 +227,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>디버깅 및 진단 콘솔을 엽니다</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>메시지 확인&amp;...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>지갑</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>보이기/숨기기(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -284,14 +284,6 @@ Address: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>지갑이 암호화 되었고 현재 잠겨져 있습니다</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>시간</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>일</numerusform></translation>
-    </message>
     </context>
 <context>
     <name>ClientModel</name>
@@ -321,10 +313,6 @@ Address: %4
     <message>
         <source>Fee:</source>
         <translation>수수료:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>아니요</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -425,6 +413,10 @@ Address: %4
     <message>
         <source>yes</source>
         <translation>예</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>아니요</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -625,6 +617,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>정보&amp;</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>클라이언트 이름</translation>
     </message>
@@ -637,12 +633,12 @@ Address: %4
         <translation>클라이언트 버전</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>정보&amp;</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>오픈SSL 버전을 사용합니다</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>빌드 날짜</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -669,20 +665,16 @@ Address: %4
         <translation>최종 블럭 시각</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>로그 파일 디버그</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>열기(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>콘솔(&amp;C)</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>빌드 날짜</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>로그 파일 디버그</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -827,10 +819,6 @@ Address: %4
         <translation>지급&amp;수신:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>당신의 주소록에 이 주소를 추가하기 위하여 표를 입역하세요 </translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>표:</translation>
     </message>
@@ -845,6 +833,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>당신의 주소록에 이 주소를 추가하기 위하여 표를 입역하세요 </translation>
     </message>
     </context>
 <context>
@@ -983,6 +975,10 @@ Address: %4
         <translation>상태</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>. 아직 성공적으로 통보하지 않음</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>날짜</translation>
     </message>
@@ -997,6 +993,10 @@ Address: %4
     <message>
         <source>From</source>
         <translation>으로부터</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>알수없음</translation>
     </message>
     <message>
         <source>To</source>
@@ -1066,14 +1066,6 @@ Address: %4
         <source>false</source>
         <translation>거짓</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>. 아직 성공적으로 통보하지 않음</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>알수없음</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1109,16 +1101,16 @@ Address: %4
         <translation>%1 까지 열림</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>확인됨(%1 확인됨)</translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>오프라인</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
         <translation>미확인</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>확인됨(%1 확인됨)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -1306,76 +1298,44 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>사용법:</translation>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>IPv4 감청을 위한 RPC 포트 %u번을 설정중 오류가 발생했습니다: %s</translation>
     </message>
     <message>
-        <source>List commands</source>
-        <translation>커맨드 목록</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>커맨드 도움말</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>옵션:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>데이터 폴더 안에 지갑 파일을 선택하세요.</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>데이터 폴더 지정</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>데이터베이스 캐시 크기를 메가바이트로 지정(기본값:25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>가장 잘 연결되는 사용자를 유지합니다(기본값: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>피어 주소를 받기 위해 노드에 연결하고, 받은 후에 연결을 끊습니다</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>공인 주소를 지정하십시오</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>이상행동 네트워크 참여자의 연결을 차단시키기 위한 한계치 (기본값: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>최고의 블럭이 변하면 명령을 실행(cmd 에 있는 %s 는 블럭 해시에 의해 대체되어 짐)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>이상행동을 하는 네트워크 참여자들을 다시 연결시키는데 걸리는 시간 (기본값: 86400초)</translation>
     </message>
     <message>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>IPv4 감청을 위한 RPC 포트 %u번을 설정중 오류가 발생했습니다: %s</translation>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>경고: -paytxfee값이 너무 큽니다! 이 값은 송금할때 지불할 송금 수수료입니다.</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>설정 파일에 rpcpassword=&lt;암호&gt;를 설정해야 합니다:
+%s
+파일이 없으면 소유자 읽기 전용 파일 권한으로 만들어야 합니다.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>명령줄과 JSON-RPC 명령 수락</translation>
     </message>
     <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>데몬으로 백그라운드에서 실행하고 명령을 허용</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>테스트 네트워크 사용</translation>
-    </message>
-    <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>외부 접속을 승인합니다</translation>
     </message>
     <message>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>경고: -paytxfee값이 너무 큽니다! 이 값은 송금할때 지불할 송금 수수료입니다.</translation>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>-addnode, -seednode, -connect 옵션에 대해 DNS 탐색 허용</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>지정한 IP 주소의 JSON-RPC 연결 허용</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
@@ -1386,16 +1346,132 @@ Address: %4
         <translation>블록 생성 옵션:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>지갑을 다운그레이드 할 수 없습니다</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind 주소를 확인할 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip 주소를 확인할 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>기본 계좌에 기록할 수 없습니다</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>지정된 노드에만 연결하기</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>피어 주소를 받기 위해 노드에 연결하고, 받은 후에 연결을 끊습니다</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>로딩 완료</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat 불러오기 에러</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>wallet.dat 불러오기 에러: 지갑 오류</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>오류</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>커맨드 도움말</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>자금 부족</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>잘못된 -proxy 주소입니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt;에 대한 양이 잘못되었습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>효력없는 금액</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>커맨드 목록</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>주소를 불러오는 중...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>블럭 인덱스를 불러오는 중...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>지갑을 불러오는 중...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>가장 잘 연결되는 사용자를 유지합니다(기본값: 125)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>옵션:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC 연결에 사용할 암호</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>누락된 지갑 송금에 대한 블록 체인 다시 검색</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>재검색 중...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>데몬으로 백그라운드에서 실행하고 명령을 허용</translation>
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL 옵션: (SSL 설정 절차를 보혀면 비트코인 위키를 참조하십시오)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>실행 중인 노드로 명령 전송 &lt;ip&gt; (기본값: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>추적오류 정보를 degug.log 자료로 보내는 대신 콘솔로 보내기</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>서버 인증 파일 (기본값: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>서버 개인 키(기본값: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>데이터베이스 캐시 크기를 메가바이트로 지정(기본값:25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>키 풀 크기 설정 &lt;n&gt;(기본값: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1410,6 +1486,54 @@ Address: %4
         <translation>밀리초 단위로 연결 제한시간을 설정하십시오(기본값: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>데이터 폴더 지정</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>데이터 폴더 안에 지갑 파일을 선택하세요.</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>공인 주소를 지정하십시오</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>도움말 메시지입니다</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>이상행동 네트워크 참여자의 연결을 차단시키기 위한 한계치 (기본값: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>%s 옵션을 사용하려면</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>이 컴퓨터의 %s에 바인딩할 수 없습니다 (바인딩 과정에 %d 오류 발생, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet에 지정한 네트워크를 알 수 없습니다: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>지갑을 최근 형식으로 개선하시오</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>사용법:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>JSON-RPC 연결에 OpenSSL(https) 사용</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>테스트 네트워크 사용</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 연결에 사용할 사용자 이름</translation>
     </message>
@@ -1420,138 +1544,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat 파일이 손상되었고 복구가 실패하였습니다.</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC 연결에 사용할 암호</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>지정한 IP 주소의 JSON-RPC 연결 허용</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>실행 중인 노드로 명령 전송 &lt;ip&gt; (기본값: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>최고의 블럭이 변하면 명령을 실행(cmd 에 있는 %s 는 블럭 해시에 의해 대체되어 짐)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>지갑을 최근 형식으로 개선하시오</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>키 풀 크기 설정 &lt;n&gt;(기본값: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>누락된 지갑 송금에 대한 블록 체인 다시 검색</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC 연결에 OpenSSL(https) 사용</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>서버 인증 파일 (기본값: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>서버 개인 키(기본값: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>도움말 메시지입니다</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>이 컴퓨터의 %s에 바인딩할 수 없습니다 (바인딩 과정에 %d 오류 발생, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode, -connect 옵션에 대해 DNS 탐색 허용</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>주소를 불러오는 중...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>wallet.dat 불러오기 에러: 지갑 오류</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>wallet.dat 불러오기 에러</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>잘못된 -proxy 주소입니다: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet에 지정한 네트워크를 알 수 없습니다: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>-bind 주소를 확인할 수 없습니다: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>-externalip 주소를 확인할 수 없습니다: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>-paytxfee=&lt;amount&gt;에 대한 양이 잘못되었습니다: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>효력없는 금액</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>자금 부족</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>블럭 인덱스를 불러오는 중...</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>지갑을 불러오는 중...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>지갑을 다운그레이드 할 수 없습니다</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>기본 계좌에 기록할 수 없습니다</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>재검색 중...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>로딩 완료</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>%s 옵션을 사용하려면</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>오류</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>설정 파일에 rpcpassword=&lt;암호&gt;를 설정해야 합니다:
-%s
-파일이 없으면 소유자 읽기 전용 파일 권한으로 만들어야 합니다.</translation>
     </message>
 </context>
 <context>

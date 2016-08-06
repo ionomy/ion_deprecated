@@ -20,12 +20,12 @@
         <translation>انشأ عنوان جديد</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>قم بنسخ العنوان المختار لحافظة النظام</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;عنوان جديد</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>قم بنسخ العنوان المختار لحافظة النظام</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>وقع &amp;الرسالة</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>خذف العنوان الحالي التي تم اختياره من القائمة</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;تحقق الرسالة</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>خذف العنوان الحالي التي تم اختياره من القائمة</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -179,16 +179,20 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>كلمة مرور المحفظة تم تغييره بشكل ناجح</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>التوقيع و الرسائل</translation>
+        <source>Wallet</source>
+        <translation>محفظة</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>إظهار نظرة عامة على المحفظة</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>اظهار قائمة العناوين التي تستقبل التعاملات</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -205,10 +209,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>تعديل قائمة العنوان المحفوظة</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>اظهار قائمة العناوين التي تستقبل التعاملات</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -231,48 +231,32 @@
         <translation>خيارات ...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>اظهار/ اخفاء</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>تشفير المحفظة</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>حفظ ودعم المحفظة</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>تغيير كلمة المرور</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;تصدير...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>ارسال البيانات الحالية الي ملف</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>تشفير او فك التشفير للمحفظة</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>حفظ ودعم المحفظة</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>احفظ نسخة احتياطية للمحفظة في مكان آخر</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>تغيير كلمة المرور</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>تغيير عبارة المرور المستخدمة لتشفير المحفظة</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>تأكيد الرسالة</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>محفظة</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>اظهار/ اخفاء</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -285,6 +269,22 @@
     <message>
         <source>Lock wallet</source>
         <translation>قفل المحفظة</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>التوقيع و الرسائل</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>تأكيد الرسالة</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;تصدير...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>ارسال البيانات الحالية الي ملف</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -381,10 +381,6 @@
         <translation>رسوم:</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>لا</translation>
-    </message>
-    <message>
         <source>After Fee:</source>
         <translation>بعد الرسوم:</translation>
     </message>
@@ -423,6 +419,10 @@
     <message>
         <source>yes</source>
         <translation>نعم</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>لا</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -560,6 +560,10 @@
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>المعلومات</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>اسم العميل</translation>
     </message>
@@ -572,8 +576,8 @@
         <translation>نسخه العميل</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>المعلومات</translation>
+        <source>Build date</source>
+        <translation>وقت البناء</translation>
     </message>
     <message>
         <source>Network</source>
@@ -586,10 +590,6 @@
     <message>
         <source>&amp;Open</source>
         <translation>الفتح</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>وقت البناء</translation>
     </message>
     </context>
 <context>
@@ -638,10 +638,6 @@
         <translation>ادفع الى </translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>إدخال تسمية لهذا العنوان لإضافته إلى دفتر العناوين الخاص بك</translation>
-    </message>
-    <message>
         <source>Choose address from address book</source>
         <translation>اختيار عنوان من كتاب العناوين</translation>
     </message>
@@ -660,6 +656,10 @@
     <message>
         <source>Remove this recipient</source>
         <translation>خذف هذا المستخدم</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>إدخال تسمية لهذا العنوان لإضافته إلى دفتر العناوين الخاص بك</translation>
     </message>
     </context>
 <context>
@@ -734,12 +734,24 @@
 <context>
     <name>TransactionDesc</name>
     <message>
+        <source>%1/offline</source>
+        <translation>%1/متواجد حاليا</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/غير مؤكدة</translation>
+    </message>
+    <message>
         <source>%1 confirmations</source>
         <translation>تأكيد %1</translation>
     </message>
     <message>
         <source>Status</source>
         <translation>الحالة.</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>لم يتم حتى الآن البث بنجاح</translation>
     </message>
     <message>
         <source>Date</source>
@@ -756,6 +768,10 @@
     <message>
         <source>From</source>
         <translation>من</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>غير معروف</translation>
     </message>
     <message>
         <source>To</source>
@@ -800,14 +816,6 @@
     <message>
         <source>false</source>
         <translation>خاطئ</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>لم يتم حتى الآن البث بنجاح</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>غير معروف</translation>
     </message>
 </context>
 <context>
@@ -1037,48 +1045,20 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>المستخدم</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>اعرض الأوامر</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>مساعدة في كتابة الاوامر</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>خيارات: </translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>حدد موقع مجلد المعلومات او data directory</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>ضع حجم كاش قاعدة البيانات بالميجابايت (الافتراضي: 25)</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>حدد عنوانك العام هنا</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>استخدم التحقق من الشبكه</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>قبول الاتصالات من خارج</translation>
-    </message>
-    <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>تحذير : خطا في قراءة wallet.dat! كل المفاتيح تم قرائتة بشكل صحيح لكن بيانات الصفقة او إدخالات كتاب العنوان غير صحيحة او غير موجودة</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>تخذير :wallet.dat غير صالح تم حفظ البيانات. المحفظة الاصلية تم حفظه ك  wallet.{timestamp}.bak  %s في ; اذا حسابك او صفقاتك غير صحيح يجب عليك استعادة النسخ الاحتياطي</translation>
+    </message>
+    <message>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>عند</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>قبول الاتصالات من خارج</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
@@ -1089,28 +1069,36 @@
         <translation>خيارات صناعة الكتل</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation> لا يمكن خفض المحفظة</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation> لا يمكن كتابة العنوان الافتراضي</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>انتهاء التحميل</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>خطأ عند تنزيل wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>خطأ عند تنزيل wallet.dat: المحفظة تالفة</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>خطأ</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>فشل في الاستماع على أي منفذ. استخدام الاستماع = 0 إذا كنت تريد هذا.</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>تحذير هذا الجزء قديم, التجديد مطلوب</translation>
-    </message>
-    <message>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat غير صالح لا يمكن الاسترجاع</translation>
-    </message>
-    <message>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>عند</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>ارقاء المحفظة الي اخر نسخة</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>اعادة بحث سلسلة الكتلة لايجاد معالمات المحفظة</translation>
+        <source>Get help for a command</source>
+        <translation>مساعدة في كتابة الاوامر</translation>
     </message>
     <message>
         <source>How thorough the block verification is (0-6, default: 1)</source>
@@ -1121,58 +1109,78 @@
         <translation>نقل كتل من ملف blk000.dat خارجي</translation>
     </message>
     <message>
-        <source>This help message</source>
-        <translation>رسالة المساعدة هذه</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>تحميل العنوان</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>خطأ عند تنزيل wallet.dat: المحفظة تالفة</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>خطأ عند تنزيل wallet.dat</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>ارسال....</translation>
+        <source>Insufficient funds</source>
+        <translation>حسابك لا يكفي</translation>
     </message>
     <message>
         <source>Invalid amount</source>
         <translation>مبلغ خاطئ</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>حسابك لا يكفي</translation>
+        <source>List commands</source>
+        <translation>اعرض الأوامر</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>تحميل العنوان</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
         <translation>تحميل المحفظه</translation>
     </message>
     <message>
-        <source>Cannot downgrade wallet</source>
-        <translation> لا يمكن خفض المحفظة</translation>
+        <source>Options:</source>
+        <translation>خيارات: </translation>
     </message>
     <message>
-        <source>Cannot write default address</source>
-        <translation> لا يمكن كتابة العنوان الافتراضي</translation>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>اعادة بحث سلسلة الكتلة لايجاد معالمات المحفظة</translation>
     </message>
     <message>
         <source>Rescanning...</source>
         <translation>إعادة مسح</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>انتهاء التحميل</translation>
+        <source>Sending...</source>
+        <translation>ارسال....</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>خطأ</translation>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>ضع حجم كاش قاعدة البيانات بالميجابايت (الافتراضي: 25)</translation>
     </message>
-    </context>
+    <message>
+        <source>Specify data directory</source>
+        <translation>حدد موقع مجلد المعلومات او data directory</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>حدد عنوانك العام هنا</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>رسالة المساعدة هذه</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>ارقاء المحفظة الي اخر نسخة</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>المستخدم</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>استخدم التحقق من الشبكه</translation>
+    </message>
+    <message>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>تحذير هذا الجزء قديم, التجديد مطلوب</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat غير صالح لا يمكن الاسترجاع</translation>
+    </message>
+</context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

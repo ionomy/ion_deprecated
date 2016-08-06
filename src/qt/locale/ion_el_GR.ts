@@ -114,16 +114,12 @@
         <translation>Είστε σίγουροι ότι θέλετε να κρυπτογραφήσετε το πορτοφόλι σας;</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ΣΗΜΑΝΤΙΚΟ: Τα προηγούμενα αντίγραφα ασφαλείας που έχετε κάνει από το αρχείο του πορτοφόλιου σας θα πρέπει να αντικατασταθουν με το νέο που δημιουργείται, κρυπτογραφημένο αρχείο πορτοφόλιου. Για λόγους ασφαλείας, τα προηγούμενα αντίγραφα ασφαλείας του μη κρυπτογραφημένου αρχείου πορτοφόλιου θα καταστουν άχρηστα μόλις αρχίσετε να χρησιμοποιείτε το νέο κρυπτογραφημένο πορτοφόλι. </translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Προσοχη: το πλήκτρο Caps Lock είναι ενεργο.</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Κρυπτογραφημενο πορτοφολι</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ΣΗΜΑΝΤΙΚΟ: Τα προηγούμενα αντίγραφα ασφαλείας που έχετε κάνει από το αρχείο του πορτοφόλιου σας θα πρέπει να αντικατασταθουν με το νέο που δημιουργείται, κρυπτογραφημένο αρχείο πορτοφόλιου. Για λόγους ασφαλείας, τα προηγούμενα αντίγραφα ασφαλείας του μη κρυπτογραφημένου αρχείου πορτοφόλιου θα καταστουν άχρηστα μόλις αρχίσετε να χρησιμοποιείτε το νέο κρυπτογραφημένο πορτοφόλι. </translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Ο κωδικος του πορτοφολιού άλλαξε με επιτυχία.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Προσοχη: το πλήκτρο Caps Lock είναι ενεργο.</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Υπογραφή &amp;Μηνύματος...</translation>
+        <source>Wallet</source>
+        <translation>Πορτοφόλι</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;Επιλογές...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Εμφάνισε/Κρύψε</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Κρυπτογράφησε το πορτοφόλι</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>&amp;Αντίγραφο ασφαλείας του πορτοφολιού</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Άλλαξε κωδικο πρόσβασης</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Δημιουργία αντιγράφου ασφαλείας πορτοφολιού σε άλλη τοποθεσία</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Άλλαξε κωδικο πρόσβασης</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Αλλαγή του κωδικού κρυπτογράφησης του πορτοφολιού</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Υπογραφή &amp;Μηνύματος...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Άνοιγμα κονσόλας αποσφαλμάτωσης και διαγνωστικών</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Επιβεβαίωση μηνύματος</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Πορτοφόλι</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Εμφάνισε/Κρύψε</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -287,14 +287,6 @@ Address: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ώρες </numerusform><numerusform>%n ώρες </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n ημέρες </numerusform><numerusform>%n ημέρες </numerusform></translation>
     </message>
     </context>
 <context>
@@ -537,6 +529,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Πληροφορία</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Όνομα Πελάτη</translation>
     </message>
@@ -549,12 +545,12 @@ Address: %4
         <translation>Έκδοση Πελάτη</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Πληροφορία</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Χρησιμοποιηση της OpenSSL εκδοσης</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Ημερομηνία κατασκευής</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -581,20 +577,16 @@ Address: %4
         <translation>Χρόνος τελευταίου μπλοκ</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Άνοιγμα</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Κονσόλα</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Ημερομηνία κατασκευής</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -687,10 +679,6 @@ Address: %4
         <translation>Πληρωμή &amp;σε:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Εισάγετε μια επιγραφή για αυτή τη διεύθυνση ώστε να καταχωρηθεί στο βιβλίο διευθύνσεων</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Επιγραφή</translation>
     </message>
@@ -705,6 +693,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Εισάγετε μια επιγραφή για αυτή τη διεύθυνση ώστε να καταχωρηθεί στο βιβλίο διευθύνσεων</translation>
     </message>
     </context>
 <context>
@@ -842,9 +834,9 @@ Address: %4
         <source>Status</source>
         <translation>Κατάσταση</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, έχει μεταδοθεί μέσω %n κόμβων</numerusform><numerusform>, έχει μεταδοθεί μέσω %n κόμβων</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, δεν έχει ακόμα μεταδοθεί μ' επιτυχία</translation>
     </message>
     <message>
         <source>Date</source>
@@ -863,6 +855,10 @@ Address: %4
         <translation>Από</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>άγνωστο</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Προς</translation>
     </message>
@@ -877,10 +873,6 @@ Address: %4
     <message>
         <source>Credit</source>
         <translation>Πίστωση </translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>ωρίμανση σε %n επιπλέον μπλοκ</numerusform><numerusform>ωρίμανση σε %n επιπλέον μπλοκ</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -934,14 +926,6 @@ Address: %4
         <source>false</source>
         <translation>αναληθής </translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, δεν έχει ακόμα μεταδοθεί μ' επιτυχία</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>άγνωστο</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -979,10 +963,6 @@ Address: %4
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Επικυρωμένη (%1 επικυρώσεις)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Ανοιχτό για %n μπλοκ</numerusform><numerusform>Ανοιχτό για %n μπλοκ</numerusform></translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1166,72 +1146,24 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Χρήση:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Λίστα εντολών</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Επεξήγηση εντολής</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Επιλογές:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Ορισμός φακέλου δεδομένων</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Όρισε το μέγεθος της βάσης προσωρινής αποθήκευσης σε megabytes(προεπιλογή:25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Μέγιστες αριθμός συνδέσεων με τους peers &lt;n&gt; (προεπιλογή: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Σύνδεση σε έναν κόμβο για την ανάκτηση διευθύνσεων από ομοτίμους, και αποσυνδέσh</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Διευκρινίστε τη δικιά σας δημόσια διεύθυνση.</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Όριο αποσύνδεσης προβληματικών peers (προεπιλογή: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Δευτερόλεπτα πριν επιτραπεί ξανά η σύνδεση των προβληματικών peers (προεπιλογή: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η πόρτα RPC %u για αναμονή IPv4: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Χρήση του δοκιμαστικού δικτύου</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Ένα σφάλμα συνέβη καθώς προετοιμαζόταν η υποδοχη RPC %u για αναμονη του IPv6, επεσε πισω στο IPv4:%s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Δευτερόλεπτα πριν επιτραπεί ξανά η σύνδεση των προβληματικών peers (προεπιλογή: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1246,6 +1178,33 @@ Address: %4
         <translation>Προειδοποίηση : το αρχειο wallet.dat ειναι διεφθαρμένο, τα δεδομένα σώζονται ! Original wallet.dat αποθηκεύονται ως wallet.{timestamp}.bak στο %s . Αν το υπόλοιπο του ή τις συναλλαγές σας, είναι λάθος θα πρέπει να επαναφέρετε από ένα αντίγραφο ασφαλείας</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Πρέπει να βάλεις ένα κωδικό  στο αρχείο παραμέτρων: %s
+Εάν το αρχείο δεν υπάρχει, δημιούργησε το με δικαιώματα μόνο για ανάγνωση από τον δημιουργό</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Προσέθεσε ένα κόμβο για σύνδεση και προσπάθησε να κρατήσεις την σύνδεση ανοιχτή</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Να επιτρέπονται οι έλεγχοι DNS για προσθήκη και σύνδεση κόμβων</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Αποδοχή συνδέσεων JSON-RPC από συγκεκριμένη διεύθυνση IP</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Προσπάθεια για ανακτησει ιδιωτικων κλειδιων από ενα διεφθαρμένο αρχειο wallet.dat </translation>
     </message>
@@ -1254,16 +1213,92 @@ Address: %4
         <translation>Αποκλεισμός επιλογων δημιουργίας: </translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Δεν μπορώ να υποβαθμίσω το πορτοφόλι</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Σύνδεση μόνο με ορισμένους κόμβους</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Σύνδεση σε έναν κόμβο για την ανάκτηση διευθύνσεων από ομοτίμους, και αποσυνδέσh</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Ανακαλύψτε την δικη σας IP διεύθυνση (προεπιλογή: 1 όταν ακούει και δεν - externalip) </translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Η φόρτωση ολοκληρώθηκε</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Σφάλμα φόρτωσης αρχείου wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Κατεστραμμένο Πορτοφόλι</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Σφάλμα</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ταλαιπωρηθειτε για να ακούσετε σε οποιαδήποτε θύρα. Χρήση - ακούστε = 0 , αν θέλετε αυτό.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Επεξήγηση εντολής</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Ανεπαρκές κεφάλαιο</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Λάθος ποσότητα</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Λίστα εντολών</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Φόρτωση διευθύνσεων...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Φόρτωση ευρετηρίου μπλοκ...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Φόρτωση πορτοφολιού...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Μέγιστες αριθμός συνδέσεων με τους peers &lt;n&gt; (προεπιλογή: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1278,12 +1313,52 @@ Address: %4
         <translation> Συνδέση μόνο σε κόμβους του δικτύου &lt;net&gt; (IPv4, IPv6 ή Tor) </translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Επιλογές:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Κωδικός για τις συνδέσεις JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Επανέλεγχος της αλυσίδας μπλοκ για απούσες συναλλαγές</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Ανίχνευση...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Bitcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Αποστολή εντολών στον κόμβο &lt;ip&gt; (προεπιλογή: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Αποστολή πληροφοριών εντοπισμού σφαλμάτων στην κονσόλα αντί του αρχείου debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Αρχείο πιστοποιητικού του διακομιστή  (προεπιλογή: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Προσωπικό κλειδί του διακομιστή (προεπιλογή: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Όρισε το μέγεθος της βάσης προσωρινής αποθήκευσης σε megabytes(προεπιλογή:25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Όριο πλήθους κλειδιών pool &lt;n&gt; (προεπιλογή: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1298,12 +1373,56 @@ Address: %4
         <translation>Ορισμός λήξης χρονικού ορίου σε χιλιοστά του δευτερολέπτου(προεπιλογή:5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Ορισμός φακέλου δεδομένων</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Διευκρινίστε τη δικιά σας δημόσια διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Αυτό το κείμενο βοήθειας</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Όριο αποσύνδεσης προβληματικών peers (προεπιλογή: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Χρήση της %s επιλογής</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή (bind returned error %d, %s) </translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Άγνωστo δίκτυο ορίζεται σε onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Αναβάθμισε το πορτοφόλι στην τελευταία έκδοση</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Χρήση:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Χρήση του OpenSSL (https) για συνδέσεις JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Χρησιμοποίηση του  UPnP για την χρήση της πόρτας αναμονής (προεπιλογή:0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Χρησιμοποίηση του  UPnP για την χρήση της πόρτας αναμονής (προεπιλογή:1)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Χρήση του δοκιμαστικού δικτύου</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1316,145 +1435,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>Το αρχειο wallet.dat ειναι διεφθαρμένο, η διάσωση απέτυχε</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Κωδικός για τις συνδέσεις JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Αποδοχή συνδέσεων JSON-RPC από συγκεκριμένη διεύθυνση IP</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Αποστολή εντολών στον κόμβο &lt;ip&gt; (προεπιλογή: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Αναβάθμισε το πορτοφόλι στην τελευταία έκδοση</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Όριο πλήθους κλειδιών pool &lt;n&gt; (προεπιλογή: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Επανέλεγχος της αλυσίδας μπλοκ για απούσες συναλλαγές</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Χρήση του OpenSSL (https) για συνδέσεις JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Αρχείο πιστοποιητικού του διακομιστή  (προεπιλογή: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Προσωπικό κλειδί του διακομιστή (προεπιλογή: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Αυτό το κείμενο βοήθειας</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Αδύνατη η σύνδεση με τη θύρα %s αυτού του υπολογιστή (bind returned error %d, %s) </translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Να επιτρέπονται οι έλεγχοι DNS για προσθήκη και σύνδεση κόμβων</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Φόρτωση διευθύνσεων...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Κατεστραμμένο Πορτοφόλι</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Σφάλμα φόρτωσης αρχείου wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Άγνωστo δίκτυο ορίζεται σε onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Λάθος ποσότητα</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Ανεπαρκές κεφάλαιο</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Φόρτωση ευρετηρίου μπλοκ...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Προσέθεσε ένα κόμβο για σύνδεση και προσπάθησε να κρατήσεις την σύνδεση ανοιχτή</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Φόρτωση πορτοφολιού...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Δεν μπορώ να υποβαθμίσω το πορτοφόλι</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Ανίχνευση...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Η φόρτωση ολοκληρώθηκε</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Χρήση της %s επιλογής</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Σφάλμα</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Πρέπει να βάλεις ένα κωδικό  στο αρχείο παραμέτρων: %s
-Εάν το αρχείο δεν υπάρχει, δημιούργησε το με δικαιώματα μόνο για ανάγνωση από τον δημιουργό</translation>
     </message>
 </context>
 <context>

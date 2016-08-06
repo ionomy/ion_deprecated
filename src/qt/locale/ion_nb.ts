@@ -20,12 +20,12 @@
         <translation>Lag en ny adresse</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopier den valgte adressen til systemets utklippstavle</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Ny Adresse</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopier den valgte adressen til systemets utklippstavle</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>Signer &amp;Melding</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Slett den valgte adressen fra listen.</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifiser en melding</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Slett den valgte adressen fra listen.</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -150,16 +150,12 @@
         <translation>Er du sikker på at du vil kryptere lommeboken?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIG: Tidligere sikkerhetskopier av din lommebok-fil, bør erstattes med den nylig genererte, krypterte filen, da de blir ugyldiggjort av sikkerhetshensyn så snart du begynner å bruke den nye krypterte lommeboken.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Advarsel: Caps Lock er på !</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Lommebok kryptert</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>VIKTIG: Tidligere sikkerhetskopier av din lommebok-fil, bør erstattes med den nylig genererte, krypterte filen, da de blir ugyldiggjort av sikkerhetshensyn så snart du begynner å bruke den nye krypterte lommeboken.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -189,16 +185,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Adgangsfrase for lommebok endret.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Advarsel: Caps Lock er på !</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Signer &amp;melding...</translation>
+        <source>Wallet</source>
+        <translation>Lommebok</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Vis generell oversikt over lommeboken</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Vis listen med adresser for å motta betalinger</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -215,10 +219,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Endre listen med lagrede adresser og merkelapper</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Vis listen med adresser for å motta betalinger</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -241,56 +241,36 @@
         <translation>&amp;Innstillinger...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Gjem / vis</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Krypter Lommebok...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>Lag &amp;Sikkerhetskopi av Lommebok...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Endre Adgangsfrase...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Eksporter...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Eksporter dataene i nåværende fane til en fil</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Krypter eller dekrypter lommeboken</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>Lag &amp;Sikkerhetskopi av Lommebok...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Sikkerhetskopiér lommebok til annet sted</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Endre Adgangsfrase...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Endre adgangsfrasen brukt for kryptering av lommebok</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Feilsøkingsvindu</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Åpne konsoll for feilsøk og diagnostikk</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verifiser melding...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Lommebok</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Gjem / vis</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Lås opp lommeboken</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -303,6 +283,30 @@
     <message>
         <source>Lock wallet</source>
         <translation>Lås lommeboken</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Signer &amp;melding...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verifiser melding...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Eksporter...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Eksporter dataene i nåværende fane til en fil</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Feilsøkingsvindu</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Åpne konsoll for feilsøk og diagnostikk</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -323,10 +327,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[testnett]</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Lås opp lommeboken</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -376,22 +376,6 @@ Adresse: %4
         <source>Backup Failed</source>
         <translation>Sikkerhetskopiering feilet</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minutt</numerusform><numerusform>%n minutter</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n time</numerusform><numerusform>%n timer</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dager</numerusform></translation>
-    </message>
     </context>
 <context>
     <name>ClientModel</name>
@@ -425,10 +409,6 @@ Adresse: %4
     <message>
         <source>Low Output:</source>
         <translation>Lav Utdata:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nei</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -545,6 +525,10 @@ Adresse: %4
     <message>
         <source>yes</source>
         <translation>ja</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nei</translation>
     </message>
     <message>
         <source>This label turns red, if the change is smaller than %1.
@@ -744,10 +728,6 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>Ubekreftet:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Lommebok</translation>
     </message>
@@ -758,6 +738,10 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <source>Your current spendable balance</source>
         <translation>Din nåværende saldo</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>Ubekreftet:</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -790,16 +774,16 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
 <context>
     <name>QRCodeDialog</name>
     <message>
-        <source>Amount:</source>
-        <translation>Beløp:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>Merkelapp:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Melding:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Beløp:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -813,6 +797,10 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informasjon</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Klientnavn</translation>
     </message>
@@ -825,12 +813,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Klientversjon</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informasjon</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Bruker OpenSSL versjon</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Byggedato</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -857,6 +845,10 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Tidspunkt for siste blokk</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Loggfil for feilsøk</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Åpne</translation>
     </message>
@@ -867,14 +859,6 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konsoll</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Byggedato</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Loggfil for feilsøk</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1031,10 +1015,6 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Betal &amp;Til:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Skriv inn en merkelapp for denne adressen for å legge den til i din adressebok</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Merkelapp:</translation>
     </message>
@@ -1057,6 +1037,10 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <source>Remove this recipient</source>
         <translation>Fjern denne mottakeren</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Skriv inn en merkelapp for denne adressen for å legge den til i din adressebok</translation>
     </message>
     </context>
 <context>
@@ -1198,9 +1182,9 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>Status</source>
         <translation>Status</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, kringkast gjennom %n node</numerusform><numerusform>, kringkast gjennom %n noder</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, har ikke blitt kringkastet uten problemer enda.</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1219,6 +1203,10 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Fra</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>ukjent</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Til</translation>
     </message>
@@ -1233,10 +1221,6 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <source>Credit</source>
         <translation>Kredit</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>blir moden om %n blokk</numerusform><numerusform>blir moden om %n blokker</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1290,14 +1274,6 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>false</source>
         <translation>usann</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, har ikke blitt kringkastet uten problemer enda.</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>ukjent</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1333,20 +1309,16 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Åpen til %1</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekreftet (%1 bekreftelser)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åpen for %n blokk til</numerusform><numerusform>Åpen for %n blokker til</numerusform></translation>
-    </message>
-    <message>
         <source>Unconfirmed</source>
         <translation>Ubekreftet</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Bekrefter (%1 av %2 anbefalte bekreftelser)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Bekreftet (%1 bekreftelser)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1538,76 +1510,24 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Bruk:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>List opp kommandoer</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Vis hjelpetekst for en kommando</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Innstillinger:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Angi lommebok fil (inne i data mappe)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Angi mappe for datafiler</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sett størrelse på mellomlager for database i megabytes (standardverdi: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Hold maks &lt;n&gt; koblinger åpne til andre noder (standardverdi: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Koble til node for å hente adresser til andre noder, koble så fra igjen</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Angi din egen offentlige adresse</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Grenseverdi for å koble fra noder med dårlig oppførsel (standardverdi: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Antall sekunder noder med dårlig oppførsel hindres fra å koble til på nytt (standardverdi: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>En feil oppstod ved opprettelse av RPC port %u for lytting: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Ta imot kommandolinje- og JSON-RPC-kommandoer</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kjør i bakgrunnen som daemon og ta imot kommandoer</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Bruk testnettverket</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Ta imot tilkoblinger fra utsiden (standardverdi: 1 hvis uten -proxy eller -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>En feil oppstod under oppsettet av RPC port %u for IPv6, tilbakestilles til IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Kjør kommando når en lommeboktransaksjon endres (%s i cmd er erstattet med TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Eksekvér kommando når beste blokk endrer seg (%s i kommandoen erstattes med blokkens hash)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Antall sekunder noder med dårlig oppførsel hindres fra å koble til på nytt (standardverdi: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1622,6 +1542,34 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Advarsel: wallet.dat korrupt, data reddet! Original wallet.dat lagret som wallet.{timestamp}.bak i %s; hvis din saldo eller dine transaksjoner ikke er korrekte bør du gjenopprette fra en backup.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Du må sette rpcpassword=&lt;passord&gt; i konfigurasjonsfilen:
+%s
+Hvis filen ikke finnes, opprett den med leserettighet kun for eier av filen.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Ta imot kommandolinje- og JSON-RPC-kommandoer</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Ta imot tilkoblinger fra utsiden (standardverdi: 1 hvis uten -proxy eller -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Legg til node for tilkobling og hold forbindelsen åpen</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Tillat DNS oppslag for -addnode, -seednode og -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Tillat JSON-RPC tilkoblinger fra angitt IP-adresse</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Forsøk å berge private nøkler fra en korrupt wallet.dat</translation>
     </message>
@@ -1630,16 +1578,96 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Valg for opprettelse av blokker:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Kan ikke nedgradere lommebok</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Kunne ikke slå opp -bind adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Kunne ikke slå opp -externalip adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Kan ikke skrive standardadresse</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Koble kun til angitt(e) node(r)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Koble til node for å hente adresser til andre noder, koble så fra igjen</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Oppdag egen IP-adresse (standardverdi: 1 ved lytting og uten -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Ferdig med lasting</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Feil ved lasting av wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken er skadet</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Feil</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Kunne ikke lytte på noen port. Bruk -listen=0 hvis det er dette du vil.</translation>
+    </message>
+    <message>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Gebyr per KB som skal legges til transaksjoner du sender</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Vis hjelpetekst for en kommando</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Utilstrekkelige midler</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ugyldig -proxy adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldig beløp for -paytxfee=&lt;beløp&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Ugyldig beløp</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>List opp kommandoer</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Laster adresser...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Laster blokkindeks...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Laster lommebok...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Hold maks &lt;n&gt; koblinger åpne til andre noder (standardverdi: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1654,12 +1682,56 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Koble kun til noder i nettverket &lt;nett&gt; (IPv4, IPv6 eller Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Innstillinger:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Passord for JSON-RPC forbindelser</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Se gjennom blokk-kjeden etter manglende lommeboktransaksjoner</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Leser gjennom...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Kjør i bakgrunnen som daemon og ta imot kommandoer</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL valg: (se Bitcoin Wiki for instruksjoner for oppsett av SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Send kommandoer til node på &lt;ip&gt; (standardverdi: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Send spor/debug informasjon til konsollet istedenfor debug.log filen</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Sender...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Servers sertifikat (standardverdi: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Servers private nøkkel (standardverdi: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Sett størrelse på mellomlager for database i megabytes (standardverdi: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Angi størrelse på nøkkel-lager til &lt;n&gt; (standardverdi: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1674,12 +1746,60 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Angi tidsavbrudd for forbindelse i millisekunder (standardverdi: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Angi mappe for datafiler</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Angi lommebok fil (inne i data mappe)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Angi din egen offentlige adresse</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Denne hjelpemeldingen</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Grenseverdi for å koble fra noder med dårlig oppførsel (standardverdi: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>For å bruke %s opsjonen</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Kan ikke binde til %s på denne datamaskinen (bind returnerte feil %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ukjent nettverk angitt i -onlynet '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Oppgradér lommebok til nyeste format</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Bruk:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Bruk OpenSSL (https) for JSON-RPC forbindelser</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Bruk UPnP for lytteport (standardverdi: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Bruk UPnP for lytteport (standardverdi: 1 ved lytting)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Bruk testnettverket</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1690,164 +1810,16 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <translation>Verifiserer databasens integritet...</translation>
     </message>
     <message>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Lommeboken %s holder til utenfor data mappen %s.</translation>
+    </message>
+    <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Advarsel: Denne versjonen er foreldet, oppgradering kreves!</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat korrupt, bergning feilet</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Passord for JSON-RPC forbindelser</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Tillat JSON-RPC tilkoblinger fra angitt IP-adresse</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send kommandoer til node på &lt;ip&gt; (standardverdi: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Eksekvér kommando når beste blokk endrer seg (%s i kommandoen erstattes med blokkens hash)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Kjør kommando når en lommeboktransaksjon endres (%s i cmd er erstattet med TxID)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Oppgradér lommebok til nyeste format</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Angi størrelse på nøkkel-lager til &lt;n&gt; (standardverdi: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Se gjennom blokk-kjeden etter manglende lommeboktransaksjoner</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Bruk OpenSSL (https) for JSON-RPC forbindelser</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Servers sertifikat (standardverdi: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Servers private nøkkel (standardverdi: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Denne hjelpemeldingen</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Lommeboken %s holder til utenfor data mappen %s.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen (bind returnerte feil %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Tillat DNS oppslag for -addnode, -seednode og -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Laster adresser...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken er skadet</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Feil ved lasting av wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Ugyldig -proxy adresse: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Ukjent nettverk angitt i -onlynet '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kunne ikke slå opp -bind adresse: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kunne ikke slå opp -externalip adresse: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ugyldig beløp for -paytxfee=&lt;beløp&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Sender...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Ugyldig beløp</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Utilstrekkelige midler</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Laster blokkindeks...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Legg til node for tilkobling og hold forbindelsen åpen</translation>
-    </message>
-    <message>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Gebyr per KB som skal legges til transaksjoner du sender</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Laster lommebok...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Kan ikke nedgradere lommebok</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Kan ikke skrive standardadresse</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Leser gjennom...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Ferdig med lasting</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>For å bruke %s opsjonen</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Feil</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Du må sette rpcpassword=&lt;passord&gt; i konfigurasjonsfilen:
-%s
-Hvis filen ikke finnes, opprett den med leserettighet kun for eier av filen.</translation>
     </message>
 </context>
 <context>

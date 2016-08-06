@@ -20,12 +20,12 @@
         <translation>新規アドレスの作成</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>新しいアドレス</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>メサッジを署名する。</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>選択されたアドレスを一覧から削除する</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>メッセージを確認する。</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>選択されたアドレスを一覧から削除する</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -158,16 +158,12 @@
         <translation>ウォレットを暗号化、よろしいですか?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 過去のウォレット ファイルのバックアップは、暗号化された新しいウォレット ファイルに取り替える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレット ファイルのバックアップはすぐに使えなくなります。</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock キーがオンになっています!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>ウォレットは暗号化されました</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>重要: 過去のウォレット ファイルのバックアップは、暗号化された新しいウォレット ファイルに取り替える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレット ファイルのバックアップはすぐに使えなくなります。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -197,16 +193,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>ウォレットのパスフレーズの変更が成功しました。</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>警告: Caps Lock キーがオンになっています!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>メッセージの署名... (&amp;m)</translation>
+        <source>Wallet</source>
+        <translation>ウォレット</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>ウォレットの概要を見る</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>支払いを受けるためのアドレスリストを表示</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -223,10 +227,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>保存されたアドレスとラベルの編集</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>支払いを受けるためのアドレスリストを表示</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -249,56 +249,36 @@
         <translation>オプション... (&amp;O)</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>見る/隠す (&amp;S)</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>ウォレットの暗号化... (&amp;E)</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>ウォレットのバックアップ... (&amp;B)</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>パスフレーズの変更... (&amp;C)</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>(&amp;E)書き出す...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>現在のタブのデータをファイルへ書き出す</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>ウォレットを暗号化か暗号化を解除する</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>ウォレットのバックアップ... (&amp;B)</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>ウォレットを他の場所にバックアップ</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>パスフレーズの変更... (&amp;C)</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>ウォレット暗号化用パスフレーズの変更</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>デバッグ ウインドウ (&amp;D)</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>デバッグと診断コンソールを開く</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>メッセージの検証... (&amp;V)</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>ウォレット</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>見る/隠す (&amp;S)</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;ウォレットをアンロック...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -311,6 +291,30 @@
     <message>
         <source>Lock wallet</source>
         <translation>ウォレットをロックする</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>メッセージの署名... (&amp;m)</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>メッセージの検証... (&amp;V)</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>(&amp;E)書き出す...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>現在のタブのデータをファイルへ書き出す</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>デバッグ ウインドウ (&amp;D)</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>デバッグと診断コンソールを開く</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -331,30 +335,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>賭けている。&lt;br&gt;重さは%1&lt;br&gt;ネットワークの重さは%2&lt;br&gt;報酬をもらう時間の推測は%3</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation>ウォレットをロックされたため、賭けていません</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is offline</source>
-        <translation>ウォレットはオフラインで、賭けていません</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation>ウォレットは同期最中ため、賭けていません。</translation>
-    </message>
-    <message>
-        <source>Not staking because you don't have mature coins</source>
-        <translation>コインはまだ成長できていないため、賭けていません。</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;ウォレットをアンロック...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -415,27 +395,31 @@ Address: %4
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>ウォレットのデータが新しい場所へ保存するにはエラーになりました。</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>賭けている。&lt;br&gt;重さは%1&lt;br&gt;ネットワークの重さは%2&lt;br&gt;報酬をもらう時間の推測は%3</translation>
     </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n 分</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is locked</source>
+        <translation>ウォレットをロックされたため、賭けていません</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 時間</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is offline</source>
+        <translation>ウォレットはオフラインで、賭けていません</translation>
     </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 日間</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is syncing</source>
+        <translation>ウォレットは同期最中ため、賭けていません。</translation>
+    </message>
+    <message>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>コインはまだ成長できていないため、賭けていません。</translation>
     </message>
     <message>
         <source>Not staking</source>
         <translation>賭けていません</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -472,10 +456,6 @@ Address: %4
     <message>
         <source>Low Output:</source>
         <translation>アウトプット低い:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>いいえ</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -604,6 +584,10 @@ Address: %4
     <message>
         <source>yes</source>
         <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
@@ -879,14 +863,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation>賭け金：</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>未検証：</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>ウォレット</translation>
     </message>
@@ -897,6 +873,22 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Your current spendable balance</source>
         <translation>あなたの利用可能残高</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>賭け金：</translation>
+    </message>
+    <message>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>賭けているコインの合計で、まだ現在の残高に含まれていない。</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>未検証：</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>未確認の合計で、まだ現在の残高に含まれていない。</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -919,14 +911,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>&lt;b&gt;最近の処理&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>未確認の合計で、まだ現在の残高に含まれていない。</translation>
-    </message>
-    <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>賭けているコインの合計で、まだ現在の残高に含まれていない。</translation>
-    </message>
-    <message>
         <source>out of sync</source>
         <translation>同期していない</translation>
     </message>
@@ -945,16 +929,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>支払いを要請する</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>総額:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>レベル</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>メッセージ:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>総額:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -984,6 +968,10 @@ This label turns red, if the priority is smaller than "medium".
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>情報 (&amp;I)</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>クライアント名</translation>
     </message>
@@ -996,12 +984,12 @@ This label turns red, if the priority is smaller than "medium".
         <translation>クライアントのバージョン</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>情報 (&amp;I)</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>使用中の OpenSSL のバージョン</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>ビルドの日付</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1032,6 +1020,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>最終ブロックの日時</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>デバッグ用ログファイル</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>開く (&amp;O)</translation>
     </message>
@@ -1046,14 +1038,6 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>&amp;Console</source>
         <translation>コンソール (&amp;C)</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>ビルドの日付</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>デバッグ用ログファイル</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1262,10 +1246,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>送り先(&amp;T):</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>ラベル(&amp;L):</translation>
     </message>
@@ -1288,6 +1268,10 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Remove this recipient</source>
         <translation>この受信者を外す</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
     </message>
     </context>
 <context>
@@ -1433,9 +1417,9 @@ This label turns red, if the priority is smaller than "medium".
         <source>Status</source>
         <translation>ステータス</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>%n ノードにブロードキャスト</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>まだブロードキャストが成功していません</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1454,6 +1438,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>送信</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>未確認</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>受信</translation>
     </message>
@@ -1468,10 +1456,6 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Credit</source>
         <translation>クレジット</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックが満期</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1525,14 +1509,6 @@ This label turns red, if the priority is smaller than "medium".
         <source>false</source>
         <translation>正しくない</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>まだブロードキャストが成功していません</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>未確認</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1568,14 +1544,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>ユニット %1 を開く</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>検証されました (%1 検証済み)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>オフライン</translation>
     </message>
@@ -1586,6 +1554,10 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>検証最中 (%1 / %2 の進めている検証済み)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>検証されました (%1 検証済み)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -1793,88 +1765,40 @@ This label turns red, if the priority is smaller than "medium".
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>使用法:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>コマンド一覧</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>コマンドのヘルプ</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>オプション:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>データ ディレクトリの指定</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>データベースのキャッシュサイズをメガバイトで設定 (初期値: 25)</translation>
-    </message>
-    <message>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>メガバイトでのデータベースのログザイズの大きさの設定(デファルト：100)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>ピアの最大接続数 (初期値: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>ピア アドレスを取得するためにノードに接続し、そして切断します</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>あなた自身のパブリックなアドレスを指定</translation>
-    </message>
-    <message>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>アドレスに結ぶ。IPv6のばい、[host]:port 表記法を使ってください。</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>不正なピアを切断するためのしきい値 (初期値: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>不正なピアを再接続するまでの秒数 (初期値: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>IPv4 でリスンする RPC ポート %u の設定中にエラーが発生しました: %s</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>デーモンとしてバックグランドで実行しコマンドを許可</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>テストのためのネットワークを使用</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>IPv6 でリスンする RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
     </message>
     <message>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>関連した警告をもらったら、コマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>ウォレットの処理を変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>最良のブロックに変更する際にコマンドを実行 (cmd の %s はブロック ハッシュに置換される)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>不正なピアを再接続するまでの秒数 (初期値: 86400)</translation>
+    </message>
+    <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>バイトで、最優先、低料金の処理の最大サイズの設定(デファルト：27000)</translation>
+    </message>
+    <message>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>他のノードと時刻の同期する。確な時刻のコンピューターのばい、無効する。例：NTP同期設定有効ある(デファルト：1)</translation>
+    </message>
+    <message>
+        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
+        <translation>警告：無効なチェックポイントを見つかりました！表示された処理は正しくない可能性がある！アップグレードするか、デベロッパーに報告する必要があります。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1889,32 +1813,164 @@ This label turns red, if the priority is smaller than "medium".
         <translation>警告: wallet.dat のデータはの汚染で、でデータを復旧しました！ オリジナルの wallet.dat は wallet.{timestamp}.bak として %s に保存されました; もしもあなたの残高や処理が正しくないばい、バックアップから復元してください。</translation>
     </message>
     <message>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>処理を作ると、この額より少ない数字を無視する (デファルト：0.01)</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>rpcpassword=&lt;password&gt; を設定ファイルでセットしてください:
+%s
+ファイルが無い場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>接続するノードを追加し接続を持続するように試します</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>-addnode, -seednode と -connect で DNS ルックアップを許可する</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>指定した IP アドレスからの JSON-RPC 接続を許可</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
+    </message>
+    <message>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>アドレスに結ぶ。IPv6のばい、[host]:port 表記法を使ってください。</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>ブロック作成オプション:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>ウォレットのダウングレードはできません</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind のアドレス '%s' を解決できません</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip のアドレス '%s' を解決できません</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>初期値のアドレスを書き込むことができません</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>指定したノードだけに接続</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>ピア アドレスを取得するためにノードに接続し、そして切断します</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>自分の IP アドレスを発見 (初期値:  リスン中と -externalip を使用していない場合は1)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>読み込み完了</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat 読み込みエラー</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>wallet.dat 読み込みエラー: ウォレットが壊れました</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>エラー：アンロックされたウォレットは賭けるためだけで、処理を作られない。</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ポートのリスンに失敗しました。必要であれば -listen=0 を使用してください。</translation>
+    </message>
+    <message>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>送る処理を足して、KBあたりの料金</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>コマンドのヘルプ</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>ブロック検証の徹底の程度　(0-6 、デファルト：1)</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>外部 blk000?.dat ファイルからブロックを読み込む。</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>残高不足</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>無効な -proxy アドレス: '%s'</translation>
     </message>
     <message>
         <source>Invalid -tor address: '%s'</source>
         <translation>無効なTORアドレス: '%s'</translation>
     </message>
     <message>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
+        <translation>-mininput=&lt;amount&gt;: '%s'の額は無効です</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt; の額 '%s' が無効です</translation>
+    </message>
+    <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
         <translation>-reservebalance=&lt;amount&gt;の額は無効です</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>無効な総額</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>コマンド一覧</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>アドレスを読み込んでいます...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>ブロック インデックスを読み込んでいます...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>ウォレットを読み込んでいます...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>ピアの最大接続数 (初期値: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1929,16 +1985,68 @@ This label turns red, if the priority is smaller than "medium".
         <translation>&lt;net&gt; (IPv4, IPv6, Tor) ネットワーク内のノードだけに接続する</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>オプション:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC 接続のパスワード</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp</source>
         <translation>デバッグのアウトプットはタイムスタンプで先頭に追加する</translation>
+    </message>
+    <message>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>変更するために、確認を必要とする (デファルト：0)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>失ったウォレットの処理のブロック チェーンを再スキャン</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>再スキャン中...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>デーモンとしてバックグランドで実行しコマンドを許可</translation>
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki をご覧下さい)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>&lt;ip&gt; (初期値: 127.0.0.1) で実行中のノードにコマンドを送信</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>トレース/デバッグ情報を debug.log ファイルの代わりにコンソールへ送る</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>通信中...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>サーバ証明書ファイル (初期値: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>サーバの秘密鍵 (初期値: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>データベースのキャッシュサイズをメガバイトで設定 (初期値: 25)</translation>
+    </message>
+    <message>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>メガバイトでのデータベースのログザイズの大きさの設定(デファルト：100)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>key pool のサイズを &lt;n&gt; (初期値: 100) にセット</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
@@ -1957,10 +2065,54 @@ This label turns red, if the priority is smaller than "medium".
         <translation>接続のタイムアウトをミリセコンドで指定 (初期値: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>データ ディレクトリの指定</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>あなた自身のパブリックなアドレスを指定</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>このヘルプ メッセージ</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>不正なピアを切断するためのしきい値 (初期値: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>%s オプションを使うには</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>このコンピュータの %s にバインドすることができません (バインドが返したエラーは %d, %s)</translation>
+    </message>
+    <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>チェックポイントを署名できません。checkpointkeyは違いますか。
 </translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet で指定された '%s' は未知のネットワークです</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>ウォレットを最新のフォーマットにアップグレード</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>使用法:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>JSON-RPC 接続に OpenSSL (https) を使用</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -1975,6 +2127,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>プロクシーでTORヒドゥンサービス(TOR Hidden Services)を接続する(デファルト：-proxyと同じ)</translation>
     </message>
     <message>
+        <source>Use the test network</source>
+        <translation>テストのためのネットワークを使用</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
@@ -1983,200 +2139,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>データベースの保全性を確認最中...</translation>
     </message>
     <message>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>%sウォレットはディレクトリ%sの外にあります。</translation>
+    </message>
+    <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>警告: このバージョンは古いのでアップグレードが必要です!</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat が壊れ、復旧に失敗しました</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC 接続のパスワード</translation>
-    </message>
-    <message>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>他のノードと時刻の同期する。確な時刻のコンピューターのばい、無効する。例：NTP同期設定有効ある(デファルト：1)</translation>
-    </message>
-    <message>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>処理を作ると、この額より少ない数字を無視する (デファルト：0.01)</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>指定した IP アドレスからの JSON-RPC 接続を許可</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>&lt;ip&gt; (初期値: 127.0.0.1) で実行中のノードにコマンドを送信</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>最良のブロックに変更する際にコマンドを実行 (cmd の %s はブロック ハッシュに置換される)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>ウォレットの処理を変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
-    </message>
-    <message>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation>変更するために、確認を必要とする (デファルト：0)</translation>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>関連した警告をもらったら、コマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>ウォレットを最新のフォーマットにアップグレード</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>key pool のサイズを &lt;n&gt; (初期値: 100) にセット</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>失ったウォレットの処理のブロック チェーンを再スキャン</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>ブロック検証の徹底の程度　(0-6 、デファルト：1)</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>外部 blk000?.dat ファイルからブロックを読み込む。</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC 接続に OpenSSL (https) を使用</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>サーバ証明書ファイル (初期値: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>サーバの秘密鍵 (初期値: server.pem)</translation>
-    </message>
-    <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>エラー：アンロックされたウォレットは賭けるためだけで、処理を作られない。</translation>
-    </message>
-    <message>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>警告：無効なチェックポイントを見つかりました！表示された処理は正しくない可能性がある！アップグレードするか、デベロッパーに報告する必要があります。</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>このヘルプ メッセージ</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>%sウォレットはディレクトリ%sの外にあります。</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>このコンピュータの %s にバインドすることができません (バインドが返したエラーは %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode と -connect で DNS ルックアップを許可する</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>アドレスを読み込んでいます...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>wallet.dat 読み込みエラー: ウォレットが壊れました</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>wallet.dat 読み込みエラー</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>無効な -proxy アドレス: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet で指定された '%s' は未知のネットワークです</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>-bind のアドレス '%s' を解決できません</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>-externalip のアドレス '%s' を解決できません</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>-paytxfee=&lt;amount&gt; の額 '%s' が無効です</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>通信中...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>無効な総額</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>残高不足</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>ブロック インデックスを読み込んでいます...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>接続するノードを追加し接続を持続するように試します</translation>
-    </message>
-    <message>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>送る処理を足して、KBあたりの料金</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
-        <translation>-mininput=&lt;amount&gt;: '%s'の額は無効です</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>ウォレットを読み込んでいます...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>ウォレットのダウングレードはできません</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>初期値のアドレスを書き込むことができません</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>再スキャン中...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>読み込み完了</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>%s オプションを使うには</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>エラー</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>rpcpassword=&lt;password&gt; を設定ファイルでセットしてください:
-%s
-ファイルが無い場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
     </message>
 </context>
 <context>

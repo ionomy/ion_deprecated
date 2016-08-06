@@ -114,16 +114,12 @@
         <translation>დარწმუნებული ხართ, რომ გინდათ საფულის დაშიფრვა?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>მნიშვნელოვანია: თქვენი საფულის ყველა ადრინდელი არქივი შეიცვლება ახლადგენერირებული დაშიფრული საფულის ფაილით. უსაფრთხოების მოსაზრებებით დაუშიფრავი საფულის ძველი არქივები ძალას დაკარგავს, როგორც კი დაიწყებთ ახალი, დაშიფრული საფულის გამოყენებას.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>ყურადღება: ჩართულია Caps Lock რეჟიმი!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>საფულე დაშიფრულია</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>მნიშვნელოვანია: თქვენი საფულის ყველა ადრინდელი არქივი შეიცვლება ახლადგენერირებული დაშიფრული საფულის ფაილით. უსაფრთხოების მოსაზრებებით დაუშიფრავი საფულის ძველი არქივები ძალას დაკარგავს, როგორც კი დაიწყებთ ახალი, დაშიფრული საფულის გამოყენებას.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>საფულის ფრაზა-პაროლი შეცვლილია.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>ყურადღება: ჩართულია Caps Lock რეჟიმი!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>ხელ&amp;მოწერა</translation>
+        <source>Wallet</source>
+        <translation>საფულე</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;ოპციები</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;ჩვენება/დაფარვა</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>საფულის &amp;დაშიფრვა</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>საფულის &amp;არქივირება</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>ფრაზა-პაროლის შე&amp;ცვლა</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>საფულის არქივირება სხვა ადგილზე</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>ფრაზა-პაროლის შე&amp;ცვლა</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>საფულის დაშიფრვის ფრაზა-პაროლის შეცვლა</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>ხელ&amp;მოწერა</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;ვერიფიკაცია</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>დახვეწისა და გიაგნოსტიკის კონსოლის გაშვება</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;ვერიფიკაცია</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>საფულე</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;ჩვენება/დაფარვა</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -321,10 +321,6 @@ Address: %4
     <message>
         <source>Low Output:</source>
         <translation>ქვედა ზღვარი:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>არა</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -445,6 +441,10 @@ Address: %4
     <message>
         <source>yes</source>
         <translation>კი</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>არა</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -612,16 +612,16 @@ Address: %4
         <translation>ფორმა</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>დაუდასტურებელია:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>საფულე</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>თქვენი ხელმისაწვდომი ნაშთი</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>დაუდასტურებელია:</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -657,6 +657,10 @@ Address: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;ინფორმაცია</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>კლიენტი</translation>
     </message>
@@ -669,12 +673,12 @@ Address: %4
         <translation>კლიენტის ვერსია</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;ინფორმაცია</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>OpenSSL-ის ვერსია</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>შექმნის დრო</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -701,20 +705,16 @@ Address: %4
         <translation>ბოლო ბლოკის დრო</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>დახვეწის ლოგ-ფაილი</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;შექმნა</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;კონსოლი</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>შექმნის დრო</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -852,6 +852,10 @@ Address: %4
         <translation>თანხა აღემატება თქვენს ბალანსს</translation>
     </message>
     <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>საერთო აღემატება თქვენი ბალანსი, როდესაც %1 საკომისიო შედის.</translation>
+    </message>
+    <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
         <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯერზე თითო მისამართზე ერთხელ გაგზავნა.</translation>
     </message>
@@ -871,10 +875,6 @@ Address: %4
         <translation>ადრესა&amp;ტი:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>შეიყვანეთ ამ მისამართის ნიშნული მისამართების წიგნში დასამატებლად</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>ნიშნუ&amp;ლი:</translation>
     </message>
@@ -889,6 +889,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>შეიყვანეთ ამ მისამართის ნიშნული მისამართების წიგნში დასამატებლად</translation>
     </message>
     </context>
 <context>
@@ -1027,6 +1031,10 @@ Address: %4
         <translation>სტატუსი</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, დაგზავნა არ არის წარმატებით დასრულებული</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>თარიღი</translation>
     </message>
@@ -1041,6 +1049,10 @@ Address: %4
     <message>
         <source>From</source>
         <translation>გამგზავნი</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>უცნობია</translation>
     </message>
     <message>
         <source>To</source>
@@ -1109,14 +1121,6 @@ Address: %4
     <message>
         <source>false</source>
         <translation>მცდარი</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, დაგზავნა არ არის წარმატებით დასრულებული</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>უცნობია</translation>
     </message>
 </context>
 <context>
@@ -1342,76 +1346,24 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>გამოყენება:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>ბრძანებები</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>ბრძანების აღწერილობა</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>ოპციები:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>მიუთითეთ საფულის ფაილი (კატალოგში)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>მონაცემთა ბაზის ქეშის ზომა მეგაბაიტებში (ნაგულისხმევია 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>არაუმეტეს &lt;n&gt; შეერთებისა პირებზე (ნაგულისხმევი: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>მიერთება კვანძთან, პირების მისამართების მიღება და გათიშვა</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>მიუთითეთ თქვენი საჯარო მისამართი</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>არასწორად მოქმედი პირების გათიშვის ზღვარი (ნაგულისხმევი:100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>არასწორად მოქმედი პირების ბლოკირების დრო წამებში (ნაგულისხმევი: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv4 მისამართზე: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>სატესტო ქსელის გამოყენება</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>გარედან შეერთებების დაშვება (ნაგულისხმევი: 1 თუ არ გამოიყენება -proxy ან -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>შეცდომა %u RPC-პორტის მიყურადების ჩართვისას IPv6 მისამართზე, ვბრუნდებით IPv4-ზე : %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>კომანდის შესრულება უკეთესი ბლოკის გამოჩენისას (%s კომანდაში ჩანაცვლდება ბლოკის ჰეშით)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>არასწორად მოქმედი პირების ბლოკირების დრო წამებში (ნაგულისხმევი: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1426,6 +1378,34 @@ Address: %4
         <translation>ყურადღება: wallet.dat დაზიანებულია! ორიგინალური wallet.dat შენახულია როგორც wallet.{timestamp}.bak %s-ში; თუ შეამჩნიეთ უზუსტობა ნაშთში ან ტრანსაქციებში, აღადგინეთ არქივიდან.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>უნდა დააყენოთ rpcpassword=&lt;password&gt; საკონფიგურაციო ფაილში:
+%s
+თუ ეს ფაილი არ არსებობს, შექმენით იგი უფლებებით owner-readable-only.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>გარედან შეერთებების დაშვება (ნაგულისხმევი: 1 თუ არ გამოიყენება -proxy ან -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>მისაერთებელი კვანძის დამატება და მიერთების შეძლებისდაგვარად შენარჩუნება</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>DNS-ძებნის დაშვება -addnode, -seednode და -connect-სათვის</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>JSON-RPC-შეერთების ნებართვა მითითებული IP მისამართიდან</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>პირადი გასაღებების აღდგენის მცდელობა wallet.dat-იდან</translation>
     </message>
@@ -1434,16 +1414,92 @@ Address: %4
         <translation>ბლოკის შექმნის ოპციები:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>საფულის ძველ ვერსიაზე გადაყვანა შეუძლებელია</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>ვერ ხერხდება -bind მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>ვერ ხერხდება -externalip მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>ვერ ხერხდება ნაგულისხმევი მისამართის ჩაწერა</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>შეერთება მხოლოდ მითითებულ კვანძ(ებ)თან</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>მიერთება კვანძთან, პირების მისამართების მიღება და გათიშვა</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>საკუთარი IP-მისამართის განსაზღვრა (ნაგულისხმევი: 1 თუ ჩართულია მიყურადება და არ გამოიყენება -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>ჩატვირთვა დასრულებულია</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>არ იტვირთება wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>არ იტვირთება wallet.dat: საფულე დაზიანებულია</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>შეცდომა</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>ბრძანების აღწერილობა</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>არ არის საკმარისი თანხა</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>არასწორია მისამართი -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>დაუშვებელი თანხა</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>ბრძანებები</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>მისამართების ჩატვირთვა...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>ბლოკების ინდექსის ჩატვირთვა...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>საფულის ჩატვირთვა...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>არაუმეტეს &lt;n&gt; შეერთებისა პირებზე (ნაგულისხმევი: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1458,12 +1514,52 @@ Address: %4
         <translation>შეერთება მხოლოდ &lt;net&gt; ქსელის კვანძებთან (IPv4, IPv6 ან Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>ოპციები:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>პაროლი JSON-RPC-შეერთებისათვის</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>ბლოკების ჯაჭვის გადამოწმება საფულეში გამორჩენილ ტრანსაქციებზე</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>სკანირება...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL ოპციები: (იხილე Bitcoin Wiki-ში  SSL-ს მოწყობის ინსტრუქციები)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>კომანდის გაგზავნა კვანძისათვის, რომელიც გაშვებულია მისამართზე &lt;ip&gt; (ნაგულისხმევი: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>ტრასირების/დახვეწის ინფოს გაგზავნა კონსოლზე debug.log ფაილის ნაცვლად</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>სერვერის სერტიფიკატის ფაილი (ნაგულისხმევი: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>სერვერის პირადი გასაღები (ნაგულისხმევი: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>მონაცემთა ბაზის ქეშის ზომა მეგაბაიტებში (ნაგულისხმევია 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>გასაღების პულის ზომა იქნება &lt;n&gt; (ნაგულისხმევი: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1478,12 +1574,60 @@ Address: %4
         <translation>მიუთითეთ შეერთების ტაიმაუტი მილიწამებში (ნაგულისხმევი: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>მიუთითეთ მონაცემთა კატალოგი</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>მიუთითეთ საფულის ფაილი (კატალოგში)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>მიუთითეთ თქვენი საჯარო მისამართი</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>ეს ტექსტი</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>არასწორად მოქმედი პირების გათიშვის ზღვარი (ნაგულისხმევი:100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>%s ოპციის გამოსაყენებლად</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>ვერ ხერხდება მიბმა %s-თან ამ კომპიუტერზე (მიღებულია შეცდომა %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>საფულის ფორმატის განახლება</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>გამოყენება:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>OpenSSL-ის (https) გამოყენება JSON-RPC-შეერთებებისათვის</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>გამოიყენეთ UPnP მისაყურადებელი პორტის გადასამისამართებლად (ნაგულისხმევი: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>გამოიყენეთ UPnP მისაყურადებელი პორტის გადასამისამართებლად (ნაგულისხმევი: 1 როცა ჩართულია მიყურადება)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>სატესტო ქსელის გამოყენება</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1496,146 +1640,6 @@ Address: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat დაზიანებულია, აღდგენა ვერ მოხერხდა</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>პაროლი JSON-RPC-შეერთებისათვის</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>JSON-RPC-შეერთების ნებართვა მითითებული IP მისამართიდან</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>კომანდის გაგზავნა კვანძისათვის, რომელიც გაშვებულია მისამართზე &lt;ip&gt; (ნაგულისხმევი: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>კომანდის შესრულება უკეთესი ბლოკის გამოჩენისას (%s კომანდაში ჩანაცვლდება ბლოკის ჰეშით)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>საფულის ფორმატის განახლება</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>გასაღების პულის ზომა იქნება &lt;n&gt; (ნაგულისხმევი: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>ბლოკების ჯაჭვის გადამოწმება საფულეში გამორჩენილ ტრანსაქციებზე</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>OpenSSL-ის (https) გამოყენება JSON-RPC-შეერთებებისათვის</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>სერვერის სერტიფიკატის ფაილი (ნაგულისხმევი: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>სერვერის პირადი გასაღები (ნაგულისხმევი: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>ეს ტექსტი</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>ვერ ხერხდება მიბმა %s-თან ამ კომპიუტერზე (მიღებულია შეცდომა %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>DNS-ძებნის დაშვება -addnode, -seednode და -connect-სათვის</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>მისამართების ჩატვირთვა...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>არ იტვირთება wallet.dat: საფულე დაზიანებულია</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>არ იტვირთება wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>არასწორია მისამართი -proxy: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>ვერ ხერხდება -bind მისამართის გარკვევა: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>ვერ ხერხდება -externalip მისამართის გარკვევა: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>დაუშვებელი მნიშვნელობა -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>დაუშვებელი თანხა</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>არ არის საკმარისი თანხა</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>ბლოკების ინდექსის ჩატვირთვა...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>მისაერთებელი კვანძის დამატება და მიერთების შეძლებისდაგვარად შენარჩუნება</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>საფულის ჩატვირთვა...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>საფულის ძველ ვერსიაზე გადაყვანა შეუძლებელია</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>ვერ ხერხდება ნაგულისხმევი მისამართის ჩაწერა</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>სკანირება...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>ჩატვირთვა დასრულებულია</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>%s ოპციის გამოსაყენებლად</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>შეცდომა</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>უნდა დააყენოთ rpcpassword=&lt;password&gt; საკონფიგურაციო ფაილში:
-%s
-თუ ეს ფაილი არ არსებობს, შექმენით იგი უფლებებით owner-readable-only.</translation>
     </message>
 </context>
 <context>

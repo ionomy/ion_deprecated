@@ -241,6 +241,10 @@
         <translation>Editar dirección de envío </translation>
     </message>
     <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>La dirección introducida "%1" ya está en la libreta de direcciones.</translation>
+    </message>
+    <message>
         <source>Could not unlock wallet.</source>
         <translation>No se puede abrir el monedero.</translation>
     </message>
@@ -327,10 +331,6 @@
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta:</translation>
     </message>
@@ -345,6 +345,10 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
     </message>
     </context>
 <context>
@@ -382,7 +386,7 @@
         <source>unknown</source>
         <translation>desconocido</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     </context>

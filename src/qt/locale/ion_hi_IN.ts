@@ -133,6 +133,10 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
+        <source>Wallet</source>
+        <translation>वॉलेट</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>वॉलेट का सामानया विवरण दिखाए !</translation>
     </message>
@@ -164,10 +168,6 @@
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>पहचान शब्द/अक्षर जो वॉलेट एनक्रिपशन के लिए इस्तेमाल किया है उसे बदलिए!</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>वॉलेट</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -219,14 +219,6 @@ Address: %4
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>वॉलेट एन्क्रिप्टेड है तथा अभी लॉक्ड है</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n घंटा</numerusform><numerusform>%n घंटे</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n दिन</numerusform><numerusform>%n दिनो</numerusform></translation>
     </message>
     </context>
 <context>
@@ -420,10 +412,6 @@ Address: %4
         <translation>प्राप्तकर्ता:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>आपकी एड्रेस बुक में इस एड्रेस के लिए एक लेबल लिखें</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>लेबल:</translation>
     </message>
@@ -438,6 +426,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt-P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>आपकी एड्रेस बुक में इस एड्रेस के लिए एक लेबल लिखें</translation>
     </message>
     </context>
 <context>
@@ -476,8 +468,16 @@ Address: %4
         <translation>%1 पुष्टियाँ</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, अभी तक सफलतापूर्वक प्रसारित नहीं किया गया है</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>taareek</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>अज्ञात</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -490,14 +490,6 @@ Address: %4
     <message>
         <source>false</source>
         <translation>ग़लत</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, अभी तक सफलतापूर्वक प्रसारित नहीं किया गया है</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>अज्ञात</translation>
     </message>
 </context>
 <context>
@@ -711,40 +703,28 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>खपत :</translation>
+        <source>Done loading</source>
+        <translation>लोड हो गया|</translation>
     </message>
     <message>
-        <source>List commands</source>
-        <translation>commands की लिस्ट बनाएं</translation>
+        <source>Error</source>
+        <translation>भूल</translation>
     </message>
     <message>
         <source>Get help for a command</source>
         <translation>किसी command के लिए मदद लें</translation>
     </message>
     <message>
-        <source>Options:</source>
-        <translation>विकल्प:</translation>
+        <source>Invalid amount</source>
+        <translation>राशि ग़लत है</translation>
     </message>
     <message>
-        <source>Specify data directory</source>
-        <translation>डेटा डायरेक्टरी बताएं </translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>टेस्ट नेटवर्क का इस्तेमाल करे </translation>
+        <source>List commands</source>
+        <translation>commands की लिस्ट बनाएं</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
         <translation>पता पुस्तक आ रही है...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>राशि ग़लत है</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -755,16 +735,28 @@ Address: %4
         <translation>वॉलेट आ रहा है...</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>विकल्प:</translation>
+    </message>
+    <message>
         <source>Rescanning...</source>
         <translation>रि-स्केनी-इंग...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>लोड हो गया|</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>बैकग्राउंड में डेमॉन बन कर रन करे तथा कमांड्स स्वीकार करें </translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>भूल</translation>
+        <source>Specify data directory</source>
+        <translation>डेटा डायरेक्टरी बताएं </translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>खपत :</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>टेस्ट नेटवर्क का इस्तेमाल करे </translation>
     </message>
     </context>
 <context>
