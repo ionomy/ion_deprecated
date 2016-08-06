@@ -27,8 +27,8 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (    0,	uint256("0x000001a7bb3214e3e1d2e4c256082b817a3c5dff5def37456ae16d7edaa508be") )
-
+        ( 11111, uint256("0xc195054e4ee5b2db531cb8f4c2a336a15ca0969406709f4930297d88e825cbb6"))
+        ( 33333, uint256("0x56b21543820df6d2bd45771452a47ee41594ae6475ab6fed6b942a6bf8d03841"))
     ;
 
     // TestNet has no checkpoints
@@ -187,7 +187,7 @@ namespace Checkpoints
         return false;
     }
 
-    // Automatically select a suitable sync-checkpoint 
+    // Automatically select a suitable sync-checkpoint
     const CBlockIndex* AutoSelectSyncCheckpoint()
     {
         const CBlockIndex *pindex = pindexBest;
