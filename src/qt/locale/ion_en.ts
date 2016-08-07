@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.1" language="en_US">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -13,7 +13,7 @@
         <source>&lt;b&gt;ion&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
-    <message utf8="true">
+    <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
@@ -345,17 +345,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+94"/>
-        <location line="+640"/>
+        <location line="+655"/>
         <source>ion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-640"/>
+        <location line="-655"/>
         <source>Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+151"/>
+        <location line="+152"/>
         <source>&amp;Dashboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -592,12 +592,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <location line="+58"/>
+        <location line="+62"/>
         <source>ion client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+82"/>
+        <location line="+92"/>
         <source>%n active connection(s) to I2P-ion network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1757,18 +1757,18 @@ I2P-address...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+44"/>
         <source>Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+504"/>
+        <location line="+503"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ion network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-462"/>
+        <location line="-461"/>
         <source>Spendable:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1898,7 +1898,7 @@ I2P-address...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+34"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
