@@ -12,6 +12,30 @@ The following is a list of assets used in the ion source and their proper attrib
 		src/qt/res/src/clock4.svg, src/qt/res/src/clock5.svg,
 		src/qt/res/src/inout.svg, src/qt/res/src/questionmark.svg
 
+[Typicons/Stephen Hutchings](http://typicons.com)
+-----------------------
+
+### Info
+* Icon Pack: Typicons (http://typicons.com)
+* Designer: Stephen Hutchings (and more)
+* License: CC BY-SA
+* Site: [https://github.com/stephenhutchings/typicons.font](https://github.com/stephenhutchings/typicons.font)
+
+### Assets Used
+	src/qt/res/icons/connect4.png, src/qt/res/icons/synced.png
+
+Jonas Schnelli
+-----------------------
+
+### Info
+* Designer: Jonas Schnelli
+* Bitcoin Icon: (based on the original bitcoin logo from Bitboy)
+* Some icons are based on Stephan Hutchings Typicons
+* License: MIT
+
+### Assets Used
+    src/qt/res/icons/connect[0-3].png
+
 [David Vignoni](www.icon-king.com)
 -----------------------
 
@@ -26,19 +50,7 @@ The following is a list of assets used in the ion source and their proper attrib
       src/qt/res/icons/history.png, src/qt/res/icons/key.png,
       src/qt/res/icons/lock_*.png, src/qt/res/icons/overview.png,
       src/qt/res/icons/receive.png, src/qt/res/icons/send.png,
-      src/qt/res/icons/synced.png, src/qt/res/icons/filesave.png
-
-schollidesign
------------------------
-
-### Info
-* Icon Pack: Human-O2
-* Designer: schollidesign
-* License: GNU/GPL
-* Site: [http://findicons.com/icon/93743/blocks_gnome_netstatus_0](http://findicons.com/icon/93743/blocks_gnome_netstatus_0)
-
-### Assets Used
-	 src/qt/res/icons/connect*.png
+      src/qt/res/icons/filesave.png
 
 md2k7
 -----------------------
