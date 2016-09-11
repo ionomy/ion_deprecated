@@ -1,11 +1,19 @@
 *.tar.gz
 
 *.exe
-iond
-test_ion
+src/ion
+src/iond
+src/test_ion
+
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
 
 # Compilation and Qt preprocessor part
 *.qm
+Makefile
+ion-qt
+Ion-Qt.app
 
 # Resources cpp
 qrc_*.cpp
@@ -13,3 +21,5 @@ qrc_*.cpp
 # Mac specific
 .DS_Store
 build
+
+/doc/doxygen/
