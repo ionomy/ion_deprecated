@@ -1,5 +1,10 @@
-#ifndef TRAFFICGRAPHWIDGET_H
-#define TRAFFICGRAPHWIDGET_H
+// Copyright (c) 2011-2013 The Bitcoin Core developers
+// Copyright (c) 2016 The Ion Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#ifndef ION_QT_TRAFFICGRAPHWIDGET_H
+#define ION_QT_TRAFFICGRAPHWIDGET_H
 
 #include <QWidget>
 #include <QQueue>
@@ -41,4 +46,4 @@ private:
     ClientModel *clientModel;
 };
 
-#endif // TRAFFICGRAPHWIDGET_H
+#endif // ION_QT_TRAFFICGRAPHWIDGET_H
