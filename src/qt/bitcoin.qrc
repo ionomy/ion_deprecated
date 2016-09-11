@@ -1,4 +1,4 @@
-<RCC>
+<!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/novacoin-80.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
@@ -44,12 +44,12 @@
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
         <file alias="onion">res/icons/onion.png</file>
-		<file alias="clearnet">res/icons/clearnet.png</file>
+        <file alias="clearnet">res/icons/clearnet.png</file>
         <file alias="onionblack">res/icons/onion-black.png</file>
-		<file alias="i2p">res/icons/i2p.png</file>
-		<file alias="tor">res/icons/tor.png</file>
-		<file alias="mn">res/icons/mn.png</file>
-	    <file alias="bwi2pconnect_0">res/icons/i2plogo_wbw_0_16.png</file>
+        <file alias="i2p">res/icons/i2p.png</file>
+        <file alias="tor">res/icons/tor.png</file>
+        <file alias="mn">res/icons/mn.png</file>
+        <file alias="bwi2pconnect_0">res/icons/i2plogo_wbw_0_16.png</file>
         <file alias="bwi2pconnect_1">res/icons/i2plogo_wbw_1_16.png</file>
         <file alias="bwi2pconnect_2">res/icons/i2plogo_wbw_2_16.png</file>
         <file alias="bwi2pconnect_3">res/icons/i2plogo_wbw_3_16.png</file>
