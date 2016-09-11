@@ -161,7 +161,7 @@ void SignVerifyMessageDialog::on_signMessageButton_SM_clicked()
 
 void SignVerifyMessageDialog::on_copySignatureButton_SM_clicked()
 {
-    QApplication::clipboard()->setText(ui->signatureOut_SM->text());
+    GUIUtil::setClipboard(ui->signatureOut_SM->text());
 }
 
 void SignVerifyMessageDialog::on_clearButton_SM_clicked()
