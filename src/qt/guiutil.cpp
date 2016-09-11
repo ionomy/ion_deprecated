@@ -460,6 +460,12 @@ void HelpMessageBox::showOrPrint()
 #endif
 }
 
+void setClipboard(const QString& str)
+{
+    QApplication::clipboard()->setText(str, QClipboard::Clipboard);
+    QApplication::clipboard()->setText(str, QClipboard::Selection);
+}
+
 void SetBlackThemeQSS(QApplication& app)
 {
     app.setStyleSheet("QWidget        { background: rgb(41,44,48); }"
@@ -501,4 +507,3 @@ void SetBlackThemeQSS(QApplication& app)
 }
 
 } // namespace GUIUtil
-
