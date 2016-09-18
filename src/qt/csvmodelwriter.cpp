@@ -1,3 +1,8 @@
+// Copyright (c) 2011-2014 The Bitcoin Core developers
+// Copyright (c) 2016 The Ion Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "csvmodelwriter.h"
 
 #include <QAbstractItemModel>
@@ -85,4 +90,3 @@ bool CSVModelWriter::write()
 
     return file.error() == QFile::NoError;
 }
-
