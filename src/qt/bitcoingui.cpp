@@ -723,7 +723,7 @@ void BitcoinGUI::setNumBlocks(int count)
         if(count != prevBlocks)
         {
             labelBlocksIcon->setPixmap(QIcon(QString(
-                ":/movies/spinner-%1").arg(spinnerFrame, 3, 10, QChar('0')))
+                fUseBlackTheme ? ":/movies/spinner-dark-%1" : ":/movies/spinner-%1").arg(spinnerFrame, 3, 10, QChar('0')))
                 .pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
             spinnerFrame = (spinnerFrame + 1) % SPINNER_FRAMES;
         }
