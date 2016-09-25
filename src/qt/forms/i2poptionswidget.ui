@@ -77,9 +77,6 @@
        <property name="text">
         <string>127.0.0.1</string>
        </property>
-       <property name="frame">
-        <bool>false</bool>
-       </property>
       </widget>
      </item>
      <item>
@@ -141,10 +138,7 @@
         </size>
        </property>
        <property name="text">
-        <string>ion-client</string>
-       </property>
-       <property name="frame">
-        <bool>false</bool>
+        <string>Ion-client</string>
        </property>
       </widget>
      </item>
