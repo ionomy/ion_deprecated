@@ -133,8 +133,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>امضا و پیام</translation>
+        <source>Wallet</source>
+        <translation>کیف پول</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -169,6 +169,10 @@
         <translation>و انتخابها</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;نمایش/ عدم نمایش و</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>و رمزگذاری wallet</translation>
     </message>
@@ -177,24 +181,20 @@
         <translation>و گرفتن نسخه پیشتیبان از wallet</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>تغییر رمز/پَس فرِیز</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>گرفتن نسخه پیشتیبان در آدرسی دیگر</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>کیف پول</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;نمایش/ عدم نمایش و</translation>
+        <source>Sign &amp;message...</source>
+        <translation>امضا و پیام</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -477,10 +477,6 @@ Address: %4
         <translation>پرداخت و به چه کسی</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>یک برچسب برای این آدرس بنویسید تا به دفترچه آدرسهای شما اضافه شود</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>و برچسب</translation>
     </message>
@@ -495,6 +491,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt و P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>یک برچسب برای این آدرس بنویسید تا به دفترچه آدرسهای شما اضافه شود</translation>
     </message>
     </context>
 <context>
@@ -537,8 +537,16 @@ Address: %4
         <translation>%1 تایید</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>، هنوز با موفقیت ارسال نگردیده است</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>تاریخ</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ناشناس</translation>
     </message>
     <message>
         <source>label</source>
@@ -552,15 +560,7 @@ Address: %4
         <source>Amount</source>
         <translation>میزان</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>، هنوز با موفقیت ارسال نگردیده است</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>ناشناس</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -772,144 +772,31 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>میزان استفاده:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>فهرست دستورها</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>درخواست کمک برای یک دستور</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>انتخابها:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>دایرکتوری داده را مشخص کن</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>حافظه بانک داده را به مگابایت تنظیم کنید (پیش فرض: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>نگهداری &lt;N&gt; ارتباطات برای قرینه سازی  (پیش فرض:125)</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>آستانه قطع برای قرینه سازی اشتباه (پیش فرض:100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>تعداد ثانیه ها برای اتصال دوباره قرینه های اشتباه (پیش فرض:86400)</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>شما باید یک رمز rpcpassword=&lt;password&gt; را در فایل تنظیمات ایجاد کنید⏎ %s ⏎ اگر فایل ایجاد نشده است، آن را با یک فایل "فقط متنی" ایجاد کنید.
+</translation>
+    </message>
+    <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>command line  و JSON-RPC commands را قبول کنید</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>از تستِ شبکه استفاده نمایید</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>تعیین مدت زمان وقفه (time out) به هزارم ثانیه</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>ارتباطاتِ JSON-RPC  را از آدرس آی.پی. مشخصی برقرار کنید.</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>دستورات را به گره اجرا شده در&lt;ip&gt; ارسال کنید (پیش فرض:127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>دستور را وقتی بهترین بلاک تغییر کرد اجرا کن (%s در دستور توسط block hash جایگزین شده است)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>wallet را به جدیدترین نسخه روزآمد کنید</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>حجم key pool  را به اندازه &lt;n&gt; تنظیم کنید (پیش فرض:100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>زنجیره بلاک را برای تراکنش جا افتاده در WALLET دوباره اسکن کنید</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>برای ارتباطاتِ JSON-RPC  از OpenSSL (https) استفاده کنید</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>فایل certificate  سرور (پیش فرض server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>رمز اختصاصی سرور  (پیش فرض: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>این پیام راهنما</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>لود شدن آدرسها..</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>خطا در هنگام لود شدن wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>میزان اشتباه است</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>وجوه ناکافی</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>لود شدن نمایه بلاکها..</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>یک گره برای اتصال اضافه کنید و تلاش کنید تا اتصال را باز نگاه دارید</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
-        <translation>wallet در حال لود شدن است...</translation>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>ارتباطاتِ JSON-RPC  را از آدرس آی.پی. مشخصی برقرار کنید.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
@@ -920,29 +807,142 @@ Address: %4
         <translation>آدرس پیش فرض قابل ذخیره نیست</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
-        <translation>اسکنِ دوباره...</translation>
-    </message>
-    <message>
         <source>Done loading</source>
         <translation>اتمام لود شدن</translation>
     </message>
     <message>
-        <source>To use the %s option</source>
-        <translation>برای استفاده از %s  از اختیارات</translation>
+        <source>Error loading wallet.dat</source>
+        <translation>خطا در هنگام لود شدن wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>خطا</translation>
     </message>
     <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>شما باید یک رمز rpcpassword=&lt;password&gt; را در فایل تنظیمات ایجاد کنید⏎ %s ⏎ اگر فایل ایجاد نشده است، آن را با یک فایل "فقط متنی" ایجاد کنید.
-</translation>
+        <source>Get help for a command</source>
+        <translation>درخواست کمک برای یک دستور</translation>
     </message>
-</context>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>وجوه ناکافی</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>میزان اشتباه است</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>فهرست دستورها</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>لود شدن آدرسها..</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>لود شدن نمایه بلاکها..</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>wallet در حال لود شدن است...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>نگهداری &lt;N&gt; ارتباطات برای قرینه سازی  (پیش فرض:125)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>انتخابها:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>رمز برای ارتباطاتِ JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>زنجیره بلاک را برای تراکنش جا افتاده در WALLET دوباره اسکن کنید</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>اسکنِ دوباره...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>به عنوان daemon بک گراند را اجرا کنید و دستورات را قبول نمایید</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>دستورات را به گره اجرا شده در&lt;ip&gt; ارسال کنید (پیش فرض:127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>فایل certificate  سرور (پیش فرض server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>رمز اختصاصی سرور  (پیش فرض: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>حافظه بانک داده را به مگابایت تنظیم کنید (پیش فرض: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>حجم key pool  را به اندازه &lt;n&gt; تنظیم کنید (پیش فرض:100)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>تعیین مدت زمان وقفه (time out) به هزارم ثانیه</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>دایرکتوری داده را مشخص کن</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>این پیام راهنما</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>آستانه قطع برای قرینه سازی اشتباه (پیش فرض:100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>برای استفاده از %s  از اختیارات</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>wallet را به جدیدترین نسخه روزآمد کنید</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>میزان استفاده:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>برای ارتباطاتِ JSON-RPC  از OpenSSL (https) استفاده کنید</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>از تستِ شبکه استفاده نمایید</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>شناسه کاربری برای ارتباطاتِ JSON-RPC</translation>
+    </message>
+    </context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

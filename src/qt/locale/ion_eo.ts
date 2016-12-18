@@ -114,16 +114,12 @@
         <translation>Ĉu vi certas, ke vi volas ĉifri la monujon?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>GRAVE: antaŭaj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan ĉifritan monujo-dosieron. Pro sekureco, antaŭaj kopioj de la neĉifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan ĉifritan dosieron.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Atentu: la majuskla baskulo estas ŝaltita!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>La monujo estas ĉifrita</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>GRAVE: antaŭaj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan ĉifritan monujo-dosieron. Pro sekureco, antaŭaj kopioj de la neĉifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan ĉifritan dosieron.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -153,12 +149,16 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Vi sukcese ŝanĝis la pasfrazon de la monujo.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Atentu: la majuskla baskulo estas ŝaltita!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Subskribi &amp;mesaĝon...</translation>
+        <source>Wallet</source>
+        <translation>Monujo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,6 +193,10 @@
         <translation>&amp;Agordoj...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Montri / Kaŝi</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Ĉifri &amp;Monujon...</translation>
     </message>
@@ -201,16 +205,24 @@
         <translation>&amp;Krei sekurkopion de la monujo...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Ŝanĝi &amp;Pasfrazon...</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Krei alilokan sekurkopion de monujo</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>Ŝanĝi &amp;Pasfrazon...</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Ŝanĝi la pasfrazon por ĉifri la monujon</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Subskribi &amp;mesaĝon...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -219,18 +231,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Malfermi konzolon de sencimigo kaj diagnozo</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Kontroli mesaĝon...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Monujo</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Montri / Kaŝi</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -288,14 +288,6 @@ Adreso: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Monujo estas &lt;b&gt;ĉifrita&lt;/b&gt; kaj aktuale &lt;b&gt;ŝlosita&lt;/b&gt;</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n horo</numerusform><numerusform>%n horoj</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n tago</numerusform><numerusform>%n tagoj</numerusform></translation>
-    </message>
     </context>
 <context>
     <name>ClientModel</name>
@@ -329,10 +321,6 @@ Adreso: %4
     <message>
         <source>Low Output:</source>
         <translation>Malalta Eligo:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ne</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -453,6 +441,10 @@ Adreso: %4
     <message>
         <source>yes</source>
         <translation>jes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -661,6 +653,10 @@ Adreso: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informoj</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Nomo de kliento</translation>
     </message>
@@ -673,12 +669,12 @@ Adreso: %4
         <translation>Versio de kliento</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informoj</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>uzas OpenSSL-version</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Dato de kompilado</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -705,20 +701,16 @@ Adreso: %4
         <translation>Horo de la lasta bloko</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Sencimiga protokoldosiero</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Malfermi</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konzolo</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Dato de kompilado</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Sencimiga protokoldosiero</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -875,10 +867,6 @@ Adreso: %4
         <translation>&amp;Ricevonto:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Tajpu etikedon por tiu ĉi adreso kaj aldonu ĝin al via adresaro</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etikedo:</translation>
     </message>
@@ -893,6 +881,10 @@ Adreso: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Tajpu etikedon por tiu ĉi adreso kaj aldonu ĝin al via adresaro</translation>
     </message>
     </context>
 <context>
@@ -1030,9 +1022,9 @@ Adreso: %4
         <source>Status</source>
         <translation>Stato</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, elsendita(j) tra %n nodo</numerusform><numerusform>, elsendita(j) tra %n nodoj</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ankoraŭ ne elsendita sukcese</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1051,6 +1043,10 @@ Adreso: %4
         <translation>De</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>nekonata</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Al</translation>
     </message>
@@ -1065,10 +1061,6 @@ Adreso: %4
     <message>
         <source>Credit</source>
         <translation>Kredito</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>maturiĝos post %n bloko</numerusform><numerusform>maturiĝos post %n blokoj</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1122,14 +1114,6 @@ Adreso: %4
         <source>false</source>
         <translation>malvera</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ankoraŭ ne elsendita sukcese</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>nekonata</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1165,20 +1149,16 @@ Adreso: %4
         <translation>Malferma ĝis %1</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Konfirmita (%1 konfirmoj)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Malferma dum ankoraŭ %n bloko</numerusform><numerusform>Malferma dum ankoraŭ %n blokoj</numerusform></translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>Senkonekte</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
         <translation>Nekonfirmita</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Konfirmita (%1 konfirmoj)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1362,76 +1342,24 @@ Adreso: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Uzado:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Listigi komandojn</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Vidigi helpon pri iu komando</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Agordoj:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Specifi dosieron por datumoj</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Specifi grandon de datumbazo je megabajtoj (defaŭlte: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Subteni maksimume &lt;n&gt; konektojn al samtavolanoj (defaŭlte: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Konekti al nodo por ricevi adresojn de samtavolanoj, kaj malkonekti</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Specifi vian propran publikan adreson</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Sojlo por malkonekti misagantajn samtavolanojn (defaŭlte: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Nombro da sekundoj por rifuzi rekonekton de misagantaj samtavolanoj (defaŭlte: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Eraro okazis dum estigo de RPC-pordo %u por aŭskulti per IPv4: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Uzi la test-reton</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Eraro okazis dum estigo de RPC-pordo %u por aŭskulti per IPv6; retrodefaŭltas al IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Nombro da sekundoj por rifuzi rekonekton de misagantaj samtavolanoj (defaŭlte: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1446,6 +1374,34 @@ Adreso: %4
         <translation>Averto: via wallet.dat estas difektita, sed la datumoj sukcese saviĝis! La originala wallet.dat estas nun konservita kiel wallet.{timestamp}.bak en %s; se via saldo aŭ transakcioj estas malĝustaj vi devus restaŭri per alia sekurkopio.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Vi devas agordi rpcpassword=&lt;password&gt; en la konfigura dosiero:
+%s
+Se la dosiero ne ekzistas, kreu ĝin kun permeso "nur posedanto rajtas legi".</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Aldoni nodon por alkonekti kaj provi daŭrigi la malferman konekton</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Permesi konektojn JSON-RPC de specifa IP-adreso</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Provo ripari privatajn ŝlosilojn el difektita wallet.dat</translation>
     </message>
@@ -1454,16 +1410,92 @@ Adreso: %4
         <translation>Blok-kreaj agordaĵoj:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Ne eblas malpromocii monujon</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Ne eblas skribi defaŭltan adreson</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Konekti nur al specifita(j) nodo(j)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Konekti al nodo por ricevi adresojn de samtavolanoj, kaj malkonekti</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Malkovri la propran IP-adreson (defaŭlte: 1 dum aŭskultado sen -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Ŝargado finiĝis</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Eraro dum ŝargado de wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Eraro dum ŝargado de wallet.dat: monujo difektita</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Eraro</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Ne sukcesis aŭskulti ajnan pordon. Uzu -listen=0 se tion vi volas.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Vidigi helpon pri iu komando</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Nesufiĉa mono</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nevalid adreso -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevalida sumo por -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Nevalida sumo</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Listigi komandojn</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Ŝarĝante adresojn...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Ŝarĝante blok-indekson...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Ŝargado de monujo...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Subteni maksimume &lt;n&gt; konektojn al samtavolanoj (defaŭlte: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1478,12 +1510,52 @@ Adreso: %4
         <translation>Konekti nur la nodoj en la reto &lt;net&gt; (IPv4, IPv6 aŭ Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Agordoj:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Pasvorto por konektoj JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Reskani la blokĉenon por mankantaj monujaj transakcioj</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Reskanado...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL-agordaĵoj: (vidu la vikio de Bitmono por instrukcioj pri agordado de SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Sendi komandon al nodo ĉe &lt;ip&gt; (defaŭlte: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Sendi spurajn/sencimigajn informojn al la konzolo anstataŭ al dosiero debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Dosiero de servila atestilo (defaŭlte: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Dosiero de servila privata ŝlosilo (defaŭlte: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Specifi grandon de datumbazo je megabajtoj (defaŭlte: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Agordi la grandon de la ŝlosilo-vico al &lt;n&gt; (defaŭlte: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1498,12 +1570,60 @@ Adreso: %4
         <translation>Specifi konektan tempolimon je milisekundoj (defaŭlte: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Specifi dosieron por datumoj</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Specifi monujan dosieron (ene de dosierujo por datumoj)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Specifi vian propran publikan adreson</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Tiu ĉi helpmesaĝo</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Sojlo por malkonekti misagantajn samtavolanojn (defaŭlte: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Por uzi la agordon %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Ne eblis bindi al %s en tiu ĉi komputilo (bind resendis eraron %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Ĝisdatigi monujon al plej lasta formato</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Uzado:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Uzi OpenSSL (https) por konektoj JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Uzi UPnP por mapi la aŭskultan pordon (defaŭlte: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Uzi UPnP por mapi la aŭskultan pordon (defaŭlte: 1 dum aŭskultado)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Uzi la test-reton</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1516,146 +1636,6 @@ Adreso: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat estas difektita, riparo malsukcesis</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Pasvorto por konektoj JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Permesi konektojn JSON-RPC de specifa IP-adreso</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Sendi komandon al nodo ĉe &lt;ip&gt; (defaŭlte: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Plenumi komandon kiam plej bona bloko ŝanĝiĝas (%s en cmd anstataŭiĝas per bloka haketaĵo)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Plenumi komandon kiam monuja transakcio ŝanĝiĝas (%s en cmd anstataŭiĝas per TxID)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Ĝisdatigi monujon al plej lasta formato</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Agordi la grandon de la ŝlosilo-vico al &lt;n&gt; (defaŭlte: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Reskani la blokĉenon por mankantaj monujaj transakcioj</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Uzi OpenSSL (https) por konektoj JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Dosiero de servila atestilo (defaŭlte: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Dosiero de servila privata ŝlosilo (defaŭlte: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Tiu ĉi helpmesaĝo</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Ne eblis bindi al %s en tiu ĉi komputilo (bind resendis eraron %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permesi DNS-elserĉojn por -addnote, -seednote kaj -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Ŝarĝante adresojn...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Eraro dum ŝargado de wallet.dat: monujo difektita</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Eraro dum ŝargado de wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Nevalid adreso -proxy: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Ne eblas trovi la adreson -bind: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Ne eblas trovi la adreson -externalip: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevalida sumo por -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Nevalida sumo</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Nesufiĉa mono</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Ŝarĝante blok-indekson...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Aldoni nodon por alkonekti kaj provi daŭrigi la malferman konekton</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Ŝargado de monujo...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Ne eblas malpromocii monujon</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Ne eblas skribi defaŭltan adreson</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Reskanado...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Ŝargado finiĝis</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Por uzi la agordon %s</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Eraro</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Vi devas agordi rpcpassword=&lt;password&gt; en la konfigura dosiero:
-%s
-Se la dosiero ne ekzistas, kreu ĝin kun permeso "nur posedanto rajtas legi".</translation>
     </message>
 </context>
 <context>

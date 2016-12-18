@@ -3,15 +3,16 @@
 #include "addeditionnode.h"
 #include "ionnodeconfigdialog.h"
 
-#include "sync.h"
-#include "clientmodel.h"
-#include "walletmodel.h"
 #include "activemasternode.h"
-#include "masternodeconfig.h"
-#include "masternode.h"
-#include "walletdb.h"
-#include "wallet.h"
+#include "clientmodel.h"
+#include "guiutil.h"
 #include "init.h"
+#include "masternode.h"
+#include "masternodeconfig.h"
+#include "sync.h"
+#include "wallet.h"
+#include "walletdb.h"
+#include "walletmodel.h"
 
 #include <QAbstractItemDelegate>
 #include <QPainter>
@@ -68,7 +69,7 @@ static void NotifyionNodeUpdated(MasternodeManager *page, CionNodeConfig nodeCon
     QString addr = QString::fromStdString(nodeConfig.sAddress);
     QString privkey = QString::fromStdString(nodeConfig.sMasternodePrivKey);
     QString collateral = QString::fromStdString(nodeConfig.sCollateralAddress);
-    
+
     QMetaObject::invokeMethod(page, "updateionNode", Qt::QueuedConnection,
                               Q_ARG(QString, alias),
                               Q_ARG(QString, addr),
@@ -155,7 +156,7 @@ void MasternodeManager::updateNodeList()
     ui->countLabel->setText("Updating...");
     ui->tableWidget->clearContents();
     ui->tableWidget->setRowCount(0);
-    BOOST_FOREACH(CMasterNode mn, vecMasternodes) 
+    BOOST_FOREACH(CMasterNode mn, vecMasternodes)
     {
         int mnRow = 0;
         ui->tableWidget->insertRow(0);
@@ -167,14 +168,14 @@ void MasternodeManager::updateNodeList()
 	QTableWidgetItem *rankItem = new QTableWidgetItem(QString::number(GetMasternodeRank(mn.vin, pindexBest->nHeight)));
 	QTableWidgetItem *activeSecondsItem = new QTableWidgetItem(seconds_to_DHMS((qint64)(mn.lastTimeSeen - mn.now)));
 	QTableWidgetItem *lastSeenItem = new QTableWidgetItem(QString::fromStdString(DateTimeStrFormat(mn.lastTimeSeen)));
-	
+
 	CScript pubkey;
         pubkey =GetScriptForDestination(mn.pubkey.GetID());
         CTxDestination address1;
         ExtractDestination(pubkey, address1);
         CBitcoinAddress address2(address1);
 	QTableWidgetItem *pubkeyItem = new QTableWidgetItem(QString::fromStdString(address2.ToString()));
-	
+
 	ui->tableWidget->setItem(mnRow, 0, addressItem);
 	ui->tableWidget->setItem(mnRow, 1, rankItem);
 	ui->tableWidget->setItem(mnRow, 2, activeItem);
@@ -221,7 +222,7 @@ void MasternodeManager::on_copyAddressButton_clicked()
     int r = index.row();
     std::string sCollateralAddress = ui->tableWidget_2->item(r, 3)->text().toStdString();
 
-    QApplication::clipboard()->setText(QString::fromStdString(sCollateralAddress));
+    GUIUtil::setClipboard(QString::fromStdString(sCollateralAddress));
 }
 
 void MasternodeManager::on_editButton_clicked()
@@ -346,7 +347,7 @@ void MasternodeManager::on_startAllButton_clicked()
 	if(result)
 	{
    	    results += c.sAddress + ": STARTED\n";
-	}	
+	}
 	else
 	{
 	    results += c.sAddress + ": ERROR: " + errorMessage + "\n";
@@ -369,7 +370,7 @@ void MasternodeManager::on_stopAllButton_clicked()
 	if(result)
 	{
    	    results += c.sAddress + ": STOPPED\n";
-	}	
+	}
 	else
 	{
 	    results += c.sAddress + ": ERROR: " + errorMessage + "\n";

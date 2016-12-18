@@ -16,12 +16,12 @@
         <translation>Cipta alamat baru</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Salin alamat terpilih ke dalam sistem papan klip</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>Alamat baru</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Salin alamat terpilih ke dalam sistem papan klip</translation>
     </message>
     <message>
         <source>&amp;Delete</source>

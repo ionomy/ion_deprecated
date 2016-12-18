@@ -383,10 +383,6 @@ Address: %4
         <translation>Заплаціць да:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Увядзіце пазнаку гэтаму адрасу, каб дадаць яго ў адрасную кнігу</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>Пазнака:</translation>
     </message>
@@ -401,6 +397,10 @@ Address: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Увядзіце пазнаку гэтаму адрасу, каб дадаць яго ў адрасную кнігу</translation>
     </message>
     </context>
 <context>
@@ -435,22 +435,22 @@ Address: %4
         <translation>%1 пацверджанняў</translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Дата</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Колькасць</translation>
-    </message>
-    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, пакуль не было паспяхова транслявана</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
         <source>unknown</source>
         <translation>невядома</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -662,36 +662,8 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Ужыванне:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Спіс каманд</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Атрымаць дапамогу для каманды</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Опцыі:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Вызначыць каталог даных</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Пазначыць памер кэшу базы звестак у мегабайтах (тыпова: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Трымаць не больш за &lt;n&gt; злучэнняў на асобу (зыходна: 125)</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Парог для адлучэння злаўмысных карыстальнікаў (тыпова: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Выканаць каманду калі лепшы блок зменіцца (%s замяняецца на хэш блока)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
@@ -702,80 +674,44 @@ Address: %4
         <translation>Прымаць камандны радок і JSON-RPC каманды</translation>
     </message>
     <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Ужываць тэставае сеціва</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Імя карыстальника для JSON-RPC злучэнняў</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Пароль для JSON-RPC злучэнняў</translation>
-    </message>
-    <message>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Дазволіць  JSON-RPC злучэнні з пэўнага IP адрасу</translation>
     </message>
     <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Адпраўляць каманды вузлу на &lt;ip&gt; (зыходна: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Выканаць каманду калі лепшы блок зменіцца (%s замяняецца на хэш блока)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Абнавіць гаманец на новы фармат</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Устанавіць памер фонда ключоў у &lt;n&gt; (тыпова: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Перасканаваць ланцуг блокаў дзеля пошуку адсутных транзакцый</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Ужываць OpenSSL (https) для JSON-RPC злучэнняў</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Файл-сертыфікат сервера (зыходна: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Прыватны ключ сервера (зыходна: server.pem)</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Загружаем адрасы...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Памылка загрузкі wallet.dat: гаманец пашкоджаны</translation>
+        <source>Done loading</source>
+        <translation>Загрузка выканана</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
         <translation>Памылка загрузкі wallet.dat</translation>
     </message>
     <message>
-        <source>Invalid amount</source>
-        <translation>Памылковая колькасць</translation>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Памылка загрузкі wallet.dat: гаманец пашкоджаны</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Памылка</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Атрымаць дапамогу для каманды</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
         <translation>Недастаткова сродкаў</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Памылковая колькасць</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Спіс каманд</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Загружаем адрасы...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -786,16 +722,80 @@ Address: %4
         <translation>Загружаем гаманец...</translation>
     </message>
     <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Трымаць не больш за &lt;n&gt; злучэнняў на асобу (зыходна: 125)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Опцыі:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Пароль для JSON-RPC злучэнняў</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Перасканаваць ланцуг блокаў дзеля пошуку адсутных транзакцый</translation>
+    </message>
+    <message>
         <source>Rescanning...</source>
         <translation>Перасканаванне...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Загрузка выканана</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Памылка</translation>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Адпраўляць каманды вузлу на &lt;ip&gt; (зыходна: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Файл-сертыфікат сервера (зыходна: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Прыватны ключ сервера (зыходна: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Пазначыць памер кэшу базы звестак у мегабайтах (тыпова: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Устанавіць памер фонда ключоў у &lt;n&gt; (тыпова: 100)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Вызначыць каталог даных</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Парог для адлучэння злаўмысных карыстальнікаў (тыпова: 100)</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Абнавіць гаманец на новы фармат</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Ужыванне:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Ужываць OpenSSL (https) для JSON-RPC злучэнняў</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Ужываць тэставае сеціва</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Імя карыстальника для JSON-RPC злучэнняў</translation>
     </message>
     </context>
 <context>

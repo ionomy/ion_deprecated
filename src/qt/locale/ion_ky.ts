@@ -33,16 +33,16 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
+        <source>Wallet</source>
+        <translation>Капчык</translation>
+    </message>
+    <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Транзакциялар</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Билдирүүнү &amp;текшерүү...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Капчык</translation>
     </message>
     <message>
         <source>&amp;File</source>

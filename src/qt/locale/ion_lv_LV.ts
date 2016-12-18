@@ -137,8 +137,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Parakstīt &amp;ziņojumu...</translation>
+        <source>Wallet</source>
+        <translation>Maciņš</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -181,16 +181,24 @@
         <translation>&amp;Izveidot maciņa rezerves kopiju</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mainīt paroli</translation>
-    </message>
-    <message>
         <source>Backup wallet to another location</source>
         <translation>Izveidot maciņa rezerves kopiju citur</translation>
     </message>
     <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Mainīt paroli</translation>
+    </message>
+    <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Mainīt maciņa šifrēšanas paroli</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Parakstīt &amp;ziņojumu...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -199,14 +207,6 @@
     <message>
         <source>Open debugging and diagnostic console</source>
         <translation>Atvērt atkļūdošanas un diagnostikas konsoli</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Pārbaudīt ziņojumu...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Maciņš</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -485,6 +485,10 @@ Adrese: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informācija</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Klienta vārds</translation>
     </message>
@@ -497,8 +501,8 @@ Adrese: %4
         <translation>Klienta versija</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informācija</translation>
+        <source>Build date</source>
+        <translation>Kompilācijas datums</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -531,10 +535,6 @@ Adrese: %4
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konsole</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Kompilācijas datums</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -615,10 +615,6 @@ Adrese: %4
         <translation>&amp;Saņēmējs:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Lai pievienotu adresi adrešu grāmatai, tai jādod nosaukums</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Nosaukums:</translation>
     </message>
@@ -633,6 +629,10 @@ Adrese: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Lai pievienotu adresi adrešu grāmatai, tai jādod nosaukums</translation>
     </message>
     </context>
 <context>
@@ -675,22 +675,22 @@ Adrese: %4
         <translation>%1 apstiprinājumu</translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Datums</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Daudzums</translation>
-    </message>
-    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, vēl nav veiksmīgi izziņots</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
     </message>
     <message>
         <source>unknown</source>
         <translation>nav zināms</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -906,140 +906,40 @@ Adrese: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Lietojums:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Komandu saraksts</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Palīdzība par komandu</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Iespējas:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Norādiet datu direktoriju</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Uzstādiet datu bāzes bufera izmēru megabaitos (pēc noklusēšanas: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Uzturēt līdz &lt;n&gt; savienojumiem ar citiem mezgliem(pēc noklusēšanas: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Norādiet savu publisko adresi</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Slieksnis pārkāpējmezglu atvienošanai (pēc noklusēšanas: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Sekundes, cik ilgi atturēt pārkāpējmezglus no atkārtotas pievienošanās (pēc noklusēšanas: 86400)</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Konfigurācijas failā jāuzstāda rpcpassword=&lt;password&gt;:
+%s
+Ja fails neeksistē, izveidojiet to ar atļauju lasīšanai tikai īpašniekam.</translation>
+    </message>
+    <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Izmantot testa tīklu</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumu lietotājvārds</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumu parole</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Atļaut JSON-RPC savienojumus no norādītās IP adreses</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Nosūtīt komandas mezglam, kas darbojas adresē &lt;ip&gt; (pēc noklusēšanas: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Atjaunot maciņa formātu uz jaunāko</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Uzstādīt atslēgu bufera izmēru uz &lt;n&gt; (pēc noklusēšanas: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Servera sertifikāta fails (pēc noklusēšanas: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Servera privātā atslēga (pēc noklusēšanas: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Šis palīdzības paziņojums</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nevar pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Pievienot mezglu, kam pievienoties un turēt savienojumu atvērtu</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Atļaut DNS uzmeklēšanu priekš -addnode, -seednode un -connect</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>Ielādē adreses...</translation>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Atļaut JSON-RPC savienojumus no norādītās IP adreses</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Kļūda ielādējot wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Nederīga -proxy adrese: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
+        <source>Cannot downgrade wallet</source>
+        <translation>Nevar maciņa formātu padarīt vecāku</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
@@ -1050,6 +950,42 @@ Adrese: %4
         <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
     </message>
     <message>
+        <source>Cannot write default address</source>
+        <translation>Nevar ierakstīt adresi pēc noklusēšanas</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Pievienoties mezglam, lai iegūtu citu mezglu adreses, un atvienoties</translation>
+    </message>
+    <message>
+        <source>Done loading</source>
+        <translation>Ielāde pabeigta</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Kļūda ielādējot wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Kļūda</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Palīdzība par komandu</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Nepietiek bitkoinu</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nederīga -proxy adrese: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
         <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -1058,54 +994,118 @@ Adrese: %4
         <translation>Nederīgs daudzums</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Nepietiek bitkoinu</translation>
+        <source>List commands</source>
+        <translation>Komandu saraksts</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Ielādē adreses...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
         <translation>Ielādē bloku indeksu...</translation>
     </message>
     <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pievienot mezglu, kam pievienoties un turēt savienojumu atvērtu</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>Ielādē maciņu...</translation>
     </message>
     <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Nevar maciņa formātu padarīt vecāku</translation>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Uzturēt līdz &lt;n&gt; savienojumiem ar citiem mezgliem(pēc noklusēšanas: 125)</translation>
     </message>
     <message>
-        <source>Cannot write default address</source>
-        <translation>Nevar ierakstīt adresi pēc noklusēšanas</translation>
+        <source>Options:</source>
+        <translation>Iespējas:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumu parole</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
     </message>
     <message>
         <source>Rescanning...</source>
         <translation>Skanēju no jauna...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Ielāde pabeigta</translation>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Nosūtīt komandas mezglam, kas darbojas adresē &lt;ip&gt; (pēc noklusēšanas: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Servera sertifikāta fails (pēc noklusēšanas: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Servera privātā atslēga (pēc noklusēšanas: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Uzstādiet datu bāzes bufera izmēru megabaitos (pēc noklusēšanas: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Uzstādīt atslēgu bufera izmēru uz &lt;n&gt; (pēc noklusēšanas: 100)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Norādiet datu direktoriju</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Norādiet savu publisko adresi</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Šis palīdzības paziņojums</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Slieksnis pārkāpējmezglu atvienošanai (pēc noklusēšanas: 100)</translation>
     </message>
     <message>
         <source>To use the %s option</source>
         <translation>Izmantot opciju %s</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Kļūda</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Nevar pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
     </message>
     <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Konfigurācijas failā jāuzstāda rpcpassword=&lt;password&gt;:
-%s
-Ja fails neeksistē, izveidojiet to ar atļauju lasīšanai tikai īpašniekam.</translation>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
     </message>
-</context>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Atjaunot maciņa formātu uz jaunāko</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Lietojums:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Izmantot testa tīklu</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumu lietotājvārds</translation>
+    </message>
+    </context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

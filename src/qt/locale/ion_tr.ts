@@ -34,12 +34,12 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <translation>Yeni bir adres oluştur</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Seçili adresi sistem panosuna kopyala</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Yeni Adres</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Seçili adresi sistem panosuna kopyala</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -54,12 +54,12 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <translation>&amp;Mesaj İmzala</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Seçili adresi listeden sil</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>Mesajı &amp;Doğrula</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Seçili adresi listeden sil</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -132,6 +132,10 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <translation>Sadece pay almak için</translation>
     </message>
     <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Cüzdanınız için yeni parolayı giriniz.&lt;br/&gt;Lütfen &lt;b&gt;on veya daha fazla rastgele karakter&lt;/b&gt; ya da &lt;b&gt;sekiz veya daha fazla kelime&lt;/b&gt; içeren bir parola seçiniz.</translation>
+    </message>
+    <message>
         <source>Encrypt wallet</source>
         <translation>Cüzdanı şifrele</translation>
     </message>
@@ -172,20 +176,12 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>ÖNEMLİ: Önceden yapmış olduğunuz cüzdan dosyası yedeklemelerinin yeni oluşturulan, şifrelenmiş cüzdan dosyası ile değiştirilmeleri gerekmektedir. Güvenlik nedenleriyle yeni, şifrelenmiş cüzdanı kullanmaya başladığınızda, şifrelenmemiş cüzdan dosyasının önceki yedekleri işe yaramaz hale gelecektir.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Uyarı: Caps Lock tuşu faal durumda!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Cüzdanınız için yeni parolayı giriniz.&lt;br/&gt;Lütfen &lt;b&gt;on veya daha fazla rastgele karakter&lt;/b&gt; ya da &lt;b&gt;sekiz veya daha fazla kelime&lt;/b&gt; içeren bir parola seçiniz.</translation>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ÖNEMLİ: Önceden yapmış olduğunuz cüzdan dosyası yedeklemelerinin yeni oluşturulan, şifrelenmiş cüzdan dosyası ile değiştirilmeleri gerekmektedir. Güvenlik nedenleriyle yeni, şifrelenmiş cüzdanı kullanmaya başladığınızda, şifrelenmemiş cüzdan dosyasının önceki yedekleri işe yaramaz hale gelecektir.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -215,16 +211,24 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Cüzdan parolası başarılı bir şekilde değiştirildi.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Uyarı: Caps Lock tuşu faal durumda!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>&amp;Mesaj imzala...</translation>
+        <source>Wallet</source>
+        <translation>Cüzdan</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Cüzdana genel bakışı göster</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Ödeme almak için kullanılan adres listesini göster</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -241,10 +245,6 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Kayıtlı adresler ve etiketler listesini düzenle</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Ödeme almak için kullanılan adres listesini göster</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -267,56 +267,36 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
         <translation>&amp;Seçenekler...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Göster / Gizle</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Cüzdanı &amp;Şifrele...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>Cüzdanı &amp;Yedekle...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Parolayı &amp;Değiştir...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Dışarı aktar...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Mevcut sekmedeki veriyi bir dosyaya aktar</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Cüzdanı şifrele veya cüzdanın şifresini aç</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>Cüzdanı &amp;Yedekle...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Cüzdanı başka bir konuma yedekle</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>Parolayı &amp;Değiştir...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştir</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Hata ayıklama penceresi</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Hata ayıklama ve teşhis penceresini aç</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>Mesajı &amp;doğrula...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Cüzdan</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Göster / Gizle</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>Cüzdanı &amp;Kilitle...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -329,6 +309,30 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <source>Lock wallet</source>
         <translation>Cüzdanı kilitle</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>&amp;Mesaj imzala...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>Mesajı &amp;doğrula...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Dışarı aktar...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Mevcut sekmedeki veriyi bir dosyaya aktar</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Hata ayıklama penceresi</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Hata ayıklama ve teşhis penceresini aç</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -349,30 +353,6 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Pay alınıyor.&lt;br&gt;Sizin ağırlığınız %1&lt;br&gt;Ağın ağırlığı %2&lt;br&gt;Ödül almak için tahmini süre %3</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation>Pay alınmıyor çünkü cüzdan kilitlidir</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is offline</source>
-        <translation>Pay alınmıyor çünkü cüzdan çevrimdışıdır</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Pay alınmıyor çünkü cüzdan senkronize ediliyor</translation>
-    </message>
-    <message>
-        <source>Not staking because you don't have mature coins</source>
-        <translation>Pay alınmıyor çünkü olgunlaşmış coininiz yoktur</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>Cüzdanı &amp;Kilitle...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -434,27 +414,31 @@ Adres: %4
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Cüzdan verisi, yeni bir konuma kaydedilmeye çalışılırken bir hata oluştu.</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n saniye</numerusform><numerusform>%n saniye</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Pay alınıyor.&lt;br&gt;Sizin ağırlığınız %1&lt;br&gt;Ağın ağırlığı %2&lt;br&gt;Ödül almak için tahmini süre %3</translation>
     </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n dakika</numerusform><numerusform>%n dakika</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is locked</source>
+        <translation>Pay alınmıyor çünkü cüzdan kilitlidir</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n saat</numerusform><numerusform>%n saat</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is offline</source>
+        <translation>Pay alınmıyor çünkü cüzdan çevrimdışıdır</translation>
     </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n gün</numerusform><numerusform>%n gün</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Pay alınmıyor çünkü cüzdan senkronize ediliyor</translation>
+    </message>
+    <message>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>Pay alınmıyor çünkü olgunlaşmış coininiz yoktur</translation>
     </message>
     <message>
         <source>Not staking</source>
         <translation>Pay alınmıyor</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -491,10 +475,6 @@ Adres: %4
     <message>
         <source>Low Output:</source>
         <translation>Düşük Çıktı:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>hayır</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -623,6 +603,10 @@ Adres: %4
     <message>
         <source>yes</source>
         <translation>evet</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>hayır</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
@@ -898,14 +882,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Form</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation>Pay:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Doğrulanmamış:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Cüzdan</translation>
     </message>
@@ -916,6 +892,22 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Your current spendable balance</source>
         <translation>Güncel harcanabilir bakiyeniz</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>Pay:</translation>
+    </message>
+    <message>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>Pay alınmış ve mevcut bakiyede yer almayan coin toplamı</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>Doğrulanmamış:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>Henüz onaylanmamış ve mevcut bakiyede yer almayan işlemler toplamı</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -938,14 +930,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>&lt;b&gt;Son işlemler&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Henüz onaylanmamış ve mevcut bakiyede yer almayan işlemler toplamı</translation>
-    </message>
-    <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Pay alınmış ve mevcut bakiyede yer almayan coin toplamı</translation>
-    </message>
-    <message>
         <source>out of sync</source>
         <translation>eşleşme dışı</translation>
     </message>
@@ -964,16 +948,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Ödeme Talep Et</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Miktar:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>Etiket:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Mesaj:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Miktar:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -1003,6 +987,10 @@ This label turns red, if the priority is smaller than "medium".
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Malumat</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>İstemci ismi</translation>
     </message>
@@ -1015,12 +1003,12 @@ This label turns red, if the priority is smaller than "medium".
         <translation>İstemci sürümü</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Malumat</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Kullanılan OpenSSL sürümü</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Derleme tarihi</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1051,6 +1039,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Son blok zamanı</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Hata ayıklama kütük dosyası</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Aç</translation>
     </message>
@@ -1065,14 +1057,6 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konsol</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Derleme tarihi</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Hata ayıklama kütük dosyası</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1281,10 +1265,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>&amp;Şu adrese öde:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adres defterinize eklemek için bu adrese ilişik bir etiket giriniz</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiket:</translation>
     </message>
@@ -1307,6 +1287,10 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Remove this recipient</source>
         <translation>Bu alıcıyı kaldır</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Adres defterinize eklemek için bu adrese ilişik bir etiket giriniz</translation>
     </message>
     </context>
 <context>
@@ -1452,9 +1436,9 @@ This label turns red, if the priority is smaller than "medium".
         <source>Status</source>
         <translation>Durum</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, %n devre üzerinde yayınlama</numerusform><numerusform>, %n devre üzerinde yayınlama</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, henüz başarılı bir şekilde yayınlanmadı</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1473,6 +1457,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Gönderen</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>bilinmiyor</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Alıcı</translation>
     </message>
@@ -1487,10 +1475,6 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Credit</source>
         <translation>Gider</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n blok içerisinde olgunlaşıyor</numerusform><numerusform>%n blok içerisinde olgunlaşıyor</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1544,18 +1528,6 @@ This label turns red, if the priority is smaller than "medium".
         <source>false</source>
         <translation>yanlış</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, henüz başarılı bir şekilde yayınlanmadı</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n blok için aç</numerusform><numerusform>%n blok için aç</numerusform></translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>bilinmiyor</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1591,14 +1563,6 @@ This label turns red, if the priority is smaller than "medium".
         <translation>%1 değerine dek açık</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Doğrulandı (%1 teyit)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n blok için aç</numerusform><numerusform>%n blok için aç</numerusform></translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>Çevrim dışı</translation>
     </message>
@@ -1609,6 +1573,10 @@ This label turns red, if the priority is smaller than "medium".
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Teyit ediliyor (tavsiye edilen %2 teyit üzerinden %1 doğrulama)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Doğrulandı (%1 teyit)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -1816,88 +1784,40 @@ This label turns red, if the priority is smaller than "medium".
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Kullanım:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Komutları listele</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Bir komut için yardım al</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Seçenekler:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Cüzdan dosyası belirtiniz (veri klasörünün içinde)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Veri dizinini belirt</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (varsayılan: 25)</translation>
-    </message>
-    <message>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Veritabanı disk log boyutunu megabayt olarak ayarla (varsayılan: 100)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Eşler ile en çok &lt;n&gt; adet bağlantı kur (varsayılan: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Eş adresleri elde etmek için bir düğüme bağlan ve ardından bağlantıyı kes</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Kendi genel adresinizi tanımlayın</translation>
-    </message>
-    <message>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Belirtilen adrese bağlı. IPv6 için [host]:port notasyonunu kullan</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Aksaklık gösteren eşlerle bağlantıyı kesme sınırı (varsayılan: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Aksaklık gösteren eşlerle yeni bağlantıları engelleme süresi, saniye olarak (varsayılan: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>IPv4 üzerinde dinlemek için %u numaralı RPC portunun kurulumu sırasında hata meydana geldi: %s</translation>
-    </message>
-    <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Konut satırı ve JSON-RPC komutlarını kabul et</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Arka planda daemon (servis) olarak çalış ve komutları kabul et</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Deneme şebekesini kullan</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>IPv6 üzerinde dinlemek için %u numaralı RPC portu kurulurken bir hata meydana geldi, IPv4'e dönülüyor: %s</translation>
     </message>
     <message>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>İlgili alarm alındığında komutu çalıştır (cmd'deki %s, mesaj ile değiştirilecektir)</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Bir cüzdan işlemi değiştiğinde komutu çalıştır (komuttaki %s TxID ile değiştirilecektir)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>En iyi blok değiştiğinde komutu çalıştır (komut için %s parametresi blok hash değeri ile değiştirilecektir)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Aksaklık gösteren eşlerle yeni bağlantıları engelleme süresi, saniye olarak (varsayılan: 86400)</translation>
+    </message>
+    <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Bayt olarak yüksek öncelikli/düşük ücretli işlemlerin maksimum boyutunu belirle (varsayılan: 27000)</translation>
+    </message>
+    <message>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>Diğer devrelerle saati senkronize et. Sisteminizdeki saat doğru ise devre dışı bırakın, örn: NTC ile senkronize etme (varsayılan: 1)</translation>
+    </message>
+    <message>
+        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
+        <translation>UYARI: Geçersiz kontrol noktası bulundu! Görüntülenen işlemler doğru olmayabilir! Güncelleme yapmanız veya geliştiricilere haber vermeniz gerekebilir.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1912,32 +1832,164 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Uyarı: wallet.dat bozuk, veriler geri kazanıldı! Orijinal wallet.dat, wallet.{zamandamgası}.bak olarak %s klasörüne kaydedildi; bakiyeniz ya da işlemleriniz yanlışsa bir yedekten tekrar yüklemelisiniz.</translation>
     </message>
     <message>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>İşlem yaratırken, bundan daha küçük değere sahip girdileri yok say (varsayılan: 0.01)</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>rpcpassword=&lt;parola&gt; şu yapılandırma dosyasında belirtilmelidir:
+%s
+Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Konut satırı ve JSON-RPC komutlarını kabul et</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Bağlanılacak düğüm ekle ve bağlantıyı zinde tutmaya çalış</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>-addnode, -seednode ve -connect için DNS aramalarına izin ver</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Belirtilen İP adresinden JSON-RPC bağlantılarını kabul et</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Bozuk bir wallet.dat dosyasından özel anahtarları geri kazanmayı dene</translation>
+    </message>
+    <message>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>Belirtilen adrese bağlı. IPv6 için [host]:port notasyonunu kullan</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Blok oluşturma seçenekleri:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Cüzdan eski biçime geri alınamaz</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind adresi çözümlenemedi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip adresi çözümlenemedi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Varsayılan adres yazılamadı</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Sadece belirtilen düğüme veya düğümlere bağlan</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Eş adresleri elde etmek için bir düğüme bağlan ve ardından bağlantıyı kes</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Kendi IP adresini keşfet (varsayılan: dinlenildiğinde ve -externalip yoksa 1)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Yükleme tamamlandı</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: bozuk cüzdan</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Hata</translation>
+    </message>
+    <message>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>Hata: Cüzdanın kilidi sadece pay almak için açılmıştır, işlem yaratılamıyor.</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Herhangi bir portun dinlenmesi başarısız oldu. Bunu istiyorsanız -listen=0 seçeneğini kullanınız.</translation>
+    </message>
+    <message>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Gönderdiğiniz işleme eklenmek üzere KB başına ücret</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Bir komut için yardım al</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>Blok kontrolünün ne kadar derin olacağı (0-6, varsayılan: 1)</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>Harici blk000?.dat dosyasından blok içeri aktar</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Yetersiz bakiye</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Geçersiz -proxy adresi: '%s'</translation>
     </message>
     <message>
         <source>Invalid -tor address: '%s'</source>
         <translation>Geçersiz -tor adresi: '%s'</translation>
     </message>
     <message>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
+        <translation>-mininput=&lt;amount&gt;: '%s' için geçersiz miktar</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;meblağ&gt; için geçersiz meblağ: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
         <translation>-reservebalance=&lt;amount&gt; için geçersiz miktar</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Geçersiz meblağ</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Komutları listele</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Adresler yükleniyor...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Blok indeksi yükleniyor...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Cüzdan yükleniyor...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Eşler ile en çok &lt;n&gt; adet bağlantı kur (varsayılan: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1952,16 +2004,68 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Sadece &lt;net&gt; şebekesindeki düğümlere bağlan (IPv4, IPv6 ya da Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Seçenekler:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>JSON-RPC bağlantıları için parola</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp</source>
         <translation>Tarih bilgisini, hata ayıklama çıktısının başına ekle</translation>
+    </message>
+    <message>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>Değişim için bir onay sayısı talep et (varsayılan: 0)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Blok zincirini eksik cüzdan işlemleri için tekrar tara</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Yeniden tarama...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Arka planda daemon (servis) olarak çalış ve komutları kabul et</translation>
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation> SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Şu &lt;ip&gt; adresinde (varsayılan: 127.0.0.1) çalışan düğüme komut yolla</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Trace/hata ayıklama verilerini debug.log dosyası yerine konsola gönder</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Gönderiyor...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Sunucu sertifika dosyası (varsayılan: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Sunucu özel anahtarı (varsayılan: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (varsayılan: 25)</translation>
+    </message>
+    <message>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>Veritabanı disk log boyutunu megabayt olarak ayarla (varsayılan: 100)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Anahtar alan boyutunu &lt;n&gt; değerine ayarla (varsayılan: 100)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
@@ -1980,10 +2084,54 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt (varsayılan: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Veri dizinini belirt</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Cüzdan dosyası belirtiniz (veri klasörünün içinde)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Kendi genel adresinizi tanımlayın</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Bu yardım mesajı</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Aksaklık gösteren eşlerle bağlantıyı kesme sınırı (varsayılan: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>%s seçeneğini kullanmak için</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. (bind şu hatayı iletti: %d, %s)</translation>
+    </message>
+    <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>Kontrol noktası imzalanamadı, bu bir hatalı kontrol noktası anahtarı mı?
 </translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet için bilinmeyen bir şebeke belirtildi: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Cüzdanı en yeni biçime güncelle</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Kullanım:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>JSON-RPC bağlantıları için OpenSSL (https) kullan</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -1998,6 +2146,10 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Tor gizli servisine erişim için vekil sunucu kullan (varsayılan: -proxy ile aynı)</translation>
     </message>
     <message>
+        <source>Use the test network</source>
+        <translation>Deneme şebekesini kullan</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC bağlantıları için kullanıcı ismi</translation>
     </message>
@@ -2006,200 +2158,16 @@ This label turns red, if the priority is smaller than "medium".
         <translation>Veritabanı bütünlüğü doğrulanıyor...</translation>
     </message>
     <message>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Cüzdan %s, veri klasörü %s dışında yer alıyor.</translation>
+    </message>
+    <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Uyarı: Bu sürüm çok eskidir, güncellemeniz gerekir!</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat bozuk, geri kazanım başarısız oldu</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC bağlantıları için parola</translation>
-    </message>
-    <message>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Diğer devrelerle saati senkronize et. Sisteminizdeki saat doğru ise devre dışı bırakın, örn: NTC ile senkronize etme (varsayılan: 1)</translation>
-    </message>
-    <message>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>İşlem yaratırken, bundan daha küçük değere sahip girdileri yok say (varsayılan: 0.01)</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Belirtilen İP adresinden JSON-RPC bağlantılarını kabul et</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Şu &lt;ip&gt; adresinde (varsayılan: 127.0.0.1) çalışan düğüme komut yolla</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>En iyi blok değiştiğinde komutu çalıştır (komut için %s parametresi blok hash değeri ile değiştirilecektir)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Bir cüzdan işlemi değiştiğinde komutu çalıştır (komuttaki %s TxID ile değiştirilecektir)</translation>
-    </message>
-    <message>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation>Değişim için bir onay sayısı talep et (varsayılan: 0)</translation>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>İlgili alarm alındığında komutu çalıştır (cmd'deki %s, mesaj ile değiştirilecektir)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Cüzdanı en yeni biçime güncelle</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Anahtar alan boyutunu &lt;n&gt; değerine ayarla (varsayılan: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Blok zincirini eksik cüzdan işlemleri için tekrar tara</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Blok kontrolünün ne kadar derin olacağı (0-6, varsayılan: 1)</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Harici blk000?.dat dosyasından blok içeri aktar</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>JSON-RPC bağlantıları için OpenSSL (https) kullan</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Sunucu sertifika dosyası (varsayılan: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Sunucu özel anahtarı (varsayılan: server.pem)</translation>
-    </message>
-    <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Hata: Cüzdanın kilidi sadece pay almak için açılmıştır, işlem yaratılamıyor.</translation>
-    </message>
-    <message>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>UYARI: Geçersiz kontrol noktası bulundu! Görüntülenen işlemler doğru olmayabilir! Güncelleme yapmanız veya geliştiricilere haber vermeniz gerekebilir.</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Bu yardım mesajı</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Cüzdan %s, veri klasörü %s dışında yer alıyor.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. (bind şu hatayı iletti: %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode ve -connect için DNS aramalarına izin ver</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Adresler yükleniyor...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: bozuk cüzdan</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Geçersiz -proxy adresi: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet için bilinmeyen bir şebeke belirtildi: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>-bind adresi çözümlenemedi: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>-externalip adresi çözümlenemedi: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>-paytxfee=&lt;meblağ&gt; için geçersiz meblağ: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Gönderiyor...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Geçersiz meblağ</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Yetersiz bakiye</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Blok indeksi yükleniyor...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Bağlanılacak düğüm ekle ve bağlantıyı zinde tutmaya çalış</translation>
-    </message>
-    <message>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Gönderdiğiniz işleme eklenmek üzere KB başına ücret</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
-        <translation>-mininput=&lt;amount&gt;: '%s' için geçersiz miktar</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Cüzdan yükleniyor...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Cüzdan eski biçime geri alınamaz</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Varsayılan adres yazılamadı</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Yeniden tarama...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Yükleme tamamlandı</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>%s seçeneğini kullanmak için</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Hata</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>rpcpassword=&lt;parola&gt; şu yapılandırma dosyasında belirtilmelidir:
-%s
-Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.</translation>
     </message>
 </context>
 <context>

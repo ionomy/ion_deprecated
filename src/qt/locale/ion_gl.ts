@@ -20,12 +20,12 @@
         <translation>Crear unha nova dirección</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copiar a dirección seleccionada ao cartafol</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Nova dirección.</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Copiar a dirección seleccionada ao cartafol</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -40,12 +40,12 @@
         <translation>Firmar &amp;Mensaxe</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Borrar a dirección actualmente seleccionada da listaxe</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verificar Mensaxe.</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Borrar a dirección actualmente seleccionada da listaxe</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -154,16 +154,12 @@
         <translation>Estás seguro de que desexas encriptar o teu moedeiro?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: Calquera copia de seguridade previa que fixeses do teu arquivo de moedeiro debería ser substituída polo recén xerado arquivo encriptado de moedeiro. Por razóns de seguridade, as copias de seguridade previas de un arquivo de moedeiro desencriptado tornaránse inútiles no momento no que comeces a emprega-lo novo, encriptado, moedeiro.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Precaución: A tecla de Bloqueo de Maiúsculas está activada!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Moedeiro encriptado</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>IMPORTANTE: Calquera copia de seguridade previa que fixeses do teu arquivo de moedeiro debería ser substituída polo recén xerado arquivo encriptado de moedeiro. Por razóns de seguridade, as copias de seguridade previas de un arquivo de moedeiro desencriptado tornaránse inútiles no momento no que comeces a emprega-lo novo, encriptado, moedeiro.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -193,16 +189,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Cambiouse con éxito o contrasinal do moedeiro.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Precaución: A tecla de Bloqueo de Maiúsculas está activada!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>&amp;Asinar mensaxe...</translation>
+        <source>Wallet</source>
+        <translation>Moedeiro</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Amosar vista xeral do moedeiro</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Amosa a lista de dirección para recibir os pagos</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -219,10 +223,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Edita a lista de direccións e etiquetas almaceadas</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Amosa a lista de dirección para recibir os pagos</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -245,56 +245,36 @@
         <translation>&amp;Opcións...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Amosar/Agachar</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Encriptar Moedeiro...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>Copia de &amp;Seguridade do Moedeiro...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambiar contrasinal...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Exportar...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportar datos da pestana actual a un arquivo</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Encriptar ou desencriptar carteira</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>Copia de &amp;Seguridade do Moedeiro...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Facer copia de seguridade do moedeiro noutra localización</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Cambiar contrasinal...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambiar o contrasinal empregado para a encriptación do moedeiro</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>Ventana de &amp;Depuración</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Abrir consola de depuración e diagnóstico</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verificar mensaxe...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Moedeiro</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Amosar/Agachar</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Desbloquear Carteira...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -307,6 +287,30 @@
     <message>
         <source>Lock wallet</source>
         <translation>Bloquear carteira</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>&amp;Asinar mensaxe...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verificar mensaxe...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Exportar...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar datos da pestana actual a un arquivo</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>Ventana de &amp;Depuración</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Abrir consola de depuración e diagnóstico</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -327,30 +331,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>"Staking".&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation>Non "staking" porque a carteira está bloqueada</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is offline</source>
-        <translation>Non "staking" porque a carteira está sen conexión</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Non "staking" porque a carteira está a sincronizar.</translation>
-    </message>
-    <message>
-        <source>Not staking because you don't have mature coins</source>
-        <translation>Non "staking" porque non tes moedas maduras</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Desbloquear Carteira...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -392,19 +372,31 @@ Dirección: %4
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>"Staking".&lt;br&gt;O teu peso na rede é %1&lt;br&gt;O peso da rede é %2&lt;br&gt;Tempo esperado para gañar a recompensa %3</translation>
     </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
+    <message>
+        <source>Not staking because wallet is locked</source>
+        <translation>Non "staking" porque a carteira está bloqueada</translation>
+    </message>
+    <message>
+        <source>Not staking because wallet is offline</source>
+        <translation>Non "staking" porque a carteira está sen conexión</translation>
+    </message>
+    <message>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Non "staking" porque a carteira está a sincronizar.</translation>
+    </message>
+    <message>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>Non "staking" porque non tes moedas maduras</translation>
     </message>
     <message>
         <source>Not staking</source>
         <translation>Non "staking"</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -433,10 +425,6 @@ Dirección: %4
     <message>
         <source>Fee:</source>
         <translation>Pago:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>non</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -545,6 +533,10 @@ Dirección: %4
     <message>
         <source>yes</source>
         <translation>Si</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>non</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -716,16 +708,16 @@ Dirección: %4
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>Sen confirmar:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Moedeiro</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>O teu balance actualmente dispoñible</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>Sen confirmar:</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -761,6 +753,10 @@ Dirección: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Información</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Nome do cliente</translation>
     </message>
@@ -773,12 +769,12 @@ Dirección: %4
         <translation>Versión do cliente</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Información</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Usar versión OpenSSL</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Data de construción</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -805,20 +801,16 @@ Dirección: %4
         <translation>Hora do último bloque</translation>
     </message>
     <message>
+        <source>Debug log file</source>
+        <translation>Arquivo de log de depuración</translation>
+    </message>
+    <message>
         <source>&amp;Open</source>
         <translation>&amp;Abrir</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Consola</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Data de construción</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Arquivo de log de depuración</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -951,10 +943,6 @@ Dirección: %4
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Introduce unha etiqueta para esta dirección para engadila ao teu libro de direccións</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiqueta:</translation>
     </message>
@@ -969,6 +957,10 @@ Dirección: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Introduce unha etiqueta para esta dirección para engadila ao teu libro de direccións</translation>
     </message>
     </context>
 <context>
@@ -1107,6 +1099,10 @@ Dirección: %4
         <translation>Estado</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, non foi propagado con éxito todavía</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -1123,6 +1119,10 @@ Dirección: %4
         <translation>Dende</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>descoñecido</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>A</translation>
     </message>
@@ -1137,10 +1137,6 @@ Dirección: %4
     <message>
         <source>Credit</source>
         <translation>Crédito</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>madura nun bloque máis</numerusform><numerusform>madura en %n bloques máis</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1194,14 +1190,6 @@ Dirección: %4
         <source>false</source>
         <translation>falso</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, non foi propagado con éxito todavía</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>descoñecido</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1239,10 +1227,6 @@ Dirección: %4
     <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Confirmado (%1 confirmacións)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Abrir para %n bloque máis</numerusform><numerusform>Abrir para %n bloques máis</numerusform></translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
@@ -1426,76 +1410,24 @@ Dirección: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Emprego:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Listar comandos</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Obter axuda para un comando</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Opcións:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Especificar arquivo do moedeiro (dentro do directorio de datos)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Especificar directorio de datos</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Fixar tamaño da caché da base de datos en megabytes (por defecto: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Manter como moito &lt;n&gt; conexións con pares (por defecto: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Conectar a nodo para recuperar direccións de pares, e desconectar</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Especificar a túa propia dirección pública</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Umbral para desconectar pares con mal comportamento (por defecto: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Número de segundos para manter sen reconectar aos pares con mal comportamento (por defecto: 86400)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Ocorreu un erro mentres se establecía o porto RPC %u para escoitar sobre IPv4: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Executar no fondo como un demo e aceptar comandos</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Empregar a rede de proba</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceptar conexións de fóra (por defecto: 1 se non -proxy ou -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Ocorreu un erro mentres se establecía o porto RPC %u para escoitar sobre IPv6, voltando a IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Executar comando cando unha transacción do moedeiro cambia (%s no comando é substituído por TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Executar comando cando o mellor bloque cambie (%s no comando é sustituído polo hash do bloque)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Número de segundos para manter sen reconectar aos pares con mal comportamento (por defecto: 86400)</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -1510,6 +1442,34 @@ Dirección: %4
         <translation>Precaución: wallet.dat corrupto, datos salvagardados! O wallet.dat orixinal foi gardado como wallet.{timestamp}.bak en %s; se o teu balance ou transaccións son incorrectas deberías restauralas dende unha copia de seguridade.</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Debes fixar rpcpassword=&lt;contrasinal&gt; no arquivo de configuración:
+%s
+Se o arquivo non existe, debes crealo con permisos de so lectura para o propietario.</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Aceptar conexións de fóra (por defecto: 1 se non -proxy ou -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Engadir un nodo ao que conectarse e tentar manter a conexión aberta</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Permitir lookup de DNS para -addnote, -seednote e -connect</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Permitir conexións JSON-RPC dende direccións IP especificadas</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Tentar recuperar claves privadas dende un wallet.dat corrupto</translation>
     </message>
@@ -1518,16 +1478,92 @@ Dirección: %4
         <translation>Opcións de creación de bloque:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Non se pode desactualizar o moedeiro</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Non se pode resolver a dirección -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Non se pode resolver dirección -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Non se pode escribir a dirección por defecto</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Conectar so ao(s) nodo(s) especificado(s)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Conectar a nodo para recuperar direccións de pares, e desconectar</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Descobrir dirección IP propia (por defecto: 1 se á escoita e non -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Carga completa</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Erro cargando wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Erro cargando wallet.dat: Moedeiro corrupto</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Erro</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Fallou escoitar en calquera porto. Emprega -listen=0 se queres esto.</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Obter axuda para un comando</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Fondos insuficientes</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy inválida: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Cantidade inválida para -paytxfee=&lt;cantidade&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Cantidade inválida</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Listar comandos</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Cargando direccións...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Cargando índice de bloques...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Cargando moedeiro...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Manter como moito &lt;n&gt; conexións con pares (por defecto: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -1542,12 +1578,52 @@ Dirección: %4
         <translation>Conectar so a nodos na rede &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Opcións:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Contrasinal para conexións JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Rescanear transaccións ausentes na cadea de bloques</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Rescaneando...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Executar no fondo como un demo e aceptar comandos</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Opcións SSL: (ver ńa Wiki Bitcoin as instrucción de configuración de SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Enviar comandos a nodo executando na &lt;ip&gt; (por defecto: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Enviar traza/información de depuración á consola en lugar de ao arquivo debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Arquivo de certificado do servidor (por defecto: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Clave privada do servidor (por defecto: server.perm)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Fixar tamaño da caché da base de datos en megabytes (por defecto: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Fixar tamaño do pool de claves a &lt;n&gt; (por defecto: 100)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -1562,12 +1638,60 @@ Dirección: %4
         <translation>Especificar tempo límite da conexión en milisegundos (por defecto: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Especificar directorio de datos</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Especificar arquivo do moedeiro (dentro do directorio de datos)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Especificar a túa propia dirección pública</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Esta mensaxe de axuda</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Umbral para desconectar pares con mal comportamento (por defecto: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Empregar a opción %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Imposible enlazar con %s neste ordenador (enlace devolveu erro %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Rede descoñecida especificada en -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Actualizar moedeiro ao formato máis recente</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Emprego:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Empregar OpenSSL (https) para conexións JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Usar UPnP para mapear o porto de escoita (por defecto: 0)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
         <translation>Usar UPnP para mapear o porto de escoita (por defecto: 1 se á escoita)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Empregar a rede de proba</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1580,146 +1704,6 @@ Dirección: %4
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupto, fallou o gardado</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Contrasinal para conexións JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Permitir conexións JSON-RPC dende direccións IP especificadas</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Enviar comandos a nodo executando na &lt;ip&gt; (por defecto: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Executar comando cando o mellor bloque cambie (%s no comando é sustituído polo hash do bloque)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Executar comando cando unha transacción do moedeiro cambia (%s no comando é substituído por TxID)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Actualizar moedeiro ao formato máis recente</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Fixar tamaño do pool de claves a &lt;n&gt; (por defecto: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescanear transaccións ausentes na cadea de bloques</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Empregar OpenSSL (https) para conexións JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Arquivo de certificado do servidor (por defecto: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Clave privada do servidor (por defecto: server.perm)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Esta mensaxe de axuda</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Imposible enlazar con %s neste ordenador (enlace devolveu erro %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Permitir lookup de DNS para -addnote, -seednote e -connect</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Cargando direccións...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Erro cargando wallet.dat: Moedeiro corrupto</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Erro cargando wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Dirección -proxy inválida: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Rede descoñecida especificada en -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Non se pode resolver a dirección -bind: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Non se pode resolver dirección -externalip: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Cantidade inválida para -paytxfee=&lt;cantidade&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Cantidade inválida</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Fondos insuficientes</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Cargando índice de bloques...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Engadir un nodo ao que conectarse e tentar manter a conexión aberta</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Cargando moedeiro...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Non se pode desactualizar o moedeiro</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Non se pode escribir a dirección por defecto</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Rescaneando...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Carga completa</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Empregar a opción %s</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Erro</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Debes fixar rpcpassword=&lt;contrasinal&gt; no arquivo de configuración:
-%s
-Se o arquivo non existe, debes crealo con permisos de so lectura para o propietario.</translation>
     </message>
 </context>
 <context>

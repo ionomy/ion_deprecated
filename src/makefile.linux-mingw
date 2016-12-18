@@ -43,6 +43,8 @@ DEBUGFLAGS=-g
 CFLAGS=-O2 -msse2 -w -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
 LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -static-libgcc -static-libstdc++
 
+TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
+
 ifndef USE_UPNP
 	override USE_UPNP = -
 endif
@@ -89,8 +91,6 @@ OBJS= \
     obj/kernel.o \
     obj/pbkdf2.o \
     obj/scrypt.o \
-    obj/scrypt-x86.o \
-    obj/scrypt-x86_64.o \
     obj/chainparams.o
 
 ifeq (${USE_WALLET}, 1)
@@ -115,6 +115,22 @@ leveldb/libleveldb.a:
 	@echo "Building LevelDB ..." && cd leveldb && CC=$(CC) CXX=$(CXX) TARGET_OS=OS_WINDOWS_CROSSCOMPILE CXXFLAGS="-I$(INCLUDEPATHS)" LDFLAGS="-L$(LIBPATHS)" $(MAKE) libleveldb.a libmemenv.a && $(RANLIB) libleveldb.a && $(RANLIB) libmemenv.a && cd ..
 obj/txdb-leveldb.o: leveldb/libleveldb.a
 
+ifeq (${USE_ASM}, 1)
+OBJS += obj/scrypt-arm.o obj/scrypt-x86.o obj/scrypt-x86_64.o
+
+obj/scrypt-x86.o: scrypt-x86.S
+	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
+
+obj/scrypt-x86_64.o: scrypt-x86_64.S
+	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
+endif
+ifneq (${USE_ASM}, 1)
+OBJS += obj/scrypt-generic.o
+
+obj/scrypt-generic.o: scrypt-generic.c
+	$(CC) -c $(xCXXFLAGS) -MMD -o $@ $<
+endif
+
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
 version.cpp: obj/build.h
@@ -127,15 +143,19 @@ iond.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -lshlwapi
 	$(STRIP) iond.exe
 
-obj/scrypt-x86.o: scrypt-x86.S
-	$(CXX) -c $(CFLAGS) -MMD -o $@ $<
+TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 
-obj/scrypt-x86_64.o: scrypt-x86_64.S
-	$(CXX) -c $(CFLAGS) -MMD -o $@ $<
+obj-test/%.o: test/%.cpp $(HEADERS)
+	${HOST}-g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
+
+test_ion.exe: $(TESTOBJS) $(filter-out obj/init.o obj/bitcoin.o,$(OBJS:obj/%=obj/%))
+	${HOST}-g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
 
 clean:
 	-rm -f obj/*.o
 	-rm -f iond.exe
+	-rm -f obj-test/*.o
+	-rm -f test_paycoin.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

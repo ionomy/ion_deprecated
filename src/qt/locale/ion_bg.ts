@@ -137,12 +137,12 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Паролата на портфейла беше променена успешно.</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Подписване на &amp;съобщение...</translation>
+        <source>Wallet</source>
+        <translation>Портфейл</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -193,12 +193,12 @@
         <translation>Променя паролата за портфейла</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Проверка на съобщение...</translation>
+        <source>Sign &amp;message...</source>
+        <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>Портфейл</translation>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -515,10 +515,6 @@
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Име:</translation>
     </message>
@@ -533,6 +529,10 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
     </message>
     </context>
 <context>
@@ -651,6 +651,10 @@
         <translation>Статус</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, все още не е изпратено</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
@@ -665,6 +669,10 @@
     <message>
         <source>From</source>
         <translation>От</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестен</translation>
     </message>
     <message>
         <source>To</source>
@@ -721,14 +729,6 @@
     <message>
         <source>false</source>
         <translation>false</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, все още не е изпратено</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>неизвестен</translation>
     </message>
 </context>
 <context>
@@ -938,84 +938,36 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Използване:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Вписване на команди</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Получете помощ за команда</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Опции:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Определете директория за данните</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Праг на прекъсване на връзката при непорядъчно държащи се пиъри (по подразбиране:100)</translation>
-    </message>
-    <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Брой секунди до възтановяване на връзката за зле държащите се пиъри (по подразбиране:86400)</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Използвайте тестовата мрежа</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Изпрати локализиращата или дебъг информацията към конзолата, вместо файлът debug.log</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Потребителско име за JSON-RPC връзките</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Парола за  JSON-RPC връзките</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation>Разреши  JSON-RPC връзките от отучнен IP адрес</translation>
     </message>
     <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Изпрати команди до възел функциониращ на &lt;ip&gt; (По подразбиране: 127.0.0.1)</translation>
+        <source>Done loading</source>
+        <translation>Зареждането е завършено</translation>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Повторно сканиране на блок-връзка за липсващи портефейлни транзакции</translation>
+        <source>Error</source>
+        <translation>Грешка</translation>
     </message>
     <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Използвайте OpenSSL (https) за JSON-RPC връзките</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Сертификатен файл на сървъра (По подразбиране:server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Поверителен ключ за сървъра (default: server.pem)</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Това помощно съобщение</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Зареждане на адресите...</translation>
+        <source>Get help for a command</source>
+        <translation>Получете помощ за команда</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Невалиден -proxy address: '%s'</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Вписване на команди</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Зареждане на адресите...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
@@ -1026,16 +978,64 @@
         <translation>Зареждане на портфейла...</translation>
     </message>
     <message>
+        <source>Options:</source>
+        <translation>Опции:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Парола за  JSON-RPC връзките</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Повторно сканиране на блок-връзка за липсващи портефейлни транзакции</translation>
+    </message>
+    <message>
         <source>Rescanning...</source>
         <translation>Преразглеждане на последовтелността от блокове...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Зареждането е завършено</translation>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Изпрати команди до възел функциониращ на &lt;ip&gt; (По подразбиране: 127.0.0.1)</translation>
     </message>
     <message>
-        <source>Error</source>
-        <translation>Грешка</translation>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Изпрати локализиращата или дебъг информацията към конзолата, вместо файлът debug.log</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Сертификатен файл на сървъра (По подразбиране:server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Поверителен ключ за сървъра (default: server.pem)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Определете директория за данните</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Това помощно съобщение</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Праг на прекъсване на връзката при непорядъчно държащи се пиъри (по подразбиране:100)</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Използване:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Използвайте OpenSSL (https) за JSON-RPC връзките</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Използвайте тестовата мрежа</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Потребителско име за JSON-RPC връзките</translation>
     </message>
     </context>
 <context>

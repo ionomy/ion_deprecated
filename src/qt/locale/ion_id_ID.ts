@@ -20,12 +20,12 @@
         <translation>Buat alamat baru</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Salin alamat yang dipilih ke clipboard</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Alamat Baru</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Salin alamat yang dipilih ke clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -138,10 +138,6 @@
         <translation>Apakah Anda yakin untuk mengenkripsi dompet Anda?</translation>
     </message>
     <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Peringatan: tombol Caps Lock aktif!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Dompet terenkripsi</translation>
     </message>
@@ -173,16 +169,24 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Passphrase dompet telah berhasil diubah.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Peringatan: tombol Caps Lock aktif!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Pesan &amp;penanda...</translation>
+        <source>Wallet</source>
+        <translation>Dompet</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Tampilkan kilasan umum dari dompet</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Tampilkan daftar alamat untuk menerima pembayaran</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -199,10 +203,6 @@
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Mengedit daftar alamat-alamat dan label</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Tampilkan daftar alamat untuk menerima pembayaran</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -225,52 +225,36 @@
         <translation>&amp;Pilihan...</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Cadangkan Dompet...</translation>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Tunjukkan / Sembunyikan</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Ubah Kata Kunci...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Ekspor...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Mengekspor data dari tab saat ini ke dalam file</translation>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>&amp;Enkripsi Dompet...</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Mengenkripsi atau mendekripsi dompet</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Cadangkan Dompet...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Cadangkan dompet ke lokasi lain</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Ubah Kata Kunci...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Ubah kata kunci yang digunakan untuk enkripsi dompet</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Jendela Debug</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Buka konsol debug dan diagnosa</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verifikasi pesan...</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Dompet</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Tunjukkan / Sembunyikan</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Buka Dompet</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -283,6 +267,30 @@
     <message>
         <source>Lock wallet</source>
         <translation>Kunci dompet</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Pesan &amp;penanda...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verifikasi pesan...</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Ekspor...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Mengekspor data dari tab saat ini ke dalam file</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Jendela Debug</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Buka konsol debug dan diagnosa</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -303,10 +311,6 @@
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Buka Dompet</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -348,27 +352,11 @@ Alamat: %4
         <source>Backup Failed</source>
         <translation>Back-up Gagal</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n detik</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n menit</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n jam</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n hari</numerusform></translation>
-    </message>
     <message>
         <source>Not staking</source>
         <translation>Lagi tidak staking</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -397,10 +385,6 @@ Alamat: %4
     <message>
         <source>Fee:</source>
         <translation>Biaya:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>tidak</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -513,6 +497,10 @@ Alamat: %4
     <message>
         <source>yes</source>
         <translation>ya</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>tidak</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -680,12 +668,12 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Dompet</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>Stake:</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -714,16 +702,16 @@ Alamat: %4
         <translation>Permintaan Pembayaran</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Jumlah:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>Label:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Pesan:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Jumlah:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -741,6 +729,10 @@ Alamat: %4
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informasi</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Nama Klien</translation>
     </message>
@@ -753,12 +745,12 @@ Alamat: %4
         <translation>Versi Klien</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informasi</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Menggunakan versi OpenSSL</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Tanggal pembuatan</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -795,10 +787,6 @@ Alamat: %4
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Konsol</translation>
-    </message>
-    <message>
-        <source>Build date</source>
-        <translation>Tanggal pembuatan</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -872,6 +860,10 @@ Alamat: %4
         <translation>Kirim ke beberapa penerima sekaligus</translation>
     </message>
     <message>
+        <source>Clear &amp;All</source>
+        <translation>Hapus &amp;Semua</translation>
+    </message>
+    <message>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
@@ -919,10 +911,6 @@ Alamat: %4
         <translation>Kirim &amp;Ke:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Masukkan label bagi alamat ini untuk menambahkannya ke buku alamat Anda</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
@@ -937,6 +925,10 @@ Alamat: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+B</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Masukkan label bagi alamat ini untuk menambahkannya ke buku alamat Anda</translation>
     </message>
     </context>
 <context>
@@ -955,6 +947,10 @@ Alamat: %4
     <message>
         <source>Alt+P</source>
         <translation>Alt+B</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Hapus &amp;Semua</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -987,12 +983,20 @@ Alamat: %4
         <translation>Status</translation>
     </message>
     <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, belum berhasil disiarkan</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Tanggal</translation>
     </message>
     <message>
         <source>From</source>
         <translation>Dari</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tidak diketahui</translation>
     </message>
     <message>
         <source>To</source>
@@ -1010,15 +1014,7 @@ Alamat: %4
         <source>Amount</source>
         <translation>Jumlah</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, belum berhasil disiarkan</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>tidak diketahui</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -1234,144 +1230,40 @@ Alamat: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Penggunaan:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Daftar perintah</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Dapatkan bantuan untuk perintah</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Pilihan:</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Tentukan direktori data</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Atur ukuran tembolok dalam megabyte (standar: 25)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Mengatur  hubungan paling banyak &lt;n&gt; ke peer (standar: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Hubungkan ke node untuk menerima alamat peer, dan putuskan</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Tentukan alamat publik Anda sendiri</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Batas untuk memutuskan peer buruk (standar: 100)</translation>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Menjalankan perintah ketika perubahan blok terbaik (%s dalam cmd digantikan oleh hash blok)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
         <translation>Jumlah kedua untuk menjaga peer buruk dari hubung-ulang (standar: 86400)</translation>
     </message>
     <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Anda harus mengatur rpcpassword=&lt;kata sandi&gt; dalam berkas konfigurasi:
+%s
+Jika berkas tidak ada, buatlah dengan permisi berkas hanya-dapat-dibaca-oleh-pemilik.</translation>
+    </message>
+    <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Menerima perintah baris perintah dan JSON-RPC</translation>
     </message>
     <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Gunakan jaringan uji</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Kirim info lacak/debug ke konsol sebaliknya dari berkas debug.log</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Nama pengguna untuk hubungan JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Kata sandi untuk hubungan JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Izinkan hubungan JSON-RPC dari alamat IP yang ditentukan</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Kirim perintah ke node berjalan pada &lt;ip&gt; (standar: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Menjalankan perintah ketika perubahan blok terbaik (%s dalam cmd digantikan oleh hash blok)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Perbarui dompet ke format terbaru</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Kirim ukuran kolam kunci ke &lt;n&gt; (standar: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Pindai ulang rantai-blok untuk transaksi dompet yang hilang</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Gunakan OpenSSL (https) untuk hubungan JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Berkas sertifikat server (standar: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Kunci pribadi server (standar: server.pem)</translation>
-    </message>
-    <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Eror: Dompet hanya di-buka hanya untuk staking, transaksi gagal dilaksanakan</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Pesan bantuan ini</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Tidak dapat mengikat ke %s dengan komputer ini (ikatan gagal %d, %s)</translation>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Tambahkan node untuk dihubungkan dan upaya untuk menjaga hubungan tetap terbuka</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Izinkan peninjauan DNS untuk -addnote, -seednode dan -connect</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>Memuat alamat...</translation>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Izinkan hubungan JSON-RPC dari alamat IP yang ditentukan</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Gagal memuat wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Alamat -proxy salah: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: '%s'</translation>
+        <source>Cannot downgrade wallet</source>
+        <translation>Tidak dapat menurunkan versi dompet</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
@@ -1382,66 +1274,170 @@ Alamat: %4
         <translation>Tidak dapat menyelesaikan alamat -externalip: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Jumlah salah untuk -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Mengirim...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Jumlah salah</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Saldo tidak mencukupi</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Memuat indeks blok...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Tambahkan node untuk dihubungkan dan upaya untuk menjaga hubungan tetap terbuka</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Memuat dompet...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Tidak dapat menurunkan versi dompet</translation>
-    </message>
-    <message>
         <source>Cannot write default address</source>
         <translation>Tidak dapat menyimpan alamat standar</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
-        <translation>Memindai ulang...</translation>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Hubungkan ke node untuk menerima alamat peer, dan putuskan</translation>
     </message>
     <message>
         <source>Done loading</source>
         <translation>Memuat selesai</translation>
     </message>
     <message>
-        <source>To use the %s option</source>
-        <translation>Gunakan pilihan %s</translation>
+        <source>Error loading wallet.dat</source>
+        <translation>Gagal memuat wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Gagal</translation>
     </message>
     <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Anda harus mengatur rpcpassword=&lt;kata sandi&gt; dalam berkas konfigurasi:
-%s
-Jika berkas tidak ada, buatlah dengan permisi berkas hanya-dapat-dibaca-oleh-pemilik.</translation>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>Eror: Dompet hanya di-buka hanya untuk staking, transaksi gagal dilaksanakan</translation>
     </message>
-</context>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Dapatkan bantuan untuk perintah</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Saldo tidak mencukupi</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Alamat -proxy salah: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Jumlah salah untuk -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Jumlah salah</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Daftar perintah</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Memuat alamat...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Memuat indeks blok...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Memuat dompet...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Mengatur  hubungan paling banyak &lt;n&gt; ke peer (standar: 125)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Pilihan:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Kata sandi untuk hubungan JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Pindai ulang rantai-blok untuk transaksi dompet yang hilang</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Memindai ulang...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
+    </message>
+    <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Kirim perintah ke node berjalan pada &lt;ip&gt; (standar: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Kirim info lacak/debug ke konsol sebaliknya dari berkas debug.log</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Mengirim...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Berkas sertifikat server (standar: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Kunci pribadi server (standar: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Atur ukuran tembolok dalam megabyte (standar: 25)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Kirim ukuran kolam kunci ke &lt;n&gt; (standar: 100)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Tentukan direktori data</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Tentukan alamat publik Anda sendiri</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Pesan bantuan ini</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Batas untuk memutuskan peer buruk (standar: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Gunakan pilihan %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Tidak dapat mengikat ke %s dengan komputer ini (ikatan gagal %d, %s)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Perbarui dompet ke format terbaru</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Penggunaan:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Gunakan OpenSSL (https) untuk hubungan JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gunakan jaringan uji</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Nama pengguna untuk hubungan JSON-RPC</translation>
+    </message>
+    </context>
 <context>
     <name>ionNodeConfigDialog</name>
     </context>

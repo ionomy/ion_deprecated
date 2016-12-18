@@ -363,10 +363,6 @@
         <translation>Ordaindu &amp;honi:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Sartu etiketa bat helbide honetarako, eta gehitu zure helbide-liburuan</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Etiketa:</translation>
     </message>
@@ -381,6 +377,10 @@
     <message>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Sartu etiketa bat helbide honetarako, eta gehitu zure helbide-liburuan</translation>
     </message>
     </context>
 <context>
@@ -419,22 +419,22 @@
         <translation>%1 konfirmazioak</translation>
     </message>
     <message>
-        <source>Date</source>
-        <translation>Data</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Kopurua</translation>
-    </message>
-    <message>
         <source>, has not been successfully broadcast yet</source>
         <translation>, ez da arrakastaz emititu oraindik</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
     <message>
         <source>unknown</source>
         <translation>ezezaguna</translation>
     </message>
-</context>
+    <message>
+        <source>Amount</source>
+        <translation>Kopurua</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
@@ -618,28 +618,28 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>List commands</source>
-        <translation>Komandoen lista</translation>
+        <source>Done loading</source>
+        <translation>Zamaketa amaitua</translation>
     </message>
     <message>
         <source>Get help for a command</source>
         <translation>Laguntza komando batean</translation>
     </message>
     <message>
-        <source>Options:</source>
-        <translation>Aukerak</translation>
+        <source>List commands</source>
+        <translation>Komandoen lista</translation>
     </message>
     <message>
-        <source>This help message</source>
-        <translation>Laguntza mezu hau</translation>
+        <source>Options:</source>
+        <translation>Aukerak</translation>
     </message>
     <message>
         <source>Rescanning...</source>
         <translation>Birbilatzen...</translation>
     </message>
     <message>
-        <source>Done loading</source>
-        <translation>Zamaketa amaitua</translation>
+        <source>This help message</source>
+        <translation>Laguntza mezu hau</translation>
     </message>
     </context>
 <context>

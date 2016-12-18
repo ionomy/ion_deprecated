@@ -34,12 +34,12 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>Vytvoriť novú adresu</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovať práve zvolenú adresu do systémovej schránky</translation>
-    </message>
-    <message>
         <source>&amp;New Address</source>
         <translation>&amp;Nová adresa</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation>Kopírovať práve zvolenú adresu do systémovej schránky</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -54,12 +54,12 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>Podpísať &amp;správu</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Vymazať aktuálne vybranú adresu zo zoznamu</translation>
-    </message>
-    <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Overte správu</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Vymazať aktuálne vybranú adresu zo zoznamu</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -132,6 +132,10 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>Len pre stávkovanie</translation>
     </message>
     <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou &lt;b&gt;desať alebo viac náhodných znakov&lt;/b&gt;, prípadne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
+    </message>
+    <message>
         <source>Encrypt wallet</source>
         <translation>Zašifrovať peňaženku</translation>
     </message>
@@ -172,20 +176,12 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
-    </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
-    </message>
-    <message>
         <source>Wallet encrypted</source>
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou &lt;b&gt;desať alebo viac náhodných znakov&lt;/b&gt;, prípadne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -215,16 +211,36 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
     </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
+    </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Podpísať &amp;správu...</translation>
+        <source>Wallet</source>
+        <translation>Peňaženka</translation>
+    </message>
+    <message>
+        <source>&amp;Dashboard</source>
+        <translation>&amp;Tabuľa (dashboard):</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
         <translation>Zobraziť celkový prehľad o peňaženke</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>&amp;Prijať</translation>
+    </message>
+    <message>
+        <source>Show the list of addresses for receiving payments</source>
+        <translation>Zobraziť zoznam adries pre príjem platieb</translation>
+    </message>
+    <message>
+        <source>&amp;Send</source>
+        <translation>&amp;Poslať</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -241,10 +257,6 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <source>Edit the list of stored addresses and labels</source>
         <translation>Úprava zoznamu uložených adries a popisov</translation>
-    </message>
-    <message>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Zobraziť zoznam adries pre príjem platieb</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -267,56 +279,36 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
+        <source>&amp;Show / Hide</source>
+        <translation>Zobraziť / skryť</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Zašifrovať peňaženku...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Zálohovať peňaženku...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmena hesla...</translation>
-    </message>
-    <message>
-        <source>&amp;Export...</source>
-        <translation>&amp;Export...</translation>
-    </message>
-    <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať dáta v aktuálnej karte do súboru</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
         <translation>Zašifrovať alebo dešifrovať peňaženku</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Zálohovať peňaženku...</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Zálohovať peňaženku na iné miesto</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Zmena hesla...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Ladiace okno</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Otvor konzolu pre ladenie a diagnostiku</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>Overiť správu</translation>
-    </message>
-    <message>
-        <source>Wallet</source>
-        <translation>Peňaženka</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>Zobraziť / skryť</translation>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Odomknúť peňaženku...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -329,6 +321,30 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <source>Lock wallet</source>
         <translation>Zamknúť peňaženku</translation>
+    </message>
+    <message>
+        <source>Sign &amp;message...</source>
+        <translation>Podpísať &amp;správu...</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>Overiť správu</translation>
+    </message>
+    <message>
+        <source>&amp;Export...</source>
+        <translation>&amp;Export...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportovať dáta v aktuálnej karte do súboru</translation>
+    </message>
+    <message>
+        <source>&amp;Debug window</source>
+        <translation>&amp;Ladiace okno</translation>
+    </message>
+    <message>
+        <source>Open debugging and diagnostic console</source>
+        <translation>Otvor konzolu pre ladenie a diagnostiku</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -351,48 +367,48 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
         <translation>[testovacia sieť]</translation>
     </message>
     <message>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is locked</source>
-        <translation>Nestávkujem pretože peňaženka je zamknutá</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is offline</source>
-        <translation>Nestávkujem pretože peňaženka je offline</translation>
-    </message>
-    <message>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Nestávkujem pretože peňaženka sa synchronizuje</translation>
-    </message>
-    <message>
-        <source>Not staking because you don't have mature coins</source>
-        <translation>Nestávkujem pretože nemáte odležané mince</translation>
-    </message>
-    <message>
-        <source>&amp;Dashboard</source>
-        <translation>&amp;Tabuľa (dashboard):</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Prijať</translation>
-    </message>
-    <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Poslať</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Odomknúť peňaženku...</translation>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Spracovaných %1 blokov transakčnej histórie.</translation>
     </message>
     <message>
         <source>Up to date</source>
         <translation>Aktualizovaný</translation>
     </message>
     <message>
+        <source>%1 and %2</source>
+        <translation>%1 a %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 pozadu</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
         <translation>Sťahujem...</translation>
+    </message>
+    <message>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Posledný prijatý blok bol vytvorený pred %1.</translation>
+    </message>
+    <message>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Transakcie po tejto ešte nebudú viditeľné</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Varovanie</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informácia</translation>
+    </message>
+    <message>
+        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
+        <translation>Táto transakcia je nad veľkostný limit. Stále ju môžete poslať za poplatok %1, ktorý ide uzlom spracujúcim vaše transakcie, čím pomáhate podporovať sieť. Chcete zaplatiť poplatok?</translation>
     </message>
     <message>
         <source>Confirm transaction fee</source>
@@ -449,71 +465,31 @@ Adresa: %4</translation>
         <source>There was an error trying to save the wallet data to the new location.</source>
         <translation>Došlo k chybe pri pokuse o uloženie dát peňaženky do nového umiestnenia.</translation>
     </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekúnd</numerusform><numerusform>%n sekúnd</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minúta</numerusform><numerusform>%n minút</numerusform><numerusform>%n minút</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
+    <message>
+        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
+        <translation>Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
     </message>
     <message>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>Spracovaných %1 blokov transakčnej histórie.</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
+        <source>Not staking because wallet is locked</source>
+        <translation>Nestávkujem pretože peňaženka je zamknutá</translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation>%1 a %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
+        <source>Not staking because wallet is offline</source>
+        <translation>Nestávkujem pretože peňaženka je offline</translation>
     </message>
     <message>
-        <source>%1 behind</source>
-        <translation>%1 pozadu</translation>
+        <source>Not staking because wallet is syncing</source>
+        <translation>Nestávkujem pretože peňaženka sa synchronizuje</translation>
     </message>
     <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Posledný prijatý blok bol vytvorený pred %1.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcie po tejto ešte nebudú viditeľné</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Chyba</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Varovanie</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informácia</translation>
-    </message>
-    <message>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Táto transakcia je nad veľkostný limit. Stále ju môžete poslať za poplatok %1, ktorý ide uzlom spracujúcim vaše transakcie, čím pomáhate podporovať sieť. Chcete zaplatiť poplatok?</translation>
+        <source>Not staking because you don't have mature coins</source>
+        <translation>Nestávkujem pretože nemáte odležané mince</translation>
     </message>
     <message>
         <source>Not staking</source>
         <translation>Nestávkuje sa</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>ClientModel</name>
     <message>
@@ -550,10 +526,6 @@ Adresa: %4</translation>
     <message>
         <source>Low Output:</source>
         <translation>Nízky výstup:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nie</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -682,6 +654,10 @@ Adresa: %4</translation>
     <message>
         <source>yes</source>
         <translation>áno</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nie</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
@@ -969,14 +945,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Stake:</source>
-        <translation>V stávke:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Nepotvrdené:</translation>
-    </message>
-    <message>
         <source>Wallet</source>
         <translation>Peňaženka</translation>
     </message>
@@ -987,6 +955,22 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <source>Your current spendable balance</source>
         <translation>Váš aktuálny použiteľný zostatok</translation>
+    </message>
+    <message>
+        <source>Stake:</source>
+        <translation>V stávke:</translation>
+    </message>
+    <message>
+        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
+        <translation>Súčet mincí, ktoré sú v stávke a ešte neboli započítané do aktuálneho zostatku</translation>
+    </message>
+    <message>
+        <source>Unconfirmed:</source>
+        <translation>Nepotvrdené:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
+        <translation>Súčet transakcií, ktoré neboli ešte potvrdené, a ešte nezapočítané do aktuálneho zostatku</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1009,14 +993,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>&lt;b&gt;Nedávne transakcie&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Súčet transakcií, ktoré neboli ešte potvrdené, a ešte nezapočítané do aktuálneho zostatku</translation>
-    </message>
-    <message>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Súčet mincí, ktoré sú v stávke a ešte neboli započítané do aktuálneho zostatku</translation>
-    </message>
-    <message>
         <source>out of sync</source>
         <translation>nezosynchronizované</translation>
     </message>
@@ -1035,16 +1011,16 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Vyžiadať Platbu</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Čiastka:</translation>
-    </message>
-    <message>
         <source>Label:</source>
         <translation>Popis:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Správa:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Čiastka:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
@@ -1074,6 +1050,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informácie</translation>
+    </message>
+    <message>
         <source>Client name</source>
         <translation>Meno klienta</translation>
     </message>
@@ -1086,12 +1066,12 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Verzia klienta</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informácie</translation>
-    </message>
-    <message>
         <source>Using OpenSSL version</source>
         <translation>Používa OpenSSL verziu</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Dátum zostavenia</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1118,28 +1098,12 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Sieťové prenosy</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>Vymazať</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Súčty</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>Vstup:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>Výstup:</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Čas posledného bloku</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Súbor denníka ladenia</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1158,16 +1122,28 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>&amp;Konzola</translation>
     </message>
     <message>
-        <source>Build date</source>
-        <translation>Dátum zostavenia</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Súbor denníka ladenia</translation>
-    </message>
-    <message>
         <source>Clear console</source>
         <translation>Vymazať konzolu</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Sieťové prenosy</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>Vymazať</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Súčty</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Vstup:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Výstup:</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1404,10 +1380,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Popis:</translation>
     </message>
@@ -1430,6 +1402,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <source>Remove this recipient</source>
         <translation>Odstrániť tohto príjemcu</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
     </message>
     </context>
 <context>
@@ -1579,9 +1555,9 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>Status</source>
         <translation>Stav</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, vysielanie cez %n uzol</numerusform><numerusform>, vysielanie cez %n uzlov</numerusform><numerusform>, vysielanie cez %n uzlov</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ešte nebola úspešne odoslaná</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1600,6 +1576,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Od</translation>
     </message>
     <message>
+        <source>unknown</source>
+        <translation>neznámy</translation>
+    </message>
+    <message>
         <source>To</source>
         <translation>Pre</translation>
     </message>
@@ -1614,10 +1594,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <source>Credit</source>
         <translation>Kredit</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>dozreje o ďalší %n blok</numerusform><numerusform>dozreje o ďalších %n blokov</numerusform><numerusform>dozreje o ďalších %n blokov</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1671,18 +1647,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>false</source>
         <translation>nepravda</translation>
     </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ešte nebola úspešne odoslaná</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otvorené pre %n ďalší blok</numerusform><numerusform>Otvorené pre %n ďalšie bloky</numerusform><numerusform>Otvorené pre %n ďalších blokov</numerusform></translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>neznámy</translation>
-    </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1718,14 +1682,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Otvorené do %1</translation>
     </message>
     <message>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrdené (%1 potvrdení)</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform></translation>
-    </message>
-    <message>
         <source>Offline</source>
         <translation>Offline</translation>
     </message>
@@ -1736,6 +1692,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Potvrdzujem (%1 z %2 doporučených potvrdení)</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Potvrdené (%1 potvrdení)</translation>
     </message>
     <message>
         <source>Conflicted</source>
@@ -1943,96 +1903,64 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Usage:</source>
-        <translation>Použitie:</translation>
-    </message>
-    <message>
-        <source>List commands</source>
-        <translation>Zoznam príkazov</translation>
-    </message>
-    <message>
-        <source>Get help for a command</source>
-        <translation>Získať pomoc pre príkaz</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Možnosti:</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Zadajte súbor peňaženky (v rámci dátového adresára)</translation>
-    </message>
-    <message>
-        <source>Specify data directory</source>
-        <translation>Zadajte priečinok s dátami</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Nastaviť veľkosť vyrovnávajúcej pamäte pre databázu v megabytoch (predvolené: 25)</translation>
-    </message>
-    <message>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Nastaviť veľkosť databázového denníka na disku v MB (predvolené: 100)</translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Udržiavať maximálne &lt;n&gt; spojení (predvolené: 125)</translation>
-    </message>
-    <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pre načítanie peer adresy sa pripojte k uzlu, a odpojte</translation>
-    </message>
-    <message>
-        <source>Specify your own public address</source>
-        <translation>Určite vašu vlastnú verejnú adresu</translation>
-    </message>
-    <message>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Spojiť do danej adresy. Použite [host]:port zápis pre IPv6</translation>
-    </message>
-    <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
-    </message>
-    <message>
-        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation>Vždy sa pýtať na partnerské adresy pomocou vyhľadávania DNS (predvolené: 0)</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation>Akceptovateľné šifry (predvolené: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv4 došlo k chybe: %s</translation>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
-    </message>
-    <message>
-        <source>Use the test network</source>
-        <translation>Použiť testovaciu sieť</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Prijímať pripojenie z vonka (predvolené: 1, ak nie -proxy alebo -connect)</translation>
-    </message>
-    <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv6, spadne späť do IPv4 došlo k chybe: %s</translation>
     </message>
     <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Chyba: Transakcia bola zamietnutá! Toto môže nastať, ak niektoré z mincí vo vašej peňaženke sa už použili, ako napríklad, ak ste použili kópiu wallet.dat a mince boli použité v kópii, ale neboli označené ako použité tu.</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Chyba: Táto operácia vyžaduje transakčný poplatok vo výške aspoň %s, kvôli jej množstvu, zložitosti, alebo použitím nedávno prijatých finančných prostriedkov!</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
+        <translation>Spustiť príkaz, keď je prijaté príslušné upozornenie (%s v cmd je nahradený správou)</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Spustiť príkaz ak sa zmení transakcia v peňaženke (%s v cmd sa nahrádza TxID)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation>Výstupné informácie o ladení. (predvolené: 0, zadanie &lt;category&gt; je nepovinné)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
+    </message>
+    <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
         <translation>Nastavte maximálnu veľkosť high-priority/low-fee transakcií v bajtoch (predvolené: 27000)</translation>
+    </message>
+    <message>
+        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
+        <translation>Synchronizácia času s ostatnými uzlami. Zakázať ak čas na vašom systéme je presný, napr synchronizáciu s NTP (predvolené: 1)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
+    </message>
+    <message>
+        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
+        <translation>UPOZORNENIE: Neplatný checkpoint nájdený! Uvedené transakcie nemusia byť správne! Možno budete musieť upgradovať, alebo upozorniť vývojárov.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2047,32 +1975,204 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
     </message>
     <message>
+        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
+        <translation>Pri vytváraní transakcií, ignorovať vstupy s hodnotou nižšou než táto (predvolené: 0.01)</translation>
+    </message>
+    <message>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation>Musíš nastaviť rpcpassword=&lt;heslo&gt; v konfiguračnom súbore:
+%s
+Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (owner-readable-only)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; môže byť:</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Prijímať pripojenie z vonka (predvolené: 1, ak nie -proxy alebo -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
+    </message>
+    <message>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation>Povoliť JSON-RPC spojenia z určenej IP adresy.</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
+        <translation>Vždy sa pýtať na partnerské adresy pomocou vyhľadávania DNS (predvolené: 0)</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Pokus obnoviť súkromné kľúče z poškodeného wallet.dat</translation>
+    </message>
+    <message>
+        <source>Bind to given address. Use [host]:port notation for IPv6</source>
+        <translation>Spojiť do danej adresy. Použite [host]:port zápis pre IPv6</translation>
     </message>
     <message>
         <source>Block creation options:</source>
         <translation>Voľby vytvorenia bloku:</translation>
     </message>
     <message>
+        <source>Cannot downgrade wallet</source>
+        <translation>Nie je možné prejsť na nižšiu verziu peňaženky</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nemožno rozložiť -bind adresu: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nemožno rozložiť -externalip adresu: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Nie je možné zapísať predvolenú adresu.</translation>
+    </message>
+    <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Pripojiť sa len k určenému uzlu(om)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Pre načítanie peer adresy sa pripojte k uzlu, a odpojte</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
         <translation>Objavte vlastnú IP adresa (predvolené: 1 pri počúvaní a nie -externalip)</translation>
     </message>
     <message>
+        <source>Done loading</source>
+        <translation>Dokončené načítavanie</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Chyba načítania wallet.dat</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Chyba načítania wallet.dat: Peňaženka je poškodená</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Chyba: Nedostatok miesta na disku!</translation>
+    </message>
+    <message>
+        <source>Error: Transaction creation failed!</source>
+        <translation>Chyba: Vytvorenie transakcie zlyhalo!</translation>
+    </message>
+    <message>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation>Chyba: Peňaženka je zamknutá, nie je možné vytvoriť transakciu!</translation>
+    </message>
+    <message>
+        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
+        <translation>Chyba: Peňaženka je odomknutá len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
+    </message>
+    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
+    </message>
+    <message>
+        <source>Fee per KB to add to transactions you send</source>
+        <translation>Poplatok za KB pridať do transakcií, ktoré odosielate</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Získať pomoc pre príkaz</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: 500, 0 = all)</source>
+        <translation>Koľko blokov skontrolovať pri štarte (predvolené: 2500, 0 = všetky) {500, 0 ?}</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification is (0-6, default: 1)</source>
+        <translation>Ako dôkladné overenie bloku je (0-6, predvolené: 1)</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Ak nie je zadaná &lt;category&gt;, vypíš všetky ladiace informácie</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000?.dat file</source>
+        <translation>Importovať bloky z externého blk000?.dat súbora</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informácia</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Nedostatok prostriedkov</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neplatná adresa proxy: '%s'</translation>
     </message>
     <message>
         <source>Invalid -tor address: '%s'</source>
         <translation>Neplatná -tor adresa: '%s'</translation>
     </message>
     <message>
+        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -mininput=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
         <translation>Neplatná suma pre -reservebalance=&lt;množstvo&gt;</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Neplatná suma</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
+        <translation>Uchovávať najviac &lt;n&gt; nepripojiteľných blokov v pamäti (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Zoznam príkazov</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Načítavanie adries...</translation>
+    </message>
+    <message>
+        <source>Loading block index...</source>
+        <translation>Načítavanie zoznamu blokov...</translation>
+    </message>
+    <message>
+        <source>Loading wallet...</source>
+        <translation>Načítavam peňaženku...</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Udržiavať maximálne &lt;n&gt; spojení (predvolené: 125)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
@@ -2083,20 +2183,76 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Maximum pre-pripojenie posielacej vyrovnávacej pamäti, &lt;n&gt;*1000 bajtov (predvolené: 1000)</translation>
     </message>
     <message>
+        <source>Minimize weight consumption (experimental) (default: 0)</source>
+        <translation>Minimalizovať spotrebu hmotnosti (experimentálne) (predvolené: 0)</translation>
+    </message>
+    <message>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Pripojiť len k uzlom siete &lt;net&gt; (IPv4, IPv6 alebo Tor)</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Možnosti:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Heslo pre JSON-rPC spojenia</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp</source>
         <translation>Pred debug výstup s časovou pečiatkou</translation>
     </message>
     <message>
+        <source>Require a confirmations for change (default: 0)</source>
+        <translation>Požadovať potvrdenie pre zmenu (predvolené: 0)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Znovu skenovať reťaz blokov pre chýbajúce transakcie</translation>
+    </message>
+    <message>
+        <source>Rescanning...</source>
+        <translation>Nové prehľadávanie...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
+    </message>
+    <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL možnosť: (pozrite Bitcoin Wiki pre návod na nastavenie SSL)</translation>
     </message>
     <message>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Poslať príkaz nóde bežiacej na &lt;ip&gt; (predvolené: 127.0.0.1)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
+    </message>
+    <message>
+        <source>Sending...</source>
+        <translation>Posielam...</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Súbor s certifikátom servra (predvolené: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Súkromný kľúč servra (predvolené: server.pem)</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (default: 25)</source>
+        <translation>Nastaviť veľkosť vyrovnávajúcej pamäte pre databázu v megabytoch (predvolené: 25)</translation>
+    </message>
+    <message>
+        <source>Set database disk log size in megabytes (default: 100)</source>
+        <translation>Nastaviť veľkosť databázového denníka na disku v MB (predvolené: 100)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Nastaviť zásobu adries na &lt;n&gt; (predvolené: 100)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
@@ -2107,6 +2263,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Nastavte minimálnu veľkosť bloku v bajtoch (predvolené: 0)</translation>
     </message>
     <message>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Nastavte počet vlákien pre obsluhu RPC volaní (predvolené: 4)</translation>
+    </message>
+    <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
     </message>
@@ -2115,10 +2275,54 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
     </message>
     <message>
+        <source>Specify data directory</source>
+        <translation>Zadajte priečinok s dátami</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Zadajte súbor peňaženky (v rámci dátového adresára)</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Určite vašu vlastnú verejnú adresu</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Táto pomocná správa</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
+    </message>
+    <message>
+        <source>To use the %s option</source>
+        <translation>Použiť %s možnosť.</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
+        <translation>Nemôžem sa pripojiť k %s na tomto počítači (bind vrátil chybu %d, %s)</translation>
+    </message>
+    <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
         <translation>Nemožno podpísať kontrolný bod, zlý checkpointkey?
 </translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Neznámy siete je uvedené v -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Aktualizuj peňaženku na najnovší formát.</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Použitie:</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -2133,6 +2337,10 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Použiť proxy server k získaniu Tor skrytých služieb (predvolené: rovnaká ako -proxy)</translation>
     </message>
     <message>
+        <source>Use the test network</source>
+        <translation>Použiť testovaciu sieť</translation>
+    </message>
+    <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
@@ -2141,28 +2349,20 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <translation>Overenie integrity databázy ...</translation>
     </message>
     <message>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Chyba: Peňaženka je zamknutá, nie je možné vytvoriť transakciu!</translation>
+        <source>Wait for RPC server to start</source>
+        <translation>Pred spustením počkať na RPC server</translation>
     </message>
     <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Chyba: Táto operácia vyžaduje transakčný poplatok vo výške aspoň %s, kvôli jej množstvu, zložitosti, alebo použitím nedávno prijatých finančných prostriedkov!</translation>
-    </message>
-    <message>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Chyba: Vytvorenie transakcie zlyhalo!</translation>
-    </message>
-    <message>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakcia bola zamietnutá! Toto môže nastať, ak niektoré z mincí vo vašej peňaženke sa už použili, ako napríklad, ak ste použili kópiu wallet.dat a mince boli použité v kópii, ale neboli označené ako použité tu.</translation>
+        <source>Wallet %s resides outside data directory %s.</source>
+        <translation>Peňaženka %s bydlisko mimo dátový adresár %s.</translation>
     </message>
     <message>
         <source>Warning</source>
         <translation>Varovanie</translation>
     </message>
     <message>
-        <source>Information</source>
-        <translation>Informácia</translation>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>Upozornenie: Zastaraný argument -debugnet bol ignorovaný, použite -debug=net</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
@@ -2171,246 +2371,6 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat je poškodený, záchrana zlyhala</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Heslo pre JSON-rPC spojenia</translation>
-    </message>
-    <message>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Synchronizácia času s ostatnými uzlami. Zakázať ak čas na vašom systéme je presný, napr synchronizáciu s NTP (predvolené: 1)</translation>
-    </message>
-    <message>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>Pri vytváraní transakcií, ignorovať vstupy s hodnotou nižšou než táto (predvolené: 0.01)</translation>
-    </message>
-    <message>
-        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Výstupné informácie o ladení. (predvolené: 0, zadanie &lt;category&gt; je nepovinné)</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Ak nie je zadaná &lt;category&gt;, vypíš všetky ladiace informácie</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; môže byť:</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Povoliť JSON-RPC spojenia z určenej IP adresy.</translation>
-    </message>
-    <message>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Poslať príkaz nóde bežiacej na &lt;ip&gt; (predvolené: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <source>Wait for RPC server to start</source>
-        <translation>Pred spustením počkať na RPC server</translation>
-    </message>
-    <message>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Nastavte počet vlákien pre obsluhu RPC volaní (predvolené: 4)</translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
-    </message>
-    <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Spustiť príkaz ak sa zmení transakcia v peňaženke (%s v cmd sa nahrádza TxID)</translation>
-    </message>
-    <message>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation>Požadovať potvrdenie pre zmenu (predvolené: 0)</translation>
-    </message>
-    <message>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Spustiť príkaz, keď je prijaté príslušné upozornenie (%s v cmd je nahradený správou)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Aktualizuj peňaženku na najnovší formát.</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Nastaviť zásobu adries na &lt;n&gt; (predvolené: 100)</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Znovu skenovať reťaz blokov pre chýbajúce transakcie</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Ako dôkladné overenie bloku je (0-6, predvolené: 1)</translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Importovať bloky z externého blk000?.dat súbora</translation>
-    </message>
-    <message>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
-    </message>
-    <message>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Súbor s certifikátom servra (predvolené: server.cert)</translation>
-    </message>
-    <message>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Súkromný kľúč servra (predvolené: server.pem)</translation>
-    </message>
-    <message>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Chyba: Peňaženka je odomknutá len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low!</source>
-        <translation>Chyba: Nedostatok miesta na disku!</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
-    </message>
-    <message>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>UPOZORNENIE: Neplatný checkpoint nájdený! Uvedené transakcie nemusia byť správne! Možno budete musieť upgradovať, alebo upozorniť vývojárov.</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>Táto pomocná správa</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Peňaženka %s bydlisko mimo dátový adresár %s.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nemôžem sa pripojiť k %s na tomto počítači (bind vrátil chybu %d, %s)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>Načítavanie adries...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka je poškodená</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>Chyba načítania wallet.dat</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Neplatná adresa proxy: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Neznámy siete je uvedené v -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Nemožno rozložiť -bind adresu: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Nemožno rozložiť -externalip adresu: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Sending...</source>
-        <translation>Posielam...</translation>
-    </message>
-    <message>
-        <source>Invalid amount</source>
-        <translation>Neplatná suma</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Nedostatok prostriedkov</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Načítavanie zoznamu blokov...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
-    </message>
-    <message>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Poplatok za KB pridať do transakcií, ktoré odosielate</translation>
-    </message>
-    <message>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation>Minimalizovať spotrebu hmotnosti (experimentálne) (predvolené: 0)</translation>
-    </message>
-    <message>
-        <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation>Koľko blokov skontrolovať pri štarte (predvolené: 2500, 0 = všetky) {500, 0 ?}</translation>
-    </message>
-    <message>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Uchovávať najviac &lt;n&gt; nepripojiteľných blokov v pamäti (predvolené: %u)</translation>
-    </message>
-    <message>
-        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Akceptovateľné šifry (predvolené: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation>Upozornenie: Zastaraný argument -debugnet bol ignorovaný, použite -debug=net</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: '%s'</source>
-        <translation>Neplatná suma pre -mininput=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>Načítavam peňaženku...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>Nie je možné prejsť na nižšiu verziu peňaženky</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Nie je možné zapísať predvolenú adresu.</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Nové prehľadávanie...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>Dokončené načítavanie</translation>
-    </message>
-    <message>
-        <source>To use the %s option</source>
-        <translation>Použiť %s možnosť.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Chyba</translation>
-    </message>
-    <message>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Musíš nastaviť rpcpassword=&lt;heslo&gt; v konfiguračnom súbore:
-%s
-Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (owner-readable-only)</translation>
     </message>
 </context>
 <context>
