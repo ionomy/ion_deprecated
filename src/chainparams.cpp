@@ -81,6 +81,7 @@ public:
 		
         vSeeds.push_back(CDNSSeedData("ionomy.com","dnsseed.ionomy.com"));
         vSeeds.push_back(CDNSSeedData("ionomy.nl","main.seed.ionomy.nl"));
+        vSeeds.push_back(CDNSSeedData("ionomy.com","dnsseed2.ionomy.com"));
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,103);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,88);
