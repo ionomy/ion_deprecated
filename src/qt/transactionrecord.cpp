@@ -32,7 +32,47 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
     uint256 hash = wtx.GetHash(), hashPrev = 0;
     std::map<std::string, std::string> mapValue = wtx.mapValue;
 
-    if (nNet > 0 || wtx.IsCoinBase() || wtx.IsCoinStake())
+    if (wtx.IsCoinStake())
+    {
+        // Stake generation
+        TransactionRecord sub(hash, nTime, TransactionRecord::StakeMint, "", -nDebit, wtx.GetValueOut());
+        CTxDestination stakingAddress, rewardAddress;
+        /* vout[0] is blank, just marks the transaction as stake
+         * vout[1] is the first stake output and therefore always related to
+         * the staking address. */
+        if (ExtractDestination(wtx.vout[1].scriptPubKey, stakingAddress)) {
+            if (ExtractDestination(wtx.vout[wtx.vout.size() - 1].scriptPubKey, rewardAddress)) {
+                /* If the staking address isn't in the wallet than this is an
+                 * external scrape received from another wallet. */
+                if (!IsMine(*wallet, stakingAddress)) {
+                    sub.type = TransactionRecord::ExternalScrape;
+                    // In this instance the reward is always in the last output.
+                    sub.credit = wtx.vout[wtx.vout.size() - 1].nValue;
+                    sub.address = CBitcoinAddress(rewardAddress).ToString();
+                /* The reward address is not in the wallet but the address is
+                 * so the reward went to a scrape, treat it like a normal mint
+                 * but display the scrape address. */
+                } else if (!IsMine(*wallet, rewardAddress)) {
+                    sub.type = TransactionRecord::ScrapeToExternal;
+                    sub.address = CBitcoinAddress(rewardAddress).ToString();
+                /* The address is in the wallet but it's different than the staking
+                 * address, display the reward address and the stake amount. */
+                } else if (CBitcoinAddress(stakingAddress).ToString() != CBitcoinAddress(rewardAddress).ToString()) {
+                    sub.type = TransactionRecord::LocalScrape;
+                    sub.address = CBitcoinAddress(rewardAddress).ToString();
+                // The reweard went to the same address as the staking address (not a scrape)
+                } else {
+                    sub.address = CBitcoinAddress(stakingAddress).ToString();
+                }
+            // No destination in the last output (this should not happen)
+            } else {
+                sub.address = CBitcoinAddress(stakingAddress).ToString();
+            }
+        }
+
+        parts.append(sub);
+    }
+    else if (nNet > 0 || wtx.IsCoinBase())
     {
         //
         // Credit
@@ -62,6 +102,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     // Generated (proof-of-work)
                     sub.type = TransactionRecord::Generated;
                 }
+                /*
                 if (wtx.IsCoinStake())
                 {
                     // Generated (proof-of-stake)
@@ -73,7 +114,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     sub.credit = nNet > 0 ? nNet : wtx.GetValueOut() - nDebit;
                     hashPrev = hash;
                 }
-
+                */
                 parts.append(sub);
             }
         }
@@ -190,7 +231,7 @@ void TransactionRecord::updateStatus(const CWalletTx &wtx)
     }
 
     // For generated transactions, determine maturity
-    else if(type == TransactionRecord::Generated)
+    else if(type == TransactionRecord::Generated || type == TransactionRecord::StakeMint || type == TransactionRecord::ExternalScrape || type == TransactionRecord::LocalScrape || type == TransactionRecord::ScrapeToExternal)
     {
         if (wtx.GetBlocksToMaturity() > 0)
         {
@@ -254,4 +295,3 @@ QString TransactionRecord::formatSubTxId(const uint256 &hash, int vout)
 {
     return QString::fromStdString(hash.ToString() + strprintf("-%03d", vout));
 }
-

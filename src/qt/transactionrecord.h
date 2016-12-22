@@ -71,7 +71,11 @@ public:
         SendToOther,
         RecvWithAddress,
         RecvFromOther,
-        SendToSelf
+        SendToSelf,
+        StakeMint,
+        ExternalScrape,
+        LocalScrape,
+        ScrapeToExternal
     };
 
     /** Number of confirmation recommended for accepting a transaction */

@@ -1,5 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -157,6 +158,10 @@ static const CRPCConvertParam vRPCConvertParams[] =
     { "searchrawtransactions", 1 },
     { "searchrawtransactions", 2 },
     { "searchrawtransactions", 3 },
+    { "getscrapeaddress", 1 },
+    { "setscrapeaddress", 2 },
+    { "listscrapeaddresses", 0 },
+    { "deletescrapeaddress", 1 },
 };
 
 class CRPCConvertTable

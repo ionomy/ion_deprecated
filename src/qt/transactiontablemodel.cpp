@@ -292,13 +292,15 @@ QString TransactionTableModel::formatTxStatus(const TransactionRecord *wtx) cons
         status = tr("Confirming (%1 of %2 recommended confirmations)").arg(wtx->status.depth).arg(TransactionRecord::RecommendedNumConfirmations);
         break;
     case TransactionStatus::Confirmed:
-        status = tr("Confirmed (%1 confirmations)").arg(wtx->status.depth);
+        wtx->type == TransactionRecord::ScrapeToExternal ? status = tr("Minted balance is available at the reward address not found in this wallet.") :
+                                                           status = tr("Confirmed (%1 confirmations)").arg(wtx->status.depth);
         break;
     case TransactionStatus::Conflicted:
         status = tr("Conflicted");
         break;
     case TransactionStatus::Immature:
-        status = tr("Immature (%1 confirmations, will be available after %2)").arg(wtx->status.depth).arg(wtx->status.depth + wtx->status.matures_in);
+        wtx->type == TransactionRecord::ScrapeToExternal ? status = tr("Minted balance will be available at reward address in %n more blocks").arg(wtx->status.matures_in) :
+                                                           status = tr("Immature (%1 confirmations, will be available after %2)").arg(wtx->status.depth).arg(wtx->status.depth + wtx->status.matures_in);
         break;
     case TransactionStatus::MaturesWarning:
         status = tr("This block was not received by any other nodes and will probably not be accepted!");
@@ -356,6 +358,12 @@ QString TransactionTableModel::formatTxType(const TransactionRecord *wtx) const
         return tr("Payment to yourself");
     case TransactionRecord::Generated:
         return tr("Mined");
+    case TransactionRecord::ExternalScrape:
+        return tr("External scrape");
+    case TransactionRecord::LocalScrape:
+        return tr("Local scrape");
+    case TransactionRecord::ScrapeToExternal:
+        return tr("Scraped to external");
     default:
         return QString();
     }
@@ -388,6 +396,9 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord *wtx, b
     case TransactionRecord::RecvWithAddress:
     case TransactionRecord::SendToAddress:
     case TransactionRecord::Generated:
+    case TransactionRecord::ExternalScrape:
+    case TransactionRecord::LocalScrape:
+    case TransactionRecord::ScrapeToExternal:
         return lookupAddress(wtx->address, tooltip);
     case TransactionRecord::SendToOther:
         return QString::fromStdString(wtx->address);
@@ -405,6 +416,9 @@ QVariant TransactionTableModel::addressColor(const TransactionRecord *wtx) const
     case TransactionRecord::RecvWithAddress:
     case TransactionRecord::SendToAddress:
     case TransactionRecord::Generated:
+    case TransactionRecord::ExternalScrape:
+    case TransactionRecord::LocalScrape:
+    case TransactionRecord::ScrapeToExternal:
         {
         QString label = walletModel->getAddressTableModel()->labelForAddress(QString::fromStdString(wtx->address));
         if(label.isEmpty())
@@ -423,7 +437,9 @@ QString TransactionTableModel::formatTxAmount(const TransactionRecord *wtx, bool
     QString str = BitcoinUnits::format(walletModel->getOptionsModel()->getDisplayUnit(), wtx->credit + wtx->debit);
     if(showUnconfirmed)
     {
-        if(!wtx->status.countsForBalance)
+        /* Always display ScrapeToExternal transactions as if the coins are
+         * immature because they are not and will never be in this wallet. */
+        if(!wtx->status.countsForBalance || !wtx->status.Confirmed || wtx->status.status != TransactionStatus::Confirmed || wtx->type == TransactionRecord::ScrapeToExternal)
         {
             str = QString("[") + str + QString("]");
         }
@@ -433,36 +449,55 @@ QString TransactionTableModel::formatTxAmount(const TransactionRecord *wtx, bool
 
 QVariant TransactionTableModel::txStatusDecoration(const TransactionRecord *wtx) const
 {
-    switch(wtx->status.status)
+    if(wtx->type == TransactionRecord::Generated || wtx->type == TransactionRecord::StakeMint || wtx->type == TransactionRecord::ExternalScrape || wtx->type == TransactionRecord::LocalScrape)
     {
-    case TransactionStatus::OpenUntilBlock:
-    case TransactionStatus::OpenUntilDate:
-        return QColor(64,64,255);
-    case TransactionStatus::Offline:
-        return QColor(192,192,192);
-    case TransactionStatus::Unconfirmed:
-        return QIcon(":/icons/transaction_0");
-    case TransactionStatus::Confirming:
-        switch(wtx->status.depth)
+        switch(wtx->status.status)
         {
-        case 1: return QIcon(":/icons/transaction_1");
-        case 2: return QIcon(":/icons/transaction_2");
-        case 3: return QIcon(":/icons/transaction_3");
-        case 4: return QIcon(":/icons/transaction_4");
-        default: return QIcon(":/icons/transaction_5");
-        };
-    case TransactionStatus::Confirmed:
-        return QIcon(":/icons/transaction_confirmed");
-    case TransactionStatus::Conflicted:
-        return QIcon(":/icons/transaction_conflicted");
-    case TransactionStatus::Immature: {
-        int total = wtx->status.depth + wtx->status.matures_in;
-        int part = (wtx->status.depth * 4 / total) + 1;
-        return QIcon(QString(":/icons/transaction_%1").arg(part));
+        case TransactionStatus::Immature: {
+            int total = wtx->status.depth + wtx->status.matures_in;
+            int part = (wtx->status.depth * 4 / total) + 1;
+            return QIcon(QString(":/icons/transaction_%1").arg(part));
+            }
+        case TransactionStatus::Confirmed:
+            return QIcon(":/icons/transaction_confirmed");
+        case TransactionStatus::MaturesWarning:
+        case TransactionStatus::NotAccepted:
+            return QIcon(":/icons/transaction_0");
         }
-    case TransactionStatus::MaturesWarning:
-    case TransactionStatus::NotAccepted:
-        return QIcon(":/icons/transaction_0");
+    }
+    else
+    {
+        switch(wtx->status.status)
+        {
+            case TransactionStatus::OpenUntilBlock:
+            case TransactionStatus::OpenUntilDate:
+                return QColor(64,64,255);
+            case TransactionStatus::Offline:
+                return QColor(192,192,192);
+            case TransactionStatus::Unconfirmed:
+                return QIcon(":/icons/transaction_0");
+            case TransactionStatus::Confirming:
+                switch(wtx->status.depth)
+                {
+                    case 1: return QIcon(":/icons/transaction_1");
+                    case 2: return QIcon(":/icons/transaction_2");
+                    case 3: return QIcon(":/icons/transaction_3");
+                    case 4: return QIcon(":/icons/transaction_4");
+                    default: return QIcon(":/icons/transaction_5");
+                };
+            case TransactionStatus::Confirmed:
+                return QIcon(":/icons/transaction_confirmed");
+            case TransactionStatus::Conflicted:
+                return QIcon(":/icons/transaction_conflicted");
+            case TransactionStatus::Immature: {
+                int total = wtx->status.depth + wtx->status.matures_in;
+                int part = (wtx->status.depth * 4 / total) + 1;
+                return QIcon(QString(":/icons/transaction_%1").arg(part));
+            }
+            case TransactionStatus::MaturesWarning:
+            case TransactionStatus::NotAccepted:
+                return QIcon(":/icons/transaction_0");
+        }
     }
     return QColor(0,0,0);
 }

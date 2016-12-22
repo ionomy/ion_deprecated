@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -3492,7 +3493,26 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         if (nReward <= 0)
             return false;
 
-        nCredit += nReward;
+        /* Check the staking address against the scrape addresses in the
+         * walletdb and see if it has a scrape address for it, if it does
+         * send the reward to the scrape address. */
+        CTxDestination address;
+        ExtractDestination(txNew.vout[1].scriptPubKey, address);
+        CBitcoinAddress addr(address);
+
+        string strScrapeAddress;
+        if (HasScrapeAddress(addr.ToString()) && ReadScrapeAddress(addr.ToString(), strScrapeAddress)) {
+            CScript stakescript;
+            CBitcoinAddress scrapeaddr(strScrapeAddress);
+            CTxDestination scrape = scrapeaddr.Get();
+            if (fDebug && GetBoolArg("-printcoinstake", false))
+                strprintf("CreateCoinStake : a scrape address has been set for %s to %s, sending reward there.\n", addr.ToString().c_str(), scrapeaddr.ToString().c_str());
+
+            stakescript.SetDestination(scrape);
+            txNew.vout.push_back(CTxOut(nReward, stakescript));
+        } else {
+            nCredit += nReward;
+        }
     }
 
 	if (nCredit >= GetStakeSplitThreshold())

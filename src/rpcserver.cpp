@@ -303,10 +303,14 @@ static const CRPCCommand vRPCCommands[] =
     { "resendtx",               &resendtx,               false,     true,      true },
     { "makekeypair",            &makekeypair,            false,     true,      false },
     { "checkkernel",            &checkkernel,            true,      false,     true },
-    { "getnewstealthaddress",   &getnewstealthaddress,   false,  false, true},
-    { "liststealthaddresses",   &liststealthaddresses,   false,  false, true},
-    { "importstealthaddress",   &importstealthaddress,   false,  false, true},
-    { "sendtostealthaddress",   &sendtostealthaddress,   false,  false, true},
+    { "getnewstealthaddress",   &getnewstealthaddress,   false,     false,     true },
+    { "liststealthaddresses",   &liststealthaddresses,   false,     false,     true },
+    { "importstealthaddress",   &importstealthaddress,   false,     false,     true },
+    { "sendtostealthaddress",   &sendtostealthaddress,   false,     false,     true },
+    { "setscrapeaddress",       &setscrapeaddress,       false,     false,     true },
+    { "getscrapeaddress",       &getscrapeaddress,       false,     false,     true },
+    { "listscrapeaddresses",    &listscrapeaddresses,    false,     false,     true },
+    { "deletescrapeaddress",    &deletescrapeaddress,    false,     false,     true }
 #endif
 };
 

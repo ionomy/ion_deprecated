@@ -121,14 +121,26 @@ void AddressBookPage::setModel(AddressTableModel *model)
         // Receive filter
         proxyModel->setFilterRole(AddressTableModel::TypeRole);
         proxyModel->setFilterFixedString(AddressTableModel::Receive);
+
+        // Set this slightly earlier so that we can adjust our columns by tab.
+        ui->tableView->setModel(proxyModel);
+        // Only display the scrape address for receiving tab (cheap hack).
+        ui->tableView->horizontalHeader()->resizeSection(
+            AddressTableModel::ScrapeAddress, 320);
         break;
     case SendingTab:
         // Send filter
         proxyModel->setFilterRole(AddressTableModel::TypeRole);
         proxyModel->setFilterFixedString(AddressTableModel::Send);
+
+        // Set this slightly earlier so that we can adjust our columns by tab.
+        ui->tableView->setModel(proxyModel);
+        // Do not display the scrape address for the send tab (cheap hack).
+        ui->tableView->horizontalHeader()->resizeSection(
+            AddressTableModel::ScrapeAddress, 0);
+
         break;
     }
-    ui->tableView->setModel(proxyModel);
     ui->tableView->sortByColumn(0, Qt::AscendingOrder);
 
     // Set column widths

@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,6 +17,7 @@
 
 using namespace std;
 using namespace boost;
+using namespace json_spirit;
 
 
 static uint64_t nAccountingEntryNumber = 0;
@@ -424,12 +426,12 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
         {
             if (fDebug)
                 printf("WalletDB ReadKeyValue sxAddr\n");
-            
+
             CStealthAddress sxAddr;
             ssValue >> sxAddr;
-            
+
             pwallet->stealthAddresses.insert(sxAddr);
-        } 
+        }
         else if (strType == "acentry")
         {
             string strAccount;
@@ -559,7 +561,7 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
         {
             if (fDebug)
                 printf("WalletDB ReadKeyValue sxKeyMeta\n");
-            
+
             CKeyID keyId;
             ssKey >> keyId;
             CStealthKeyMetadata sxKeyMeta;
@@ -628,6 +630,65 @@ static bool IsKeyType(string strType)
 {
     return (strType== "key" || strType == "wkey" ||
             strType == "mkey" || strType == "ckey");
+}
+
+bool CWalletDB::WriteScrapeAddress(const string strAddress, const string strScrapeAddress)
+{
+    nWalletDBUpdated++;
+    return Write(make_pair(string("scrapeaddress"), strAddress), strScrapeAddress);
+}
+
+bool CWalletDB::EraseScrapeAddress(const string strAddress)
+{
+    nWalletDBUpdated++;
+    return Erase(make_pair(string("scrapeaddress"), strAddress));
+}
+
+bool CWalletDB::ReadScrapeAddress(const string strAddress, string &strScrapeAddress)
+{
+    return Read(make_pair(string("scrapeaddress"), strAddress), strScrapeAddress);
+}
+
+bool CWalletDB::HasScrapeAddress(const string strAddress)
+{
+    return Exists(make_pair(string("scrapeaddress"), strAddress));
+}
+
+bool CWalletDB::DumpScrapeAddresses(Object &ScrapeAddresses)
+{
+    Dbc* pcursor = GetCursor();
+    if (!pcursor)
+        throw runtime_error("DumpScrapeAddresses() : cannot create DB cursor");
+    unsigned int fFlags = DB_SET_RANGE;
+
+    for (;;) {
+        CDataStream ssKey(SER_DISK, CLIENT_VERSION);
+        if (fFlags == DB_SET_RANGE)
+            ssKey << make_pair(std::string("scrapeaddress"), string(""));
+        CDataStream ssValue(SER_DISK, CLIENT_VERSION);
+        int ret = ReadAtCursor(pcursor, ssKey, ssValue, fFlags);
+        fFlags = DB_NEXT;
+        if (ret == DB_NOTFOUND)
+            break;
+
+        else if (ret != 0) {
+            pcursor->close();
+            throw runtime_error("DumpScrapeAddresses() : error scanning DB");
+        }
+
+        // Unserialize
+        string strType, address, scrape_address;
+        ssKey >> strType;
+        if (strType != "scrapeaddress")
+            break;
+
+        ssKey >> address;
+        ssValue >> scrape_address;
+        ScrapeAddresses.push_back(Pair(address, scrape_address));
+    }
+
+    pcursor->close();
+    return true;
 }
 
 DBErrors CWalletDB::LoadWallet(CWallet* pwallet)

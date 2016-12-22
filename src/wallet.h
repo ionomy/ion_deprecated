@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2016 Nathan Bass "IngCr3at1on"
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_WALLET_H
@@ -45,8 +46,9 @@ enum WalletFeature
 
     FEATURE_WALLETCRYPT = 40000, // wallet encryption
     FEATURE_COMPRPUBKEY = 60000, // compressed public keys
+    FEATURE_SCRAPEADDRESS = 60001, // scrape addresses for staking wallets
 
-    FEATURE_LATEST = 60000
+    FEATURE_LATEST = 60001
 };
 
 enum AvailableCoinsType
@@ -439,6 +441,30 @@ public:
      * @note called with lock cs_wallet held.
      */
     boost::signals2::signal<void (CWallet *wallet, const uint256 &hashTx, ChangeType status)> NotifyTransactionChanged;
+
+    bool WriteScrapeAddress(const std::string strAddress, const std::string strScrapeAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).WriteScrapeAddress(strAddress, strScrapeAddress);
+    }
+
+    bool EraseScrapeAddress(const std::string strAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).EraseScrapeAddress(strAddress);
+    }
+
+    bool ReadScrapeAddress(const std::string strAddress, std::string &strScrapeAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).ReadScrapeAddress(strAddress, strScrapeAddress);
+    }
+
+    bool HasScrapeAddress(const std::string strAddress)
+    {
+        LOCK(cs_wallet);
+        return CWalletDB(strWalletFile).HasScrapeAddress(strAddress);
+    }
 };
 
 /** A key allocated from the key pool. */
