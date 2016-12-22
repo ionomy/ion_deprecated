@@ -35,7 +35,7 @@
 #include "masternodemanager.h"
 
 #ifdef USE_NATIVE_I2P
-#include "showi2paddresses.h"
+#include "i2pshowaddresses.h"
 #endif
 
 #ifdef Q_OS_MAC

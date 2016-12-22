@@ -3,7 +3,7 @@
 
 #include "optionsmodel.h"
 #include "monitoreddatamapper.h"
-#include "showi2paddresses.h"
+#include "i2pshowaddresses.h"
 //#include "i2p.h"
 #include "util.h"
 #include "clientmodel.h"
@@ -96,5 +96,3 @@ void I2POptionsWidget::GenerateNewI2PAddress()
         i2pCurrDialog.exec();
     }
 }
-
-

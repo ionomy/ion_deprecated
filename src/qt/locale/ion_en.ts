@@ -2667,7 +2667,7 @@ I2P-address...</source>
 <context>
     <name>ShowI2PAddresses</name>
     <message>
-        <location filename="../forms/showi2paddresses.ui" line="+20"/>
+        <location filename="../forms/i2pshowaddresses.ui" line="+20"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>

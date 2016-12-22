@@ -395,15 +395,15 @@ FORMS += src/qt/forms/coincontroldialog.ui \
 contains(DEFINES, USE_NATIVE_I2P) {
 HEADERS += src/i2p.h \
 	src/i2psam.h \
-	src/qt/showi2paddresses.h \
+	src/qt/i2pshowaddresses.h \
 	src/qt/i2poptionswidget.h
 
 SOURCES += src/i2p.cpp \
 	src/i2psam.cpp \
-	src/qt/showi2paddresses.cpp \
+	src/qt/i2pshowaddresses.cpp \
 	src/qt/i2poptionswidget.cpp
 
-FORMS += src/qt/forms/showi2paddresses.ui \
+FORMS += src/qt/forms/i2pshowaddresses.ui \
 	src/qt/forms/i2poptionswidget.ui
 }
 
