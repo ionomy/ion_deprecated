@@ -135,7 +135,7 @@ public:
         assert(hashGenesisBlock == uint256("0x0000070638e1fb122fb31b4753a5311f3c8784604d9f6ce42e8fec96d94173b4"));
 
         vFixedSeeds.clear();
-        vSeeds.clear();
+	vSeeds.push_back(CDNSSeedData("testnet.ionomy.nl","seed.testnet.ionomy.nl"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,127);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
