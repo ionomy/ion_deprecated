@@ -290,6 +290,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/editaddressdialog.cpp \
     src/qt/bitcoinaddressvalidator.cpp \
     src/alert.cpp \
+    src/allocators.cpp \
     src/chainparams.cpp \
     src/version.cpp \
     src/sync.cpp \
